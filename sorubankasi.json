@@ -2934,5 +2934,2497 @@
       "MACS1149-JD1"
     ],
     "note": "Bu gök ada Büyük Patlama'dan 290 milyon yıl sonrasına tarihlenmektedir."
+  },
+  {
+    "id": "q_1794841134059_1_999",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "'Çalıkuşu' romanında Feride öğretmen olarak hangi Anadolu köyüne tayin olmuştur?",
+    "answer": "Zeyniler",
+    "options": [
+      "Zeyniler",
+      "Gültepe",
+      "Yeniköy",
+      "Yeşilova"
+    ],
+    "note": "Reşat Nuri Güntekin'in bu ünlü eseri ilk olarak 'İstanbul Kızı' adıyla bir tiyatro oyunu şeklinde tasarlanmıştır."
+  },
+  {
+    "id": "q_1794841134063_2_828",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "'Saatleri Ayarlama Enstitüsü' romanında Hayri İrdal ve Halit Ayarcı karakterlerini oluşturan yazar kimdir?",
+    "answer": "Ahmet Hamdi Tanpınar",
+    "options": [
+      "Ahmet Hamdi Tanpınar",
+      "Tarık Buğra",
+      "Peyami Safa",
+      "Sabahattin Ali"
+    ],
+    "note": "Eser, Doğu ile Batı arasında bocalayan Türk toplumunu bir kurum eleştirisi üzerinden ironik dille ele alır."
+  },
+  {
+    "id": "q_1794841134066_3_193",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "'Kürk Mantolu Madonna' romanında Maria Puder karakterine derin bir tutkuyla bağlanan ana karakter kimdir?",
+    "answer": "Raif Efendi",
+    "options": [
+      "Raif Efendi",
+      "Ahmet Celal",
+      "Şinasi Bey",
+      "Sami Bey"
+    ],
+    "note": "Sabahattin Ali bu ünlü romanını 1940 yılında Büyük Hakikat gazetesinde tefrika etmiştir."
+  },
+  {
+    "id": "q_1794841134069_4_366",
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "H.G. Wells'in 'Dünyaların Savaşı' romanında Dünya'yı işgal eden uzaylı türü nereden gelmiştir?",
+    "answer": "Mars",
+    "options": [
+      "Mars",
+      "Venüs",
+      "Jüpiter",
+      "Ay"
+    ],
+    "note": "Eserin 1938 yılındaki radyo uyarlaması yayını ABD genelinde gerçek bir işgal paniğine sebep olmuştur."
+  },
+  {
+    "id": "q_1794841134073_5_546",
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "'Fahrenheit 451' romanında itfaiyecilerin temel toplumsal görevi aşağıdakilerden hangisidir?",
+    "answer": "Kitapları yakmak",
+    "options": [
+      "Kitapları yakmak",
+      "Yangın söndürmek",
+      "Uzaylı avlamak",
+      "Suçluları yakalamak"
+    ],
+    "note": "Fahrenheit 451, kağıdın tutuşup yanma sıcaklığını temsil eden derece değeridir."
+  },
+  {
+    "id": "q_1794841134076_6_163",
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "'Matrix' filminde Neo karakterine gerçek dünya ile illüzyon arasında seçim yapması için sunulan nesneler nelerdir?",
+    "answer": "Kırmızı ve mavi hap",
+    "options": [
+      "Kırmızı ve mavi hap",
+      "Siyah ve beyaz anahtar",
+      "Gümüş ve altın para",
+      "Yeşil ve sarı kapı"
+    ],
+    "note": "Kırmızı hap gerçeğin sert dünyasını, mavi hap ise cehaletin konforlu illüzyonunu simgeler."
+  },
+  {
+    "id": "q_1794841134079_7_392",
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "'Geleceğe Dönüş' film serisinde zaman makinesi hangi ikonik araba modelinden dönüştürülmüştür?",
+    "answer": "DeLorean DMC-12",
+    "options": [
+      "DeLorean DMC-12",
+      "Ford Mustang",
+      "Chevrolet Camaro",
+      "Pontiac Firebird"
+    ],
+    "note": "Zaman yolculuğunun gerçekleşmesi için aracın saatte 88 mil hıza ulaşması gerekmektedir."
+  },
+  {
+    "id": "q_1794841134082_8_139",
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Prof. Dr. Aziz Sancar 2015 yılında hangi bilim dalında Nobel Ödülü kazanmıştır?",
+    "answer": "Kimya",
+    "options": [
+      "Kimya",
+      "Fizik",
+      "Tıp",
+      "Fizyoloji"
+    ],
+    "note": "Aziz Sancar, hücrelerin hasar gören DNA'ları nasıl onardığını haritalandırdığı için bu ödüle layık görülmüştür."
+  },
+  {
+    "id": "q_1794841134120_23_601",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "İstanbul'un tarihi yarımadasında bulunan Ayasofya ilk kez hangi Bizans İmparatoru döneminde inşa edilmiştir?",
+    "answer": "I. Justinianus",
+    "options": [
+      "I. Justinianus",
+      "Büyük Konstantin",
+      "Theodosius",
+      "Herakleios"
+    ],
+    "note": "Ayasofya, M.S. 537 yılında İmparator I. Justinianus döneminde ibadete açılmıştır."
+  },
+  {
+    "id": "q_1794841134123_24_620",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "İstanbul Boğazı üzerinde inşa edilen ilk asma köprü aşağıdakilerden hangisidir?",
+    "answer": "15 Temmuz Şehitler Köprüsü",
+    "options": [
+      "15 Temmuz Şehitler Köprüsü",
+      "Fatih Sultan Mehmet Köprüsü",
+      "Yavuz Sultan Selim Köprüsü",
+      "Galata Köprüsü"
+    ],
+    "note": "Eski adıyla Boğaziçi Köprüsü olan yapı, 29 Ekim 1973 tarihinde hizmete açılmıştır."
+  },
+  {
+    "id": "q_1794841134126_25_848",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "Mimar Sinan'ın İstanbul'daki eserleri arasında 'çıraklık eserim' olarak nitelendirdiği cami hangisidir?",
+    "answer": "Şehzade Camii",
+    "options": [
+      "Şehzade Camii",
+      "Süleymaniye Camii",
+      "Sultanahmet Camii",
+      "Mihrimah Sultan Camii"
+    ],
+    "note": "Mimar Sinan Şehzade'yi çıraklık, Süleymaniye'yi kalfalık, Selimiye'yi ustalık eseri sayar."
+  },
+  {
+    "id": "q_1794841134135_28_634",
+    "category": "Tarih",
+    "difficulty": 2,
+    "question": "Malazgirt Meydan Muharebesi'nde Bizans ordusunu mağlup eden Büyük Selçuklu hükümdarı kimdir?",
+    "answer": "Sultan Alparslan",
+    "options": [
+      "Sultan Alparslan",
+      "Tuğrul Bey",
+      "Melikşah",
+      "Çağrı Bey"
+    ],
+    "note": "1071 yılındaki zaferle birlikte Anadolu'nun kapıları Türklere açılmıştır."
+  },
+  {
+    "id": "q_1794841134138_31_645",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": 2,
+    "question": "Ege Bölgesi'nde kıyı şeridinin çok girintili çıkıntılı olması ve koy sayısının fazlalığının nedeni nedir?",
+    "answer": "Dağların denize dik uzanması",
+    "options": [
+      "Dağların denize dik uzanması",
+      "Körfezlerin sığ olması",
+      "Akarsu debilerinin azlığı",
+      "Rüzgar yönünün batı olması"
+    ],
+    "note": "Ege'de dağların kıyıya dik uzanması enine kıyı tipinin ve doğal koyların oluşmasını sağlamıştır."
+  },
+  {
+    "id": "q_1794841134141_32_361",
+    "category": "Ressamlar",
+    "difficulty": 2,
+    "question": "Ünlü 'Kaplumbağa Terbiyecisi' tablosunu yapan Türk ressam ve arkeolog kimdir?",
+    "answer": "Osman Hamdi Bey",
+    "options": [
+      "Osman Hamdi Bey",
+      "Şeker Ahmet Paşa",
+      "Hoca Ali Rıza",
+      "İbrahim Çallı"
+    ],
+    "note": "Osman Hamdi Bey aynı zamanda Sanayi-i Nefise Mektebi'nin ve İstanbul Arkeoloji Müzesi'nin kurucusudur."
+  },
+  {
+    "id": "q_1794841134145_33_585",
+    "category": "Ressamlar",
+    "difficulty": 2,
+    "question": "Otoportreleri ve 'Yıldızlı Gece' (The Starry Night) tablosuyla ünlü Hollandalı ressam kimdir?",
+    "answer": "Vincent van Gogh",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Rembrandt",
+      "Pablo Picasso"
+    ],
+    "note": "Van Gogh post-empresyonist akımın en etkili ve tanınan temsilcilerindendir."
+  },
+  {
+    "id": "q_1794841134148_34_432",
+    "category": "Ressamlar",
+    "difficulty": 2,
+    "question": "'Mona Lisa' ve 'Son Akşam Yemeği' tablolarının yaratıcısı İtalyan Rönesans dehası kimdir?",
+    "answer": "Leonardo da Vinci",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Rafael",
+      "Donatello"
+    ],
+    "note": "Leonardo da Vinci ressamlığının yanı sıra anatomi, mühendislik ve botanik alanında öncüdür."
+  },
+  {
+    "id": "q_1794841134155_36_146",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "UEFA Kupası ve UEFA Süper Kupası'nı kazanmayı başaran tek Türk futbol takımı hangisidir?",
+    "answer": "Galatasaray",
+    "options": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "note": "Galatasaray 2000 yılında Arsenal'i penaltılarla yenerek UEFA Kupası'nı müzesine götürmüştür."
+  },
+  {
+    "id": "q_1794841134158_37_228",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "Dünya Kupası tarihinde en çok şampiyonluk elde eden ülke aşağıdakilerden hangisidir?",
+    "answer": "Brezilya",
+    "options": [
+      "Brezilya",
+      "Almanya",
+      "İtalya",
+      "Arjantin"
+    ],
+    "note": "Brezilya milli takımı topladığı 5 şampiyonlukla listenin zirvesinde yer alır."
+  },
+  {
+    "id": "q_1794841134168_40_208",
+    "category": "Edebiyat",
+    "difficulty": 3,
+    "question": "Türk edebiyatının ilk realist romanı kabul edilen 'Araba Sevdası' eseri kime aittir?",
+    "answer": "Recaizade Mahmud Ekrem",
+    "options": [
+      "Recaizade Mahmud Ekrem",
+      "Namık Kemal",
+      "Şemseddin Sami",
+      "Muallim Naci"
+    ],
+    "note": "Bihruz Bey karakteri üzerinden yanlış Batılılaşma tutumu mizahi üslupla eleştirilmiştir."
+  },
+  {
+    "id": "q_1794841134172_41_510",
+    "category": "Edebiyat",
+    "difficulty": 3,
+    "question": "Tanzimat edebiyatında 'Şair-i Azam' unvanıyla tanınan ve 'Makber' şiirini yazan edebiyatçı kimdir?",
+    "answer": "Abdülhak Hâmit Tarhan",
+    "options": [
+      "Abdülhak Hâmit Tarhan",
+      "Namık Kemal",
+      "Ziya Paşa",
+      "Muallim Naci"
+    ],
+    "note": "Makber, şairin hayatını kaybeden eşi Fatma Hanım'ın ardından kaleme aldığı ağıt şiiridir."
+  },
+  {
+    "id": "q_1794841134175_42_552",
+    "category": "Edebiyat",
+    "difficulty": 3,
+    "question": "Hüseyin Rahmi Gürpınar'ın 'Mürebbiye' romanında konağa gelerek düzeni bozan Fransız kadın kimdir?",
+    "answer": "Matmazel Anjel",
+    "options": [
+      "Matmazel Anjel",
+      "Fitnat",
+      "Bihter",
+      "Seniha"
+    ],
+    "note": "Eser, konakta mürebbiye olarak işe başlayan Anjel'in konak erkeklerini kandırmasını konu alır."
+  },
+  {
+    "id": "q_1794841134249_63_440",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Yerebatan Sarnıcı içerisinde sütun kaidesi olarak kullanılan ters başlık hangi mitolojik karaktere aittir?",
+    "answer": "Medusa",
+    "options": [
+      "Medusa",
+      "Athena",
+      "Kore",
+      "Minerva"
+    ],
+    "note": "Roma dönemi heykel sanatının örneği olan Medusa başları sarnıcın kuzeybatı köşesinde yer alır."
+  },
+  {
+    "id": "q_1794841134253_64_730",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Osmanlı döneminde İstanbul surlarının ana kapılarından biri olan tarihi kapı aşağıdakilerden hangisidir?",
+    "answer": "Belgrad Kapı",
+    "options": [
+      "Belgrad Kapı",
+      "Ahırkapı",
+      "Kumkapı",
+      "Yenikapı"
+    ],
+    "note": "Belgrad Kapı, kara surlarının aşılması en zor noktalarından biri üzerinde bulunmaktadır."
+  },
+  {
+    "id": "q_1794841134257_65_170",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Boğaziçi'nin en dar noktasına Fatih Sultan Mehmet tarafından yaptırılan tarihi hisar hangisidir?",
+    "answer": "Rumeli Hisarı",
+    "options": [
+      "Rumeli Hisarı",
+      "Anadolu Hisarı",
+      "Yedikule Zindanları",
+      "Kilitbahir Hisarı"
+    ],
+    "note": "Boğazkesen olarak da bilinen hisar, İstanbul'un fethinden hemen önce 1452'de inşa edilmiştir."
+  },
+  {
+    "id": "q_1794841134261_66_328",
+    "category": "Tarih",
+    "difficulty": 3,
+    "question": "Osmanlı Devleti ile Çarlık Rusyası arasında 1878'de imzalanıp yürürlüğe girmeyen ağır antlaşma hangisidir?",
+    "answer": "Ayastefanos Antlaşması",
+    "options": [
+      "Ayastefanos Antlaşması",
+      "Berlin Antlaşması",
+      "Bükreş Antlaşması",
+      "Yaş Antlaşması"
+    ],
+    "note": "Yeşilköy'de imzalanan bu antlaşma Batılı devletlerin müdahalesiyle yerini Berlin Antlaşması'na bırakmıştır."
+  },
+  {
+    "id": "q_1794841134264_67_227",
+    "category": "Tarih",
+    "difficulty": 3,
+    "question": "Mısır Seferi dönüşünde 1517 yılında Mukaddes Emanetler'i İstanbul'a getiren Osmanlı padişahı kimdir?",
+    "answer": "Yavuz Sultan Selim",
+    "options": [
+      "Yavuz Sultan Selim",
+      "Kanuni Sultan Süleyman",
+      "Fatih Sultan Mehmet",
+      "II. Bayezid"
+    ],
+    "note": "Yavuz Sultan Selim bu sefer sonrasında ilk Osmanlı Halifesi unvanını elde etmiştir."
+  },
+  {
+    "id": "q_1794841134268_68_942",
+    "category": "Tarih",
+    "difficulty": 3,
+    "question": "Sahneye çıkan ilk Türk kadın tiyatro oyuncusu aşağıdakilerden hangisidir?",
+    "answer": "Afife Jale",
+    "options": [
+      "Afife Jale",
+      "Cahide Sonku",
+      "Bedia Muvahhit",
+      "Neyyire Neyir"
+    ],
+    "note": "Afife Jale ilk kez 1920 yılında Kadıköy'deki Apollon Tiyatrosu'nda 'Yamalar' oyununda sahne almıştır."
+  },
+  {
+    "id": "q_1794841134272_69_754",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": 3,
+    "question": "Türkiye'nin en güneyinde yer alan coğrafi uç noktası hangi ilin sınırları içindedir?",
+    "answer": "Hatay",
+    "options": [
+      "Hatay",
+      "Antalya",
+      "Muğla",
+      "Mersin"
+    ],
+    "note": "Hatay'ın Yayladağı ilçesindeki Beysun köyü Türkiye'nin en güney coğrafi ucudur."
+  },
+  {
+    "id": "q_1794841134276_70_363",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": 3,
+    "question": "Karadeniz Bölgesi'nde yer alan ve heyelan set gölü özelliğine sahip doğal göl hangisidir?",
+    "answer": "Abant Gölü",
+    "options": [
+      "Abant Gölü",
+      "Van Gölü",
+      "Eğirdir Gölü",
+      "Tuz Gölü"
+    ],
+    "note": "Abant Gölü, Bolu sınırları içerisinde yer alan tektonik ve heyelan oluşumlu bir göldür."
+  },
+  {
+    "id": "q_1794841134279_71_555",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": 3,
+    "question": "Türkiye'de rüzgar erozyonunun ve mikro-kuraklaşmanın en etkili olduğu bölge hangisidir?",
+    "answer": "İç Anadolu Bölgesi",
+    "options": [
+      "İç Anadolu Bölgesi",
+      "Doğu Anadolu Bölgesi",
+      "Karadeniz Bölgesi",
+      "Marmara Bölgesi"
+    ],
+    "note": "Karapınar çevresi kurak iklimi ve bitki örtüsü zayıflığı sebebiyle rüzgar erozyonunun merkezidir."
+  },
+  {
+    "id": "q_1794841134283_72_872",
+    "category": "Ressamlar",
+    "difficulty": 3,
+    "question": "Ünlü 'Guernica' tablosuyla İspanya İç Savaşı'nın dehşetini tuvale aktaran ressam kimdir?",
+    "answer": "Pablo Picasso",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró",
+      "Francisco Goya"
+    ],
+    "note": "Kübizm akımının öncüsü olan Picasso bu anıtsal eseri 1937 yılında tamamlamıştır."
+  },
+  {
+    "id": "q_1794841134287_73_790",
+    "category": "Ressamlar",
+    "difficulty": 3,
+    "question": "Sürrealizm akımının simge eseri 'Belleğin Azmi' (Eriyen Saatler) tablosunu kim yapmıştır?",
+    "answer": "Salvador Dalí",
+    "options": [
+      "Salvador Dalí",
+      "René Magritte",
+      "Max Ernst",
+      "Giorgio de Chirico"
+    ],
+    "note": "İspanyol ressam Dalí bu eserde zamanın göreliliği düşüncesini eriyen cep saatleriyle simgelemiştir."
+  },
+  {
+    "id": "q_1794841134291_74_924",
+    "category": "Ressamlar",
+    "difficulty": 3,
+    "question": "Türk resminin öncülerinden olan ve 'Zeybekler' tablosuyla tanınan ressam kimdir?",
+    "answer": "İbrahim Çallı",
+    "options": [
+      "İbrahim Çallı",
+      "Fikret Mualla",
+      "Abidin Dino",
+      "Bedri Rahmi Eyüboğlu"
+    ],
+    "note": "1914 Kuşağı ressamlarının liderlerinden olan Çallı, Kurtuluş Savaşı temalı eserler de üretmiştir."
+  },
+  {
+    "id": "q_1794841134295_75_829",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Şampiyonlar Ligi tarihinde tek bir sezonda en çok gol atan futbolcu rekoru (17 gol) kime aittir?",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Erling Haaland"
+    ],
+    "note": "Ronaldo bu rekoru Real Madrid formasıyla 2013-2014 sezonunda kırmıştır."
+  },
+  {
+    "id": "q_1794841134299_76_553",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Futbol tarihinde üç farklı takımla (Ajax, Real Madrid, Milan) Şampiyonlar Ligi kupası kazanan tek oyuncu kimdir?",
+    "answer": "Clarence Seedorf",
+    "options": [
+      "Clarence Seedorf",
+      "Zinedine Zidane",
+      "Samuel Eto'o",
+      "Cristiano Ronaldo"
+    ],
+    "note": "Hollandalı orta saha oyuncusu Clarence Seedorf toplam 4 kez Şampiyonlar Ligi şampiyonu olmuştur."
+  },
+  {
+    "id": "q_1794841134302_77_160",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Türkiye Süper Lig tarihinde bir sezonda en çok gol atarak gol kralı olan futbolcu kimdir?",
+    "answer": "Tanju Çolak",
+    "options": [
+      "Tanju Çolak",
+      "Hakan Şükür",
+      "Aykut Kocaman",
+      "Metin Oktay"
+    ],
+    "note": "Tanju Çolak 1987-1988 sezonunda Galatasaray formasıyla 39 gol atarak Avrupa Altın Ayakkabı ödülünü de kazanmıştır."
+  },
+  {
+    "id": "q_1794841134306_78_577",
+    "category": "Edebiyat",
+    "difficulty": 3,
+    "question": "Kurtuluş Savaşı'nı bizzat yaşayan Halide Edib Adıvar'ın bu savaşı konu alan ünlü romanı hangisidir?",
+    "answer": "Ateşten Gömlek",
+    "options": [
+      "Ateşten Gömlek",
+      "Sinekli Bakkal",
+      "Vurun Kahpeye",
+      "Handan"
+    ],
+    "note": "Ateşten Gömlek romanı Kurtuluş Savaşı devam ederken sıcağı sıcağına yazılan ilk romandır."
+  },
+  {
+    "id": "q_1794841134310_79_754",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "FIFA Dünya Kupası şampiyonluğunu hem futbolcu hem de teknik direktör olarak kazanan ilk isim kimdir?",
+    "answer": "Mário Zagallo",
+    "options": [
+      "Mário Zagallo",
+      "Franz Beckenbauer",
+      "Didier Deschamps",
+      "Diego Maradona"
+    ],
+    "note": "Brezilyalı Mário Zagallo 1958 ve 1962'de oyuncu, 1970'te ise teknik direktör olarak kupayı kaldırmıştır."
+  },
+  {
+    "id": "q_1794841679061_0_959",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Kanalları, gondolları ve tarihi mimarisiyle dünyaca ünlü olan İtalya şehri hangisidir?",
+    "answer": "Venedik",
+    "options": [
+      "Venedik",
+      "Floransa",
+      "Milano",
+      "Napoli"
+    ],
+    "note": "Venedik, 118 küçük adacık üzerine kurulmuş olup 400'den fazla köprü ile birbirine bağlanır."
+  },
+  {
+    "id": "q_1794841679065_1_268",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Eyfel Kulesi ve Louvre Müzesi ile tanınan Fransa'nın başkenti aşağıdakilerden hangisidir?",
+    "answer": "Paris",
+    "options": [
+      "Paris",
+      "Lyon",
+      "Marsilya",
+      "Bordo"
+    ],
+    "note": "Paris, dünyada 'Işık Şehir' (La Ville Lumière) olarak da anılmaktadır."
+  },
+  {
+    "id": "q_1794841679069_2_565",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Kırmızı Meydan ve Kremlin Sarayı'na ev sahipliği yapan Rusya şehri hangisidir?",
+    "answer": "Moskova",
+    "options": [
+      "Moskova",
+      "Sankt Peterburg",
+      "Kazan",
+      "Novosibirsk"
+    ],
+    "note": "Moskova Metrosu, her biri müze estetiğinde inşa edilmiş tarihi istasyonlarıyla ünlüdür."
+  },
+  {
+    "id": "q_1794841679072_3_619",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Özgürlük Heykeli ve Times Meydanı ile simgeleşmiş olan ABD şehri hangisidir?",
+    "answer": "New York",
+    "options": [
+      "New York",
+      "Los Angeles",
+      "Chicago",
+      "Washington D.C."
+    ],
+    "note": "New York şehri beş ana idari bölgeden (Borough) oluşmaktadır."
+  },
+  {
+    "id": "q_1794841679080_5_566",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "ABD Bağımsızlık Bildirgesi'nin imzalandığı ve Özgürlük Çanı'na ev sahipliği yapan tarihi şehir hangisidir?",
+    "answer": "Philadelphia",
+    "options": [
+      "Philadelphia",
+      "Boston",
+      "San Francisco",
+      "Seattle"
+    ],
+    "note": "Philadelphia, 1790-1800 yılları arasında ABD'nin geçici başkentliğini yapmıştır."
+  },
+  {
+    "id": "q_1794841679083_6_248",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Kolezyum antik tiyatrosunu ve Vatikan'ı sınırları içinde barındıran şehir hangisidir?",
+    "answer": "Roma",
+    "options": [
+      "Roma",
+      "Atina",
+      "Madrid",
+      "Lizbon"
+    ],
+    "note": "Roma, tarihte 'Sonsuz Şehir' unvanıyla anılmaktadır."
+  },
+  {
+    "id": "q_1794841679087_7_289",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Dünyaca ünlü Karnavalı ve Kurtarıcı İsa Heykeli ile tanınan Brezilya şehri hangisidir?",
+    "answer": "Rio de Janeiro",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "note": "Kurtarıcı İsa Heykeli Corcovado Dağı'nın zirvesinde yer almaktadır."
+  },
+  {
+    "id": "q_1794841679091_8_307",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Gel, ne olursan ol yine gel' çağrısıyla bilinen büyük mutasavvıf kimdir?",
+    "answer": "Mevlana Celaleddin-i Rumi",
+    "options": [
+      "Mevlana Celaleddin-i Rumi",
+      "Yunus Emre",
+      "Hacı Bektaş-ı Veli",
+      "Ahmed Yesevi"
+    ],
+    "note": "Mevlana bu evrensel hoşgörü çağrısını eserlerinde sıkça vurgulamıştır."
+  },
+  {
+    "id": "q_1794841679094_9_159",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Bana bir harf öğretenin kırk yıl kölesi olurum' sözü kime aittir?",
+    "answer": "Hz. Ali",
+    "options": [
+      "Hz. Ali",
+      "Hz. Ömer",
+      "İbn-i Sina",
+      "Farabi"
+    ],
+    "note": "Bu ifade ilme ve öğretmene verilen değeri simgeleyen en bilinen vecizelerdendir."
+  },
+  {
+    "id": "q_1794841679098_10_236",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Ordular! İlk hedefiniz Akdeniz'dir, ileri!' emrini veren tarihi lider kimdir?",
+    "answer": "Mustafa Kemal Atatürk",
+    "options": [
+      "Mustafa Kemal Atatürk",
+      "İsmet İnönü",
+      "Fevzi Çakmak",
+      "Kazım Karabekir"
+    ],
+    "note": "Bu tarihi emir 1 Eylül 1922 tarihinde Dumlupınar'da verilmiştir."
+  },
+  {
+    "id": "q_1794841679102_11_442",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Düşünüyorum, öyleyse varım' (Cogito ergo sum) önermesi hangi filozofa aittir?",
+    "answer": "René Descartes",
+    "options": [
+      "René Descartes",
+      "Immanuel Kant",
+      "John Locke",
+      "Jean-Jacques Rousseau"
+    ],
+    "note": "Descartes bu sözü 1637 tarihli Metot Üzerine Konuşma eserinde dile getirmiştir."
+  },
+  {
+    "id": "q_1794841679105_12_741",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Bana bir kaldıraç verin, dünyayı yerinden oynatayım' sözünü söyleyen antik bilim insanı kimdir?",
+    "answer": "Arşimet",
+    "options": [
+      "Arşimet",
+      "Aristoteles",
+      "Pisagor",
+      "Öklid"
+    ],
+    "note": "Arşimet bu ifadeyi kaldıraç prensiplerini matematiksel olarak açıklarken kullanmıştır."
+  },
+  {
+    "id": "q_1794841679109_13_256",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Bilgi güçtür' (Knowledge is power) özdeyişinin sahibi kabul edilen İngiliz filozof kimdir?",
+    "answer": "Francis Bacon",
+    "options": [
+      "Francis Bacon",
+      "Thomas Hobbes",
+      "David Hume",
+      "John Stuart Mill"
+    ],
+    "note": "Francis Bacon, modern deneysel bilim metodunun öncülerindendir."
+  },
+  {
+    "id": "q_1794841679113_14_707",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Sezar'ın hakkını Sezar'a, Tanrı'nın hakkını Tanrı'ya verin' sözü hangi figüre atfedilir?",
+    "answer": "Hz. İsa",
+    "options": [
+      "Hz. İsa",
+      "Jül Sezar",
+      "Büyük İskender",
+      "Augustus"
+    ],
+    "note": "Bu ifade vergi ve dini yükümlülükler arasındaki ayrımı vurgulamak için kullanılmıştır."
+  },
+  {
+    "id": "q_1794841679116_15_554",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Ya olduğun gibi görün, ya göründüğün gibi ol' öğüdü kime aittir?",
+    "answer": "Mevlana Celaleddin-i Rumi",
+    "options": [
+      "Mevlana Celaleddin-i Rumi",
+      "Pir Sultan Abdal",
+      "Akşemseddin",
+      "Şeyh Edebali"
+    ],
+    "note": "Bu söz Mevlana'nın 7 Öğüdü arasında en bilinen ilkelerden biridir."
+  },
+  {
+    "id": "q_1794841679120_16_156",
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Nobel Ödülleri hangi ülkenin mucidi Alfred Nobel'in vasiyetiyle başlatılmıştır?",
+    "answer": "İsveç",
+    "options": [
+      "İsveç",
+      "Norveç",
+      "Danimarka",
+      "İsviçre"
+    ],
+    "note": "Alfred Nobel, dinamitin mucidi olarak büyük bir servet edinmiştir."
+  },
+  {
+    "id": "q_1794841679131_19_171",
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Nobel Barış Ödülü dışındaki tüm Nobel ödülleri hangi şehirde takdim edilir?",
+    "answer": "Stockholm",
+    "options": [
+      "Stockholm",
+      "Oslo",
+      "Kopenhag",
+      "Helsinki"
+    ],
+    "note": "Ödül törenleri her yıl Alfred Nobel'in ölüm yıldönümü olan 10 Aralık'ta düzenlenir."
+  },
+  {
+    "id": "q_1794841679135_20_409",
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Nobel Barış Ödülü her yıl hangi ülkenin başkentinde düzenlenen törenle verilir?",
+    "answer": "Norveç",
+    "options": [
+      "Norveç",
+      "İsveç",
+      "Hollanda",
+      "Belçika"
+    ],
+    "note": "Nobel Barış Ödülü Oslo'daki Belediye Sarayı'nda takdim edilmektedir."
+  },
+  {
+    "id": "q_1794841679150_24_613",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Çöl ortamına uyum sağlayan ve gövdesinde su depolayan dikenli bitki türü hangisidir?",
+    "answer": "Kaktüs",
+    "options": [
+      "Kaktüs",
+      "Orkide",
+      "Eğrelti Otu",
+      "Nilüfer"
+    ],
+    "note": "Kaktüslerin dikenleri, yaprakların su kaybını önlemek üzere evrimleşmiş halidir."
+  },
+  {
+    "id": "q_1794841679154_25_954",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Dünyanın en yüksek ve devasa boyuta ulaşan dev ağaç türü aşağıdakilerden hangisidir?",
+    "answer": "Sekoya",
+    "options": [
+      "Sekoya",
+      "Meşe",
+      "Çam",
+      "Çınar"
+    ],
+    "note": "Kuzey Amerika'daki sekoya ağaçlarının boyu 100 metreyi aşabilmektedir."
+  },
+  {
+    "id": "q_1794841679157_26_166",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Dünyanın en pahalı baharatı kabul edilen safran hangi çiçeğin organlarından elde edilir?",
+    "answer": "Safran mor çiçeği",
+    "options": [
+      "Safran mor çiçeği",
+      "Gül",
+      "Çiğdem",
+      "Menekşe"
+    ],
+    "note": "Bir gram safran elde etmek için yüzlerce çiçeğin tepeceğinin elle toplanması gerekir."
+  },
+  {
+    "id": "q_1794841679161_27_901",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Suyun yüzeyinde geniş yapraklarıyla yüzen ve kutsal kabul edilen su bitkisi hangisidir?",
+    "answer": "Lotus",
+    "options": [
+      "Lotus",
+      "Su Sümbülü",
+      "Bambu",
+      "Sarmaşık"
+    ],
+    "note": "Lotus yaprakları üzerindeki mikro yapılar sayesinde kendi kendini temizleme özelliğine sahiptir."
+  },
+  {
+    "id": "q_1794841679165_28_468",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Günde 90 santimetreye kadar uzayabilen dünyanın en hızlı büyüyen odunsu bitkisi nedir?",
+    "answer": "Bambu",
+    "options": [
+      "Bambu",
+      "Okaliptüs",
+      "Söğüt",
+      "Kavak"
+    ],
+    "note": "Bambu aslında buğdaygiller ailesine mensup devasa bir ot türüdür."
+  },
+  {
+    "id": "q_1794841679169_29_459",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Türkiye'de özellikle Doğu Karadeniz Bölgesi'nde geniş çapta yetiştirilen yapraklı bitki hangisidir?",
+    "answer": "Çay",
+    "options": [
+      "Çay",
+      "Tütün",
+      "Pamuk",
+      "Fındık"
+    ],
+    "note": "Türkiye'de çay tımarları ilk olarak 1930'lu yıllarda Rize'de yaygınlaştırılmıştır."
+  },
+  {
+    "id": "q_1794841679172_30_309",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Avustralya kıtasına özgü olan ve koalaların temel besinini oluşturan ağaç türü nedir?",
+    "answer": "Okaliptüs",
+    "options": [
+      "Okaliptüs",
+      "Palmiye",
+      "Baobab",
+      "Akasya"
+    ],
+    "note": "Okaliptüs yaprakları yüksek oranda uçucu yağlar içerir."
+  },
+  {
+    "id": "q_1794841679176_31_848",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Japon kültüründe baharın gelişini simgeleyen ünlü kiraz çiçeğine ne ad verilir?",
+    "answer": "Sakura",
+    "options": [
+      "Sakura",
+      "Bonsai",
+      "Ikebana",
+      "Kiku"
+    ],
+    "note": "Japonya'da kiraz çiçeklerinin açma dönemi Hanami festivalleriyle kutlanır."
+  },
+  {
+    "id": "q_1794841679180_32_587",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Akarsuların taşıdığı alüvyonları deniz kıyısında biriktirmesiyle oluşan üçgen şeklindeki ova türü nedir?",
+    "answer": "Delta Ovası",
+    "options": [
+      "Delta Ovası",
+      "Karstik Ova",
+      "Tektonik Ova",
+      "Lav Ovası"
+    ],
+    "note": "Çukurova ve Bafra Ovası Türkiye'deki önemli delta ovalarına örnektir."
+  },
+  {
+    "id": "q_1794841679184_33_233",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Rüzgarların çöllerde biriktirmesiyle oluşan hilal şeklindeki kum tepelerine ne ad verilir?",
+    "answer": "Barkan",
+    "options": [
+      "Barkan",
+      "Falez",
+      "Mantar Kaya",
+      "Lapya"
+    ],
+    "note": "Barkanlar rüzgarın hakim esme yönüne göre hareket ederler."
+  },
+  {
+    "id": "q_1794841679188_34_483",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Deniz veya göl kenarlarındaki dik uçurumlara verilen coğrafi isim hangisidir?",
+    "answer": "Falez",
+    "options": [
+      "Falez",
+      "Tombolo",
+      "Lagün",
+      "Kanyon"
+    ],
+    "note": "Falezler dalga aşındırmasının etkili olduğu dik kıyılarda meydana gelir."
+  },
+  {
+    "id": "q_1794841679191_35_991",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Rüzgar aşındırması sonucu oluşan mantara benzeyen kaya şekillerine ne denir?",
+    "answer": "Mantar Kaya",
+    "options": [
+      "Mantar Kaya",
+      "Lapya",
+      "Dolin",
+      "Polye"
+    ],
+    "note": "Rüzgarın taşıdığı tanecikler kayanın alt kısmını daha fazla aşındırarak bu şekli oluşturur."
+  },
+  {
+    "id": "q_1794841679195_36_191",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Dalga biriktirmesi sonucu bir adanın karaya bağlanmasıyla oluşan şekle ne ad verilir?",
+    "answer": "Tombolo",
+    "options": [
+      "Tombolo",
+      "Lagün",
+      "Falez",
+      "Sirk"
+    ],
+    "note": "Sinop Yarımadası ve Kapıdağ Yarımadası Türkiye'deki ünlü tombolo örnekleridir."
+  },
+  {
+    "id": "q_1794841679199_37_972",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Karstik arazilerde kireç taşlarının erimesiyle oluşan en küçük oluk şeklindeki çukurluklara ne denir?",
+    "answer": "Lapya",
+    "options": [
+      "Lapya",
+      "Dolin",
+      "Uvala",
+      "Polye"
+    ],
+    "note": "Lapyalar erime sonucu oluşan mikro karstik aşınım şekilleridir."
+  },
+  {
+    "id": "q_1794841679203_38_257",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Akarsuların dağlık alanları yarmasıyla oluşan derin ve dik kenarlı vadilere ne ad verilir?",
+    "answer": "Kanyon Vadi",
+    "options": [
+      "Kanyon Vadi",
+      "Tabanlı Vadi",
+      "Yatık Yamaçlı Vadi",
+      "Çentik Vadi"
+    ],
+    "note": "ABD'deki Büyük Kanyon dünyanın en tanınmış kanyon vadisidir."
+  },
+  {
+    "id": "q_1794841679207_39_942",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Buzul vadilerinin deniz suları altında kalmasıyla oluşan derin fiyort kıyı tipi en çok hangi ülkede görülür?",
+    "answer": "Norveç",
+    "options": [
+      "Norveç",
+      "İtalya",
+      "Yunanistan",
+      "Mısır"
+    ],
+    "note": "Norveç fiyortları yüksek enlemlerde buzul aşındırması sonucu biçimlenmiştir."
+  },
+  {
+    "id": "q_1794841679211_40_267",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Dünyanın sürekli yerleşim görülen en eski başkentlerinden biri olan ve 'Şam' olarak bilinen Suriye şehri hangisidir?",
+    "answer": "Dımeşk",
+    "options": [
+      "Dımeşk",
+      "Halep",
+      "Lazkiye",
+      "Hama"
+    ],
+    "note": "Dımeşk şehri M.Ö. 3000'li yıllara kadar uzanan köklü bir tarihe sahiptir."
+  },
+  {
+    "id": "q_1794841679215_41_207",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "İnka İmparatorluğu'nun antik başkenti olan ve Peru'nun And Dağları'nda yer alan tarihi şehir hangisidir?",
+    "answer": "Cusco",
+    "options": [
+      "Cusco",
+      "Lima",
+      "Arequipa",
+      "La Paz"
+    ],
+    "note": "Cusco, İnka dilinde 'dünyanın göbeği' anlamına gelmektedir."
+  },
+  {
+    "id": "q_1794841679223_43_447",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Gökdelen yoğunluğuyla tanınan ve Çin'e bağlı özel idari bölge olan liman şehri hangisidir?",
+    "answer": "Hong Kong",
+    "options": [
+      "Hong Kong",
+      "Singapur",
+      "Şanghay",
+      "Seul"
+    ],
+    "note": "Hong Kong kelime anlamı olarak 'kokulu liman' anlamına gelmektedir."
+  },
+  {
+    "id": "q_1794841679227_44_956",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Güney Afrika Cumhuriyeti'nin yasa çıkarma (yasama) başkenti olan şehir hangisidir?",
+    "answer": "Cape Town",
+    "options": [
+      "Cape Town",
+      "Pretoria",
+      "Bloemfontein",
+      "Johannesburg"
+    ],
+    "note": "Güney Afrika üç farklı başkente (Cape Town, Pretoria, Bloemfontein) sahip tek ülkedir."
+  },
+  {
+    "id": "q_1794841679231_45_836",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Dünyanın sürekli çalışan en eski üniversitesi Karaviyyin'e ev sahipliği yapan Fas şehri hangisidir?",
+    "answer": "Fes",
+    "options": [
+      "Fes",
+      "Marakeş",
+      "Kazablanka",
+      "Rabat"
+    ],
+    "note": "Karaviyyin Üniversitesi 859 yılında Fatma el-Fihri tarafından kurulmuştur."
+  },
+  {
+    "id": "q_1794841679235_46_574",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Kamboçya'da yer alan dev antik tapınak şehri Angkor Wat hangi kentin yakınlarındadır?",
+    "answer": "Siem Reap",
+    "options": [
+      "Siem Reap",
+      "Phnom Penh",
+      "Battambang",
+      "Sihanoukville"
+    ],
+    "note": "Angkor Wat dünyanın en büyük dini anıt kompleksi kabul edilmektedir."
+  },
+  {
+    "id": "q_1794841679239_47_516",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Kuzey Amerika kıtasında tarihi surları günümüze kadar korunan tek şehir hangisidir?",
+    "answer": "Quebec City",
+    "options": [
+      "Quebec City",
+      "Montreal",
+      "Ottawa",
+      "Toronto"
+    ],
+    "note": "Quebec City'nin tarihi surları UNESCO Dünya Mirası Listesi'nde yer alır."
+  },
+  {
+    "id": "q_1794841679243_48_581",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Alea iacta est' (Zarlar atıldı) sözünü Rubicon Nehrini geçerken söyleyen Roma lideri kimdir?",
+    "answer": "Jül Sezar",
+    "options": [
+      "Jül Sezar",
+      "Augustus",
+      "Neron",
+      "Mark Antony"
+    ],
+    "note": "Bu söz dönüşü olmayan kararları ifade etmek için kullanılır."
+  },
+  {
+    "id": "q_1794841679247_49_596",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Devlet benim' (L'état, c'est moi) ifadesi hangi mutlakiyetçi Fransız kralına aittir?",
+    "answer": "XIV. Louis",
+    "options": [
+      "XIV. Louis",
+      "XVI. Louis",
+      "I. Napolyon",
+      "XV. Louis"
+    ],
+    "note": "XIV. Louis 'Güneş Kral' olarak da bilinmektedir."
+  },
+  {
+    "id": "q_1794841679251_50_207",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Bana Türklerden kurulu bir ordu verin, dünyayı fethedeyim' sözü hangi Komutana atfedilir?",
+    "answer": "Napolyon Bonapart",
+    "options": [
+      "Napolyon Bonapart",
+      "Büyük İskender",
+      "Cengiz Han",
+      "Hannibal"
+    ],
+    "note": "Napolyon bu ifadeyle Türk askerinin disiplin ve cesaretini takdir etmiştir."
+  },
+  {
+    "id": "q_1794841679255_51_775",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Kötülüğün sıradanlığı' kavramını Eichmann davası üzerine kaleme aldığı eserle duyuran düşünür kimdir?",
+    "answer": "Hannah Arendt",
+    "options": [
+      "Hannah Arendt",
+      "Simone de Beauvoir",
+      "Judith Butler",
+      "Rosa Luxemburg"
+    ],
+    "note": "Arendt bu kavramla sistem içinde sıradan insanların nasıl büyük kötülüklere araç olabildiğini açıklar."
+  },
+  {
+    "id": "q_1794841679259_52_470",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Tanrı zar atmaz' diyerek kuantum mekaniğindeki olasılıksal yaklaşıma karşı çıkan bilim insanı kimdir?",
+    "answer": "Albert Einstein",
+    "options": [
+      "Albert Einstein",
+      "Niels Bohr",
+      "Max Planck",
+      "Werner Heisenberg"
+    ],
+    "note": "Einstein bu sözü Niels Bohr ile yaptığı kuantum tartışmalarında dile getirmiştir."
+  },
+  {
+    "id": "q_1794841679264_53_263",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'İnsanın haritası yüzüdür, limanı ise kalbidir' sözünün geçtiği eserler yazan ünlü Rus edebiyatçı kimdir?",
+    "answer": "Fyodor Dostoyevski",
+    "options": [
+      "Fyodor Dostoyevski",
+      "Lev Tolstoy",
+      "Anton Çehov",
+      "İvan Turgenyev"
+    ],
+    "note": "Dostoyevski insan psikolojisinin derinliklerini işleyen yapıtlarıyla tanınır."
+  },
+  {
+    "id": "q_1794841679268_54_799",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Gündüz kandilini yakmayan gece karanlığına katlanır' özdeyişi hangi şair ve yazarımıza aittir?",
+    "answer": "Cenap Şahabettin",
+    "options": [
+      "Cenap Şahabettin",
+      "Tevfik Fikret",
+      "Ziya Gökalp",
+      "Namık Kemal"
+    ],
+    "note": "Cenap Şahabettin 'Tiryaki Sözleri' adlı yapıtında pek çok özdeyiş toplamıştır."
+  },
+  {
+    "id": "q_1794841679272_55_703",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Nerede bir eser görsem orada bir Türk parmağı ararım' diyen Fransız şair ve devlet adamı kimdir?",
+    "answer": "Alphonse de Lamartine",
+    "options": [
+      "Alphonse de Lamartine",
+      "Victor Hugo",
+      "Emile Zola",
+      "Gustave Flaubert"
+    ],
+    "note": "Lamartine 19. yüzyılda Osmanlı coğrafyasını gezmiş ve seyahatnameler kaleme almıştır."
+  },
+  {
+    "id": "q_1794841679276_56_192",
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "Nobel Edebiyat Ödülü'nü kazanan ancak Sovyet baskısı sebebiyle reddetmek zorunda kalan Rus yazar kimdir?",
+    "answer": "Boris Pasternak",
+    "options": [
+      "Boris Pasternak",
+      "Aleksandr Soljenitsin",
+      "Mihail Şolohov",
+      "İvan Bunin"
+    ],
+    "note": "Pasternak, Doktor Jivago romanı nedeniyle 1958 yılında ödülü geri çevirmiştir."
+  },
+  {
+    "id": "q_1794841679281_58_791",
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "Tarihte üç kez Nobel Barış Ödülü kazanmayı başaran tek uluslararası kuruluş hangisidir?",
+    "answer": "Kızılhaç",
+    "options": [
+      "Kızılhaç",
+      "Birleşmiş Milletler",
+      "UNICEF",
+      "UNESCO"
+    ],
+    "note": "Kızılhaç 1917, 1944 ve 1963 yıllarında Nobel Barış Ödülü almıştır."
+  },
+  {
+    "id": "q_1794841679289_60_828",
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "1953 yılında Nobel Edebiyat Ödülü'nü kazanan ünlü İngiliz başbakanı kimdir?",
+    "answer": "Winston Churchill",
+    "options": [
+      "Winston Churchill",
+      "Clement Attlee",
+      "Neville Chamberlain",
+      "Anthony Eden"
+    ],
+    "note": "Churchill tarihi biyografileri ve hitabet sanatındaki ustalığıyla bu ödülü almıştır."
+  },
+  {
+    "id": "q_1794841679293_61_927",
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "1903 yılında Nobel Fizik Ödülü kazanan Marie Curie bu ödülü hangi bilim insanı eşiyle paylaşmıştır?",
+    "answer": "Pierre Curie",
+    "options": [
+      "Pierre Curie",
+      "Frédéric Joliot",
+      "Antoine Becquerel",
+      "Henri Becquerel"
+    ],
+    "note": "Curie çifti radyoaktivite üzerindeki ortak keşifleriyle ödüle değer görülmüştür."
+  },
+  {
+    "id": "q_1794841679302_63_165",
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "Nobel Ödülü kazanan ilk Asyalı edebiyatçı olan ve Hindistan Milli Marşı'nı besteleyen şair kimdir?",
+    "answer": "Rabindranath Tagore",
+    "options": [
+      "Rabindranath Tagore",
+      "Kenzaburo Oe",
+      "Yasunari Kawabata",
+      "Haruki Murakami"
+    ],
+    "note": "Tagore 1913 yılında Gitanjali adlı şiir kitabı sebebiyle Nobel almıştır."
+  },
+  {
+    "id": "q_1794841679306_64_847",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Dünyanın en büyük tekil çiçeğine sahip olan ve ağır kokusuyla bilinen parazitik bitki hangisidir?",
+    "answer": "Rafflesia arnoldii",
+    "options": [
+      "Rafflesia arnoldii",
+      "Amorphophallus titanum",
+      "Nepenthes",
+      "Dionaea"
+    ],
+    "note": "Rafflesia çiçeğinin çapı 1 metreye, ağırlığı ise 11 kilograma ulaşabilir."
+  },
+  {
+    "id": "q_1794841679311_65_121",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Böcekçil bir bitki olan Sinekkapan bitkisinin botanikteki bilimsel adı nedir?",
+    "answer": "Dionaea muscipula",
+    "options": [
+      "Dionaea muscipula",
+      "Sarracenia purpurea",
+      "Drosera capensis",
+      "Nepenthes rajah"
+    ],
+    "note": "Sinekkapan yapraklarındaki hassas tüylere iki kez dokunulduğunda kapanır."
+  },
+  {
+    "id": "q_1794841679315_66_160",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Fotosentez sırasında karbondioksit bağlanmasını katalizleyen dünyadaki en bol enzim hangisidir?",
+    "answer": "RuBisCO",
+    "options": [
+      "RuBisCO",
+      "Amilaz",
+      "Pepsin",
+      "Katalaz"
+    ],
+    "note": "RuBisCO enzimi bitki yapraklarındaki toplam proteinin %30'undan fazlasını oluşturabilir."
+  },
+  {
+    "id": "q_1794841679319_67_333",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Bitkilerde su ve mineralleri kökten yapraklara taşıyan odunsu iletim borularına ne ad verilir?",
+    "answer": "Ksilem",
+    "options": [
+      "Ksilem",
+      "Floem",
+      "Stoma",
+      "Kambiyum"
+    ],
+    "note": "Ksilem hücreleri olgunlaştığında cansız borucuklara dönüşür."
+  },
+  {
+    "id": "q_1794841679323_68_872",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Bitki yapraklarında gaz alışverişini ve terlemeyi düzenleyen açılıp kapanabilir gözenek yapısı nedir?",
+    "answer": "Stoma",
+    "options": [
+      "Stoma",
+      "Kutikula",
+      "Epidermis",
+      "Mezofil"
+    ],
+    "note": "Stomalar gece ve gündüz vakitlerinde nem ve ışık durumuna göre kapanıp açılır."
+  },
+  {
+    "id": "q_1794841679328_69_654",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Japonya'ya özgü olan ve saksıda minyatür ağaç yetiştirme sanatına ne ad verilir?",
+    "answer": "Bonsai",
+    "options": [
+      "Bonsai",
+      "Ikebana",
+      "Origami",
+      "Kirigami"
+    ],
+    "note": "Bonsai sanatı ağaçların budanması ve kök kontrolü ile bodur kalmasını sağlar."
+  },
+  {
+    "id": "q_1794841679332_70_342",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Safran bitkisinin ait olduğu botanik familyası aşağıdakilerden hangisidir?",
+    "answer": "Iridaceae (Süsenziller)",
+    "options": [
+      "Iridaceae (Süsenziller)",
+      "Liliaceae",
+      "Rosaceae",
+      "Solanaceae"
+    ],
+    "note": "Safran (Crocus sativus), süsenziller ailesinden yumrulu bir kültür bitkisidir."
+  },
+  {
+    "id": "q_1794841679336_71_556",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Bitki gövde ve köklerinde enine kalınlaşmayı sağlayan bölünür doku tabakasına ne denir?",
+    "answer": "Kambiyum",
+    "options": [
+      "Kambiyum",
+      "Parankima",
+      "Sklerankima",
+      "Kollenkima"
+    ],
+    "note": "Kambiyum tabakası ağaçlardaki yıllık yaş halkalarının oluşumunu sağlar."
+  },
+  {
+    "id": "q_1794841679341_72_179",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Karstik bölgelerde lapya, dolin ve uvalaların eriyerek birleşmesiyle oluşan en geniş çukurluğa ne ad verilir?",
+    "answer": "Polye",
+    "options": [
+      "Polye",
+      "Uvala",
+      "Obruk",
+      "Düden"
+    ],
+    "note": "Göller Yöresi'ndeki Elmalı ve Tefenni ovaları karstik polye örnekleridir."
+  },
+  {
+    "id": "q_1794841679345_73_155",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Eski akarsu vadilerinin deniz seviyesinin yükselmesiyle sular altında kalması sonucu oluşan kıyı tipine ne ad verilir?",
+    "answer": "Ria kıyı tipi",
+    "options": [
+      "Ria kıyı tipi",
+      "Fiyort",
+      "Skayer",
+      "Dalmaçya"
+    ],
+    "note": "İstanbul ve Çanakkale Boğazları ile Haliç ria tipi kıyılara örnektir."
+  },
+  {
+    "id": "q_1794841679349_74_962",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Karstik arazilerde yeraltı mağara tavanlarının çökmesiyle oluşan derin doğal kuyulara ne denir?",
+    "answer": "Obruk",
+    "options": [
+      "Obruk",
+      "Düden",
+      "Polye",
+      "Lapya"
+    ],
+    "note": "İç Anadolu Bölgesi'ndeki Kızören Obruğu en tanınmış obruklardandır."
+  },
+  {
+    "id": "q_1794841679354_75_608",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Akarsu alüvyonlarının koylarda birikerek koyun önünü kapatmasıyla oluşan kıyı set gölüne ne denir?",
+    "answer": "Lagün",
+    "options": [
+      "Lagün",
+      "Tombolo",
+      "Falez",
+      "Delta"
+    ],
+    "note": "Büyükçekmece ve Küçükçekmece Gölleri lagün oluşumuna örnektir."
+  },
+  {
+    "id": "q_1794841679358_76_520",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Buzul birikintilerinin (moren) oluşturduğu balina sırtına benzeyen tepelere ne ad verilir?",
+    "answer": "Drumlin",
+    "options": [
+      "Drumlin",
+      "Sandır",
+      "Kame",
+      "Esker"
+    ],
+    "note": "Drumlinler buzulun ilerleme yönüne paralel olarak biçimlenmiş tepelerdir."
+  },
+  {
+    "id": "q_1794841679363_77_928",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Çöllerde rüzgar aşındırması sonucu oluşan keskin kenarlı, uzunlamasına kaya sırtlarına ne ad verilir?",
+    "answer": "Yardang",
+    "options": [
+      "Yardang",
+      "Barkan",
+      "Hamada",
+      "Tafoni"
+    ],
+    "note": "Yardanglar rüzgarın taşıdığı taneciklerin zayıf kayaları oymasıyla meydana gelir."
+  },
+  {
+    "id": "q_1794841679367_78_872",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Falezlerin dalga aşındırması gerilemesiyle su altında oluşan düzlüğe verilen isim hangisidir?",
+    "answer": "Aşınım Platformu",
+    "options": [
+      "Aşınım Platformu",
+      "Tombolo",
+      "Lagün",
+      "Kanyon"
+    ],
+    "note": "Aşınım platformları falez tabanlarında aşınma sonucu oluşan sığ kayalık düzlüklerdir."
+  },
+  {
+    "id": "q_1794841679372_79_859",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Buzul vadilerinde oluşan binlerce küçük adacıklı kıyı tipine ne ad verilir?",
+    "answer": "Skayer",
+    "options": [
+      "Skayer",
+      "Fiyort",
+      "Ria",
+      "Dalmaçya"
+    ],
+    "note": "Skayer tipi kıyılar Şili ve Güney İsveç kıyılarında yaygın biçimde görülür."
+  },
+  {
+    "id": "q_1794842199123_1_481",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "İki kıta üzerinde yer alan ve tarihi boyunca üç büyük imparatorluğa başkentlik yapmış şehir hangisidir?",
+    "answer": "İstanbul",
+    "options": [
+      "İstanbul",
+      "Kahire",
+      "Atina",
+      "Roma"
+    ],
+    "note": "İstanbul; Roma, Bizans ve Osmanlı İmparatorluklarına başkentlik yaparak dünya tarihinde eşsiz bir konum edinmiştir."
+  },
+  {
+    "id": "q_1794842199127_2_371",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Antoni Gaudí'nin tasarladığı Sagrada Familia Bazilikası ve Park Güell gibi eserlere ev sahipliği yapan şehir hangisidir?",
+    "answer": "Barselona",
+    "options": [
+      "Barselona",
+      "Madrid",
+      "Sevilla",
+      "Lizbon"
+    ],
+    "note": "Yapımına 1882 yılında başlanan Sagrada Familia Bazilikası, dünyanın en uzun süren mimari projelerinden biridir."
+  },
+  {
+    "id": "q_1794842199132_3_833",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Japonya'nın eski imparatorluk başkenti olan ve binlerce geleneksel tapınağıyla bilinen şehir hangisidir?",
+    "answer": "Kyoto",
+    "options": [
+      "Kyoto",
+      "Osaka",
+      "Nagoya",
+      "Sapporo"
+    ],
+    "note": "Kyoto, İkinci Dünya Savaşı sırasındaki bombardımanlardan büyük ölçüde korunduğu için tarihi dokusunu günümüze taşıyabilmiştir."
+  },
+  {
+    "id": "q_1794842199141_5_215",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Peribacaları ve yeraltı şehirleriyle tanınan Kapadokya bölgesinin merkezinde yer alan ilimiz hangisidir?",
+    "answer": "Nevşehir",
+    "options": [
+      "Nevşehir",
+      "Kayseri",
+      "Aksaray",
+      "Niğde"
+    ],
+    "note": "Bölgedeki volkanik tüf kayaların rüzgâr ve su erozyonuyla aşınması milyonlarca yıl süren bir jeolojik süreçtir."
+  },
+  {
+    "id": "q_1794842199145_6_148",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Avrupa Birliği kurumlarının büyük bir bölümüne ve NATO karargâhına ev sahipliği yapan şehir hangisidir?",
+    "answer": "Brüksel",
+    "options": [
+      "Brüksel",
+      "Strazburg",
+      "Lüksemburg",
+      "Cenevre"
+    ],
+    "note": "Brüksel, Fransızca ve Felemenkçe olmak üzere iki resmi dile sahip çok kültürlü bir Avrupa merkezidir."
+  },
+  {
+    "id": "q_1794842199150_7_844",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 2,
+    "question": "Meşhur Opera Binası ve Liman Köprüsü ile tanınan Avustralya şehri hangisidir?",
+    "answer": "Sidney",
+    "options": [
+      "Sidney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "note": "Sidney Avustralya'nın en kalabalık şehri olmasına rağmen ülkenin başkenti Canberra'dır."
+  },
+  {
+    "id": "q_1794842199154_8_785",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Fas'ın güneybatısında yer alan ve binalarının renginden ötürü 'Kızıl Şehir' olarak anılan tarihi kent hangisidir?",
+    "answer": "Marakeş",
+    "options": [
+      "Marakeş",
+      "Kazablanka",
+      "Rabat",
+      "Tanca"
+    ],
+    "note": "Marakeş'in surları ve yapıları, 12. yüzyılda bölgedeki kırmızı kumtaşları kullanılarak inşa edildiği için bu lakabı almıştır."
+  },
+  {
+    "id": "q_1794842199163_10_841",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Özbekistan'da bulunan, İpek Yolu'nun en önemli duraklarından biri olan ve Registan Meydanı ile ünlü şehir hangisidir?",
+    "answer": "Semerkant",
+    "options": [
+      "Semerkant",
+      "Buhara",
+      "Taşkent",
+      "Hive"
+    ],
+    "note": "Semerkant, 14. yüzyılda Timur İmparatorluğu'nun başkenti olmuş ve dönemin en parlak bilim merkezlerinden biri haline gelmiştir."
+  },
+  {
+    "id": "q_1794842199168_11_866",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Adriyatik Denizi kıyısında yer alan ve 'Adriyatik'in İncisi' lakabıyla anılan surlarla çevrili Hırvatistan şehri hangisidir?",
+    "answer": "Dubrovnik",
+    "options": [
+      "Dubrovnik",
+      "Split",
+      "Zadar",
+      "Pula"
+    ],
+    "note": "Orta Çağ'da Ragusa Cumhuriyeti adıyla bilinen şehir, güçlü deniz ticareti filosuyla Venedik'e rakip olmuştur."
+  },
+  {
+    "id": "q_1794842199172_12_316",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Mali'de Nijer Nehri yakınlarında yer alan ve Orta Çağ'da İslam dünyasının en önemli ilim merkezlerinden biri olan şehir hangisidir?",
+    "answer": "Timbuktu",
+    "options": [
+      "Timbuktu",
+      "Bamako",
+      "Cenne",
+      "Gao"
+    ],
+    "note": "Timbuktu'daki Sankore Üniversitesi, 15. ve 16. yüzyıllarda on binlerce el yazması esere ve binlerce öğrenciye ev sahipliği yapmıştır."
+  },
+  {
+    "id": "q_1794842199177_13_109",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "İskoçya'nın başkenti olan ve her yıl dünyanın en büyük sanat festivallerinden biri olan Fringe Festivali'ne ev sahipliği yapan şehir hangisidir?",
+    "answer": "Edinburgh",
+    "options": [
+      "Edinburgh",
+      "Glasgow",
+      "Aberdeen",
+      "Dundee"
+    ],
+    "note": "Edinburgh, 1824 yılında kurulan dünyanın ilk belediye itfaiye teşkilatına sahip şehri olma özelliğini taşır."
+  },
+  {
+    "id": "q_1794842199182_14_919",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "Güney Afrika Cumhuriyeti'nin yürütme başkenti olan ve bahar aylarında açan mor jakaranda ağaçlarıyla bilinen şehir hangisidir?",
+    "answer": "Pretoria",
+    "options": [
+      "Pretoria",
+      "Cape Town",
+      "Johannesburg",
+      "Durban"
+    ],
+    "note": "Güney Afrika'nın üç başkenti vardır; Pretoria yürütme, Cape Town yasama ve Bloemfontein yargı başkentidir."
+  },
+  {
+    "id": "q_1794842199186_15_136",
+    "category": "Tanınmış Şehirler",
+    "difficulty": 3,
+    "question": "İran'ın merkezinde yer alan, Nakş-ı Cihan Meydanı ve tarihi köprüleriyle ünlü Safevi dönemi başkenti hangi şehirdir?",
+    "answer": "İsfahan",
+    "options": [
+      "İsfahan",
+      "Şiraz",
+      "Tebriz",
+      "Meşhed"
+    ],
+    "note": "17. yüzyılda I. Şah Abbas döneminde ihtişamının zirvesine ulaşan şehir için Farsçada 'İsfahan dünyanın yarısıdır' deyimi kullanılmıştır."
+  },
+  {
+    "id": "q_1794842199191_16_384",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Düşünüyorum, öyleyse varım' sözüyle modern felsefenin temellerini atan Fransız düşünür kimdir?",
+    "answer": "René Descartes",
+    "options": [
+      "René Descartes",
+      "Jean-Jacques Rousseau",
+      "Voltaire",
+      "Blaise Pascal"
+    ],
+    "note": "Descartes bu ünlü önermeyi ilk olarak 1637 yılında yayımlanan 'Yöntem Üzerine Konuşma' adlı eserinde Fransızca olarak kaleme almıştır."
+  },
+  {
+    "id": "q_1794842199196_17_338",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Hayatta en hakiki mürşit ilimdir, fendir' sözü Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk tarafından hangi şehirde söylenmiştir?",
+    "answer": "Samsun",
+    "options": [
+      "Samsun",
+      "Ankara",
+      "İzmir",
+      "Erzurum"
+    ],
+    "note": "Atatürk bu tarihi sözü 22 Eylül 1924 tarihinde Samsun İstiklal Ticaret Mektebi'nde öğretmenlere hitaben yaptığı konuşmada dile getirmiştir."
+  },
+  {
+    "id": "q_1794842199200_18_441",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Bildiğim tek şey, hiçbir şey bilmediğimdir' sözüyle tanınan Antik Yunan filozofu kimdir?",
+    "answer": "Sokrates",
+    "options": [
+      "Sokrates",
+      "Platon",
+      "Aristoteles",
+      "Herakleitos"
+    ],
+    "note": "Kendisi yazılı bir eser bırakmayan Sokrates'in bu sözü, öğrencisi Platon'un 'Sokrates'in Savunması' adlı diyaloğunda aktarılmıştır."
+  },
+  {
+    "id": "q_1794842199205_19_879",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Geldik, gördük, yendik' anlamına gelen 'Veni, vidi, vici' sözünü Roma Senatosu'na mektup olarak gönderen komutan kimdir?",
+    "answer": "Jül Sezar",
+    "options": [
+      "Jül Sezar",
+      "Büyük İskender",
+      "Hannibal Barca",
+      "Augustus"
+    ],
+    "note": "Jül Sezar bu kısa ve çarpıcı mesajı MÖ 47 yılında günümüzde Tokat'ın Zile ilçesi sınırlarında gerçekleşen Zela Muharebesi'nin ardından yazmıştır."
+  },
+  {
+    "id": "q_1794842199210_20_238",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'İnsan için küçük, insanlık için dev bir adım' sözünü Ay yüzeyine ayak basarken söyleyen astronot kimdir?",
+    "answer": "Neil Armstrong",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Yuri Gagarin"
+    ],
+    "note": "20 Temmuz 1969'da Apollo 11 görevi sırasında söylenen bu cümle, dünya genelinde yaklaşık 650 milyon kişi tarafından canlı olarak izlenmiştir."
+  },
+  {
+    "id": "q_1794842199215_21_446",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Olmak ya da olmamak, işte bütün mesele bu' repliği William Shakespeare'in hangi tiyatro oyununda geçer?",
+    "answer": "Hamlet",
+    "options": [
+      "Hamlet",
+      "Macbeth",
+      "Othello",
+      "Kral Lear"
+    ],
+    "note": "Bu ünlü tirat, Danimarka Prensi Hamlet tarafından oyunun üçüncü perdesinin birinci sahnesinde seslendirilir."
+  },
+  {
+    "id": "q_1794842199219_22_944",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Hayal gücü bilgiden daha önemlidir. Çünkü bilgi sınırlıdır, oysa hayal gücü tüm dünyayı kapsar' sözü kime aittir?",
+    "answer": "Albert Einstein",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Stephen Hawking"
+    ],
+    "note": "Einstein bu ifadeyi 1929 yılında verdiği bir röportajda bilimsel keşiflerin temelindeki yaratıcı düşüncenin önemini vurgulamak için kullanmıştır."
+  },
+  {
+    "id": "q_1794842199224_23_224",
+    "category": "Ünlü Sözler",
+    "difficulty": 2,
+    "question": "'Ne olursan ol yine gel' dizeleriyle başlayan ve hoşgörüyü simgeleyen rubai hangi düşünür ve şaire atfedilir?",
+    "answer": "Mevlânâ Celâleddîn-i Rûmî",
+    "options": [
+      "Mevlânâ Celâleddîn-i Rûmî",
+      "Yunus Emre",
+      "Hacı Bektaş-ı Veli",
+      "Şems-i Tebrizi"
+    ],
+    "note": "Farsça olarak yazılan bu dörtlük, yüzyıllardır Anadolu'daki tasavvuf ve hoşgörü kültürünün evrensel çağrısı olarak kabul edilmektedir."
+  },
+  {
+    "id": "q_1794842199229_24_573",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Aynı nehirde iki kez yıkanılmaz' sözüyle evrendeki sürekli değişimi ve akışı ifade eden Antik Yunan filozofu kimdir?",
+    "answer": "Herakleitos",
+    "options": [
+      "Herakleitos",
+      "Parmenides",
+      "Demokritos",
+      "Epiküros"
+    ],
+    "note": "Efesli Herakleitos, evrenin ana maddesinin ateş olduğunu ve her şeyin karşıtların çatışmasıyla sürekli değiştiğini savunmuştur."
+  },
+  {
+    "id": "q_1794842199234_25_628",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'İnsan özgür doğar, oysa her yerde zincire vurulmuştur' cümlesiyle başlayan 'Toplum Sözleşmesi' eserinin yazarı kimdir?",
+    "answer": "Jean-Jacques Rousseau",
+    "options": [
+      "Jean-Jacques Rousseau",
+      "Montesquieu",
+      "John Locke",
+      "Thomas Hobbes"
+    ],
+    "note": "1762 yılında yayımlanan bu eser, Fransız İhtilali'nin düşünsel temellerini ve modern demokrasi anlayışını derinden etkilemiştir."
+  },
+  {
+    "id": "q_1794842199238_26_933",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Cehennem başkalarıdır' sözüyle tanınan 'Gizli Oturum' adlı tiyatro oyununun varoluşçu yazarı kimdir?",
+    "answer": "Jean-Paul Sartre",
+    "options": [
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "Simone de Beauvoir",
+      "Samuel Beckett"
+    ],
+    "note": "Sartre bu sözüyle insanın kendisini başkalarının bakışı ve yargıları üzerinden tanımlamak zorunda kalmasının yarattığı gerilimi anlatmıştır."
+  },
+  {
+    "id": "q_1794842199243_27_833",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Eğer daha uzağı görebildiysem, bu benden önceki devlerin omuzlarında durduğum içindir' sözünü meslektaşına mektupta yazan bilim insanı kimdir?",
+    "answer": "Isaac Newton",
+    "options": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Robert Hooke"
+    ],
+    "note": "Newton bu mütevazı ifadeyi 1675 yılında İngiliz bilim insanı Robert Hooke'a yazdığı mektupta optik çalışmalarına atıfta bulunarak kullanmıştır."
+  },
+  {
+    "id": "q_1794842199248_28_729",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Bütün mutlu aileler birbirine benzer; her mutsuz aileninse kendine özgü bir mutsuzluğu vardır' cümlesiyle başlayan roman hangisidir?",
+    "answer": "Anna Karenina",
+    "options": [
+      "Anna Karenina",
+      "Savaş ve Barış",
+      "Suç ve Ceza",
+      "Karamazov Kardeşler"
+    ],
+    "note": "Lev Tolstoy'un 1877'de tamamladığı romanın bu açılış cümlesi, dünya edebiyatının en ünlü ilk cümlelerinden biri sayılır."
+  },
+  {
+    "id": "q_1794842199253_29_947",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Tarih tekerrürden ibarettir; ilkinde trajedi, ikincisinde komedi olarak' sözü hangi düşünür tarafından kaleme alınmıştır?",
+    "answer": "Karl Marx",
+    "options": [
+      "Karl Marx",
+      "Friedrich Engels",
+      "Georg Wilhelm Friedrich Hegel",
+      "Max Weber"
+    ],
+    "note": "Marx bu ifadeyi 1852 tarihli 'Louis Bonaparte'ın 18 Brumaire'i' adlı eserinde Napolyon ve yeğeni III. Napolyon'u kıyaslarken yazmıştır."
+  },
+  {
+    "id": "q_1794842199258_30_180",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Dünyada görmek istediğiniz değişimin kendisi olun' sözüyle özdeşleşen Hindistan bağımsızlık hareketi lideri kimdir?",
+    "answer": "Mahatma Gandhi",
+    "options": [
+      "Mahatma Gandhi",
+      "Cevahirlal Nehru",
+      "Rabindranath Tagore",
+      "Muhammed Ali Cinnah"
+    ],
+    "note": "Gandhi'nin pasif direniş ve şiddetsizlik felsefesini özetleyen bu söz, bireysel dönüşümün toplumsal değişimdeki rolünü vurgular."
+  },
+  {
+    "id": "q_1794842199262_31_788",
+    "category": "Ünlü Sözler",
+    "difficulty": 3,
+    "question": "'Savaş, siyasetin başka araçlarla devamıdır' sözüyle modern askeri strateji teorisini şekillendiren Prusyalı general kimdir?",
+    "answer": "Carl von Clausewitz",
+    "options": [
+      "Carl von Clausewitz",
+      "Helmuth von Moltke",
+      "Otto von Bismarck",
+      "Büyük Friedrich"
+    ],
+    "note": "Clausewitz'in ölümünden sonra 1832'de yayımlanan 'Savaş Üzerine' adlı eseri günümüzde de askeri akademilerde okutulmaktadır."
+  },
+  {
+    "id": "q_1794842199267_32_450",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Bitkilerin güneş ışığını kullanarak karbondioksit ve suyu besin ile oksijene dönüştürdüğü sürece ne ad verilir?",
+    "answer": "Fotosentez",
+    "options": [
+      "Fotosentez",
+      "Kemosentez",
+      "Terleme",
+      "Solunum"
+    ],
+    "note": "Fotosentez sırasında bitkilere yeşil rengini veren klorofil pigmenti ışık enerjisini soğurarak kimyasal enerjiye dönüştürür."
+  },
+  {
+    "id": "q_1794842199272_33_748",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Dünyanın en pahalı baharatı olarak bilinen safran, hangi çiçeğin tepeciklerinin kurutulmasıyla elde edilir?",
+    "answer": "Çiğdem",
+    "options": [
+      "Çiğdem",
+      "Lale",
+      "Sümbül",
+      "Nergis"
+    ],
+    "note": "Sadece bir kilogram kuru safran elde edebilmek için yaklaşık 150.000 adet çiğdem çiçeğinin elle toplanması gerekir."
+  },
+  {
+    "id": "q_1794842199277_34_693",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Güneşin gökyüzündeki hareketini takip etme özelliğiyle bilinen ve yağı için yetiştirilen bitki hangisidir?",
+    "answer": "Ayçiçeği",
+    "options": [
+      "Ayçiçeği",
+      "Kanola",
+      "Susam",
+      "Aspir"
+    ],
+    "note": "Genç ayçiçekleri gün boyunca doğudan batıya doğru güneşi takip ederken, olgunlaşan bitkiler genellikle doğuya dönük sabit kalır."
+  },
+  {
+    "id": "q_1794842199291_37_352",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Gövdesindeki su tutma kapasitesi sayesinde 'hayat ağacı' olarak da anılan ve Afrika savanlarına özgü dev ağaç hangisidir?",
+    "answer": "Baobab",
+    "options": [
+      "Baobab",
+      "Akasya",
+      "Tik",
+      "Maun"
+    ],
+    "note": "Kalın gövdelerinde 100.000 litreden fazla su depolayabilen baobab ağaçları bin yıldan fazla yaşayabilir."
+  },
+  {
+    "id": "q_1794842199296_38_323",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Yapraklarına dokunulduğunda savunma mekanizması olarak yapraklarını hızla kapatan hassas bitki hangisidir?",
+    "answer": "Küstüm otu",
+    "options": [
+      "Küstüm otu",
+      "Sinekkapan",
+      "Kudret narı",
+      "Çuha çiçeği"
+    ],
+    "note": "Küstüm otunun yaprak saplarındaki hücrelerin su basıncını aniden kaybetmesiyle yapraklar saniyeler içinde kapanır."
+  },
+  {
+    "id": "q_1794842199301_39_348",
+    "category": "Bitkiler",
+    "difficulty": 2,
+    "question": "Tıbbi ve aromatik özellikleri nedeniyle antik çağlardan beri yanık ve cilt yaralarının tedavisinde kullanılan etli yapraklı bitki hangisidir?",
+    "answer": "Aloe vera",
+    "options": [
+      "Aloe vera",
+      "Biberiye",
+      "Adaçayı",
+      "Lavanta"
+    ],
+    "note": "Aloe vera yapraklarının içindeki şeffaf jel, yüzde 99 oranında sudan oluşur ve zengin vitamin ile aminoasitler içerir."
+  },
+  {
+    "id": "q_1794842199311_41_203",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "250 milyon yılı aşkın süredir yeryüzünde varlığını sürdüren ve botanikte 'yaşayan fosil' olarak adlandırılan ağaç türü hangisidir?",
+    "answer": "Ginkgo biloba",
+    "options": [
+      "Ginkgo biloba",
+      "Araucaria",
+      "Metasequoia",
+      "Wollemia"
+    ],
+    "note": "Mabet ağacı olarak da bilinen Ginkgo biloba, 1945'te Hiroşima'ya atılan atom bombasının merkezine çok yakın bir noktada hayatta kalmayı başarmıştır."
+  },
+  {
+    "id": "q_1794842199316_42_785",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Güney Amerika'daki Amazon havzasında yetişen ve bir insanın ağırlığını taşıyabilecek kadar dayanıklı dev yapraklara sahip su bitkisi hangisidir?",
+    "answer": "Victoria amazonica",
+    "options": [
+      "Victoria amazonica",
+      "Nelumbo nucifera",
+      "Nymphaea alba",
+      "Eichhornia crassipes"
+    ],
+    "note": "Çapı 3 metreye ulaşabilen bu dev nilüfer yapraklarının alt yüzeyindeki damarlı ağ yapısı ağırlığı eşit olarak dağıtır."
+  },
+  {
+    "id": "q_1794842199320_43_829",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "İçerdiği 'kapsaisin' maddesi nedeniyle acılık veren ve baharat olarak kullanılan bitki hangisidir?",
+    "answer": "Acı biber",
+    "options": [
+      "Acı biber",
+      "Karabiber",
+      "Zencefil",
+      "Hardal"
+    ],
+    "note": "Kapsaisin maddesi dildeki ısı reseptörlerini uyararak beyne yanma sinyali gönderir ve acılık derecesi Scoville ölçeğiyle ölçülür."
+  },
+  {
+    "id": "q_1794842199325_44_439",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Sıtmaya karşı geliştirilen ilk etkili ilaç olan kinin maddesi, Güney Amerika'ya özgü hangi ağacın kabuğundan elde edilir?",
+    "answer": "Kınakına",
+    "options": [
+      "Kınakına",
+      "Söğüt",
+      "Porsuk",
+      "Okaliptüs"
+    ],
+    "note": "17. yüzyılda And Dağları'ndaki yerlilerden öğrenilen kınakına kabuğu, yüzyıllar boyunca sıtma tedavisinin tek çaresi olmuştur."
+  },
+  {
+    "id": "q_1794842199330_45_902",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Namib Çölü'ne özgü olan, ömrü boyunca yalnızca iki adet sürekli uzayan yaprak çıkaran ve bin yıldan fazla yaşayabilen bitki hangisidir?",
+    "answer": "Welwitschia mirabilis",
+    "options": [
+      "Welwitschia mirabilis",
+      "Agave americana",
+      "Yucca brevifolia",
+      "Aloe dichotoma"
+    ],
+    "note": "Çöl sisinden nem toplayarak hayatta kalan bu bitkinin iki yaprağı zamanla rüzgârla yırtılarak çok sayıda yaprak varmış gibi görünür."
+  },
+  {
+    "id": "q_1794842199335_46_696",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Aspirinin etken maddesi olan salisilik asidin doğal kaynağı olan ve tarih boyunca ağrı kesici olarak kabuğu kullanılan ağaç hangisidir?",
+    "answer": "Söğüt",
+    "options": [
+      "Söğüt",
+      "Kavak",
+      "Huş",
+      "Dişbudak"
+    ],
+    "note": "Hipokrat'ın dahi MÖ 5. yüzyılda ağrı ve ateşi hafifletmek için söğüt yaprağı ve kabuğu çiğnenmesini önerdiği bilinmektedir."
+  },
+  {
+    "id": "q_1794842199340_47_889",
+    "category": "Bitkiler",
+    "difficulty": 3,
+    "question": "Türkiye'de yalnızca Köyceğiz ve Marmaris çevresinde doğal ormanlar oluşturan ve yağından parfümeri ile eczacılıkta yararlanılan endemik ağaç hangisidir?",
+    "answer": "Anadolu sığla ağacı",
+    "options": [
+      "Anadolu sığla ağacı",
+      "Kasnak meşesi",
+      "Kazdağı göknarı",
+      "Datça hurması"
+    ],
+    "note": "Günlük ağacı olarak da bilinen Anadolu sığla ağacı, Üçüncü Jeolojik Zaman'dan günümüze ulaşan relikt bir türdür."
+  },
+  {
+    "id": "q_1794842199351_49_499",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Buzulların aşındırmasıyla oluşan derin vadilerin deniz suları altında kalmasıyla meydana gelen ve Norveç kıyılarında sıkça görülen kıyı tipi hangisidir?",
+    "answer": "Fiyort",
+    "options": [
+      "Fiyort",
+      "Ria",
+      "Dalmaçya",
+      "Liman"
+    ],
+    "note": "Dünyanın en uzun fiyortlarından biri olan Norveç'teki Sognefjord, karadan 200 kilometreden fazla içeriye sokulur."
+  },
+  {
+    "id": "q_1794842199356_50_670",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Bir koy veya körfezin önünün dalgaların taşıdığı kum ve çakıllarla kapanması sonucu oluşan kıyı set gölüne ne ad verilir?",
+    "answer": "Lagün",
+    "options": [
+      "Lagün",
+      "Tombolo",
+      "Krater",
+      "Kanyon"
+    ],
+    "note": "İstanbul'daki Büyükçekmece ve Küçükçekmece gölleri, Türkiye'deki lagün oluşumlarının en bilinen örnekleridir."
+  },
+  {
+    "id": "q_1794842199376_54_421",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Dalgaların kıyıdaki yüksek kayalıkları alt kısımlarından aşındırması sonucu oluşan dik kıyı uçurumlarına ne ad verilir?",
+    "answer": "Falez",
+    "options": [
+      "Falez",
+      "Kumsallık",
+      "Sığlık",
+      "Haliç"
+    ],
+    "note": "Yalıyar olarak da adlandırılan falezler, Türkiye'de özellikle Antalya ve Doğu Karadeniz kıyılarında yaygın olarak görülür."
+  },
+  {
+    "id": "q_1794842199381_55_294",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 2,
+    "question": "Yerkabuğundaki kırılmalar sonucunda iki fay hattı arasında kalan bloğun çökmesiyle oluşan uzun çöküntü alanlarına ne ad verilir?",
+    "answer": "Graben",
+    "options": [
+      "Graben",
+      "Horst",
+      "Antiklinal",
+      "Senklinal"
+    ],
+    "note": "Ege Bölgesi'ndeki Büyük Menderes ve Gediz ovaları, tektonik hareketlerle oluşmuş tipik graben sahalarıdır."
+  },
+  {
+    "id": "q_1794842199386_56_369",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Okyanus tabanındaki volkanik bir adanın zamanla çökmesi ve çevresindeki mercan resiflerinin büyümesiyle oluşan halka şeklindeki adaya ne ad verilir?",
+    "answer": "Atol",
+    "options": [
+      "Atol",
+      "Takımada",
+      "Guyot",
+      "Kaldera"
+    ],
+    "note": "Maldivler ve Marshall Adaları, ortasında sığ bir lagün barındıran çok sayıda atolden meydana gelmektedir."
+  },
+  {
+    "id": "q_1794842199392_57_897",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Büyük bir volkanik patlama sonrasında yanardağın zirvesindeki magma odasının boşalıp çökmesiyle oluşan geniş çanağa ne ad verilir?",
+    "answer": "Kaldera",
+    "options": [
+      "Kaldera",
+      "Maar",
+      "Krater",
+      "Batolit"
+    ],
+    "note": "Bitlis'teki Nemrut Kalderası, 8 kilometreyi aşan çapıyla dünyanın en büyük volkanik kalderalarından biridir."
+  },
+  {
+    "id": "q_1794842199397_58_404",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Buzulların erimesiyle ortaya çıkan ve kaşık tersini andıran oval biçimli alüvyal buzul birikinti tepelerine ne ad verilir?",
+    "answer": "Drumlin",
+    "options": [
+      "Drumlin",
+      "Moren",
+      "Sander",
+      "Sirk"
+    ],
+    "note": "Drumlin tepelerinin dik olan tarafı buzulun geldiği yönü, yatık olan tarafı ise buzulun ilerlediği yönü gösterir."
+  },
+  {
+    "id": "q_1794842199402_59_429",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Kurak bölgelerde sel sularının zayıf ve killi yamaçları yararak oluşturduğu, tarıma elverişsiz girintili çıkıntılı aşınım arazisine ne ad verilir?",
+    "answer": "Kırgıbayır",
+    "options": [
+      "Kırgıbayır",
+      "Peneplen",
+      "Plato",
+      "Seki"
+    ],
+    "note": "İngilizce literatürde 'badlands' (kötü araziler) olarak bilinen bu şekiller, bitki örtüsünün yok edildiği eğimli yamaçlarda hızla gelişir."
+  },
+  {
+    "id": "q_1794842199407_60_213",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Akarsuların menderesler çizerek aktığı bir ovada, bir büklümün ana yataktan kopmasıyla oluşan hilal biçimli göle ne ad verilir?",
+    "answer": "Kopuk menderes gölü",
+    "options": [
+      "Kopuk menderes gölü",
+      "Buzul gölü",
+      "Tektonik göl",
+      "Set gölü"
+    ],
+    "note": "İngilizcede 'oxbow lake' (öküz boyunduruğu gölü) olarak adlandırılan bu göller zamanla bataklığa dönüşerek kuruyabilir."
+  },
+  {
+    "id": "q_1794842199412_61_775",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Karstik bölgelerde erime sonucu oluşan ve tabanında tarım yapılabilen en büyük kapalı çukurluklara ne ad verilir?",
+    "answer": "Polye",
+    "options": [
+      "Polye",
+      "Uvala",
+      "Lapya",
+      "Düden"
+    ],
+    "note": "Gölova olarak da bilinen polyeler, Toros Dağları kuşağında Elmalı, Korkuteli ve Kestel ovaları şeklinde görülür."
+  },
+  {
+    "id": "q_1794842199418_62_954",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Buzul vadilerinin başlangıç kısmında, kar ve buz kütlesinin aşındırmasıyla oluşan koltuk şeklindeki derin çukurlara ne ad verilir?",
+    "answer": "Sirk",
+    "options": [
+      "Sirk",
+      "Hörgüç kaya",
+      "Esker",
+      "Kame"
+    ],
+    "note": "Buzulların erimesiyle bu çukurların suyla dolması sonucunda Kaçkar ve Aladağlar'da sıkça rastlanan buzul gölleri oluşur."
+  },
+  {
+    "id": "q_1794842199423_63_660",
+    "category": "Coğrafik Şekiller",
+    "difficulty": 3,
+    "question": "Derinlerdeki magmanın yeryüzüne ulaşamadan yer kabuğunun tabakaları arasına sokulup mantar şeklinde katılaşmasıyla oluşan iç püskürük kütleye ne ad verilir?",
+    "answer": "Lakolit",
+    "options": [
+      "Lakolit",
+      "Dayk",
+      "Sill",
+      "Nek"
+    ],
+    "note": "Üstteki tortul tabakaları kubbe gibi yukarı doğru iten lakolitler, üzerlerindeki tabakaların aşınmasıyla yüzeyde tepe olarak belirir."
+  },
+  {
+    "id": "q_1794842199428_64_518",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2024 Yaz Olimpiyat Oyunları hangi Avrupa başkentinde düzenlenmiştir?",
+    "answer": "Paris",
+    "options": [
+      "Paris",
+      "Londra",
+      "Roma",
+      "Madrid"
+    ],
+    "note": "Paris, 1900 ve 1924 yıllarının ardından 2024 yılında üçüncü kez Yaz Olimpiyatları'na ev sahipliği yaparak Londra'nın rekorunu egale etmiştir."
+  },
+  {
+    "id": "q_1794842199433_65_527",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2024 yılında NATO'ya katılarak ittifakın 32. üyesi olan İskandinav ülkesi hangisidir?",
+    "answer": "İsveç",
+    "options": [
+      "İsveç",
+      "Finlandiya",
+      "Norveç",
+      "İzlanda"
+    ],
+    "note": "İsveç, 7 Mart 2024 tarihinde katılım belgelerini teslim ederek iki yüz yılı aşkın süredir sürdürdüğü askeri tarafsızlık politikasını resmen sonlandırmıştır."
+  },
+  {
+    "id": "q_1794842199439_66_443",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "Türkiye'nin ilk astronotu olan ve 2024 yılında Uluslararası Uzay İstasyonu'nda bilimsel deneyler gerçekleştiren hava pilotu kimdir?",
+    "answer": "Alper Gezeravcı",
+    "options": [
+      "Alper Gezeravcı",
+      "Tuva Cihangir Atasever",
+      "Selçuk Bayraktar",
+      "Mete Atatüre"
+    ],
+    "note": "Alper Gezeravcı, Ax-3 misyonu kapsamında uzayda 18 gün kalarak Türk bilim insanlarının hazırladığı 13 farklı deneyi gerçekleştirmiştir."
+  },
+  {
+    "id": "q_1794842199444_67_992",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2024 Avrupa Futbol Şampiyonası (EURO 2024) finalinde İngiltere'yi 2-1 mağlup ederek şampiyon olan ülke hangisidir?",
+    "answer": "İspanya",
+    "options": [
+      "İspanya",
+      "Fransa",
+      "Almanya",
+      "Hollanda"
+    ],
+    "note": "İspanya bu zaferle toplamda dördüncü kez Avrupa şampiyonu olarak turnuva tarihinin en başarılı ülkesi unvanını tek başına ele geçirmiştir."
+  },
+  {
+    "id": "q_1794842199449_68_932",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2026 FIFA Dünya Kupası'na ortaklaşa ev sahipliği yapacak üç Kuzey Amerika ülkesi hangileridir?",
+    "answer": "ABD, Kanada ve Meksika",
+    "options": [
+      "ABD, Kanada ve Meksika",
+      "ABD, Brezilya ve Arjantin",
+      "Kanada, Meksika ve Kosta Rika",
+      "ABD, Kanada ve Kolombiya"
+    ],
+    "note": "2026 Dünya Kupası, 48 takımın mücadele edeceği ilk turnuva olma özelliğini taşımaktadır."
+  },
+  {
+    "id": "q_1794842199455_69_835",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2026 Kış Olimpiyat Oyunları'na ortaklaşa ev sahipliği yapan İtalyan şehirleri hangileridir?",
+    "answer": "Milano ve Cortina d'Ampezzo",
+    "options": [
+      "Milano ve Cortina d'Ampezzo",
+      "Torino ve Cenova",
+      "Roma ve Floransa",
+      "Venedik ve Bolonya"
+    ],
+    "note": "Şubat 2026'da gerçekleştirilen organizasyon, İtalya'nın 1956 ve 2006 yıllarından sonra düzenlediği üçüncü Kış Olimpiyatları olmuştur."
+  },
+  {
+    "id": "q_1794842199460_70_769",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "OpenAI tarafından geliştirilen ve üretken yapay zekâ devrimini başlatan sohbet robotunun adı nedir?",
+    "answer": "ChatGPT",
+    "options": [
+      "ChatGPT",
+      "Midjourney",
+      "DeepMind",
+      "Sora"
+    ],
+    "note": "Kasım 2022'de piyasaya sürülen ChatGPT, sadece iki ay içinde 100 milyon aylık aktif kullanıcıya ulaşarak internet tarihinin en hızlı büyüyen uygulaması olmuştur."
+  },
+  {
+    "id": "q_1794842199465_71_993",
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2024 yılında Ay'ın karanlık yüzünden ilk kez kaya ve toprak örnekleri toplayarak Dünya'ya getiren Çin uzay aracı hangisidir?",
+    "answer": "Chang'e 6",
+    "options": [
+      "Chang'e 6",
+      "Tiangong 3",
+      "Zhurong 2",
+      "Shenzhou 18"
+    ],
+    "note": "Chang'e 6, Ay'ın Güney Kutbu-Aitken Havzası'ndan yaklaşık 2 kilogram örnek toplayarak uzay araştırmalarında tarihi bir ilke imza atmıştır."
+  },
+  {
+    "id": "q_1794842199471_72_937",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 Nobel Ekonomi Ödülü'nü 'kurumların nasıl oluştuğu ve refahı nasıl etkilediği' üzerine çalışmalarıyla kazanan Türk ekonomist kimdir?",
+    "answer": "Daron Acemoğlu",
+    "options": [
+      "Daron Acemoğlu",
+      "Dani Rodrik",
+      "Uğur Şahin",
+      "Aziz Sancar"
+    ],
+    "note": "Daron Acemoğlu ödülü Simon Johnson ve James A. Robinson ile paylaşarak Türkiye'ye bilim alanındaki ikinci Nobel ödülünü kazandırmıştır."
+  },
+  {
+    "id": "q_1794842199476_73_849",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 Nobel Edebiyat Ödülü'nü 'tarihsel travmalarla yüzleşen ve insan yaşamının kırılganlığını ortaya koyan şiirsel düzyazısı' nedeniyle kazanan Güney Koreli yazar kimdir?",
+    "answer": "Han Kang",
+    "options": [
+      "Han Kang",
+      "Pachinko",
+      "Haruki Murakami",
+      "Banana Yoshimoto"
+    ],
+    "note": "Türkçeye 'Vejetaryen' ve 'Çocuk Geliyor' gibi eserleriyle çevrilen Han Kang, Nobel Edebiyat Ödülü'nü kazanan ilk Asyalı kadın yazar olmuştur."
+  },
+  {
+    "id": "q_1794842199482_74_395",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 Nobel Kimya Ödülü'nün yarısını, yapay zekâ modeli AlphaFold ile proteinlerin karmaşık yapılarını tahmin etme çalışmalarıyla kazanan iki bilim insanı kimlerdir?",
+    "answer": "Demis Hassabis ve John Jumper",
+    "options": [
+      "Demis Hassabis ve John Jumper",
+      "Geoffrey Hinton ve John Hopfield",
+      "David Baker ve Katalin Karikó",
+      "Sam Altman ve Ilya Sutskever"
+    ],
+    "note": "Google DeepMind araştırmacıları tarafından geliştirilen AlphaFold2, bilinen neredeyse tüm 200 milyon proteinin yapısını çözmeyi başarmıştır."
+  },
+  {
+    "id": "q_1794842199487_75_743",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2025 yılı başında BRICS grubuna tam üye olarak katılan ilk Güneydoğu Asya ülkesi hangisidir?",
+    "answer": "Endonezya",
+    "options": [
+      "Endonezya",
+      "Malezya",
+      "Tayland",
+      "Vietnam"
+    ],
+    "note": "Dünyanın en kalabalık dördüncü ülkesi olan Endonezya, Ocak 2025'te BRICS'in resmi tam üyesi olarak duyurulmuştur."
+  },
+  {
+    "id": "q_1794842199493_76_112",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "Avrupa Birliği tarafından 2024 yılında kabul edilen ve yapay zekâ sistemlerini risk seviyelerine göre düzenleyen dünyanın ilk kapsamlı yasal düzenlemesinin adı nedir?",
+    "answer": "AI Act",
+    "options": [
+      "AI Act",
+      "GDPR",
+      "Digital Markets Act",
+      "Cyber Resilience Act"
+    ],
+    "note": "AI Act, yapay zekâ uygulamalarını kabul edilemez, yüksek, sınırlı ve minimal risk olmak üzere dört temel kategoriye ayırmaktadır."
+  },
+  {
+    "id": "q_1794842199498_77_213",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 yılında yangın sonrası beş yıl süren titiz restorasyon çalışmalarının ardından yeniden ibadete ve ziyarete açılan Paris'teki tarihi katedral hangisidir?",
+    "answer": "Notre-Dame Katedrali",
+    "options": [
+      "Notre-Dame Katedrali",
+      "Sacré-Cœur Bazilikası",
+      "Sainte-Chapelle",
+      "Chartres Katedrali"
+    ],
+    "note": "Nisan 2019'daki büyük yangında çatısı ve kulesi yıkılan 860 yıllık Gotik katedral, Aralık 2024'te kapılarını yeniden açmıştır."
+  },
+  {
+    "id": "q_1794842199504_78_506",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 Nobel Fizik Ödülü'nü yapay sinir ağlarıyla makine öğrenmesini mümkün kılan temel keşifleri nedeniyle kazanan iki bilim insanı kimlerdir?",
+    "answer": "John Hopfield ve Geoffrey Hinton",
+    "options": [
+      "John Hopfield ve Geoffrey Hinton",
+      "Yann LeCun ve Yoshua Bengio",
+      "Alain Aspect ve Anton Zeilinger",
+      "Roger Penrose ve Kip Thorne"
+    ],
+    "note": "Yapay zekânın vaftiz babalarından biri olarak anılan Geoffrey Hinton, istatistiksel fizik ilkelerini kullanarak derin öğrenme modellerinin temelini atmıştır."
+  },
+  {
+    "id": "q_1794842199509_79_873",
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 yılında Meksika tarihinde seçilen ilk kadın devlet başkanı kimdir?",
+    "answer": "Claudia Sheinbaum",
+    "options": [
+      "Claudia Sheinbaum",
+      "Xóchitl Gálvez",
+      "Michelle Bachelet",
+      "Dilma Rousseff"
+    ],
+    "note": "Eski Mexico City Belediye Başkanı ve iklim bilimci olan Claudia Sheinbaum, Ekim 2024'te görevi devralmıştır."
   }
 ]
