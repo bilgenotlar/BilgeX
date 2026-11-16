@@ -70,7 +70,7 @@
     .btn-quiet:hover:not(:disabled) { background-color: var(--surface-container); }
     .btn-danger-arm { background-color: var(--error); color: var(--on-error); box-shadow: var(--shadow-error); }
     .btn-lg { min-height: 54px; padding: var(--space-md) var(--space-xl); font-size: var(--subhead-size); }
-    .btn-sm { min-height: 38px; padding: var(--space-xs) var(--space-md); font-size: 0.875rem; }
+    .btn-sm { min-height: 36px; padding: var(--space-xs) var(--space-md); font-size: 0.85rem; }
     .tag { display: inline-flex; align-items: center; gap: var(--space-xs); border-radius: var(--rounded-full); padding: var(--space-xs) var(--space-md); font-size: var(--label-size); font-weight: 700; letter-spacing: 0.04em; border: 2px solid var(--secondary); color: var(--secondary); background-color: var(--surface-container-low); white-space: nowrap; }
     .tag--filled { background-color: var(--surface-container); border-color: var(--outline-variant); color: var(--on-surface-variant); }
     .tag--positive { background-color: var(--positive-soft); border-color: var(--positive); color: var(--positive-ink); }
@@ -79,6 +79,8 @@
     .tag--room { background-color: var(--maviblue-bg); border-color: var(--maviblue-border); color: var(--maviblue-ink); font-weight: 800; letter-spacing: 0.05em; }
     .field-group { display: flex; flex-direction: column; gap: var(--space-xs); }
     .field-label { font-size: var(--label-size); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--on-surface-variant); }
+    .topic-header-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-bottom: 2px; }
+    .topic-tools { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); }
     .pill-input, .area-input, .select-input { width: 100%; padding: var(--space-sm) var(--space-lg); border-radius: var(--rounded-full); background-color: var(--surface-container); border: 2px solid var(--outline); color: var(--on-surface); font-weight: 500; transition: border-color var(--dur-micro) var(--ease-out), box-shadow var(--dur-micro) var(--ease-out), background-color var(--dur-micro) var(--ease-out); }
     .pill-input, .select-input { min-height: 46px; }
     .area-input { border-radius: var(--rounded); min-height: 110px; resize: vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.85rem; line-height: 1.5; }
@@ -90,27 +92,29 @@
     .room-preview-box { flex-basis: 100%; margin-top: var(--space-xs); padding: var(--space-sm) var(--space-md); border-radius: var(--rounded); background-color: #ffffff; border: 1.5px dashed var(--maviblue-border); color: var(--on-surface); font-size: 0.88rem; line-height: 1.45; user-select: all; animation: fadeUpIn var(--dur-short) var(--ease-out) both; }
     .room-preview-label { display: block; font-size: var(--label-size); font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--maviblue-accent); margin-bottom: 2px; user-select: none; }
     .chip-row { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
-    .chip { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 42px; padding: var(--space-xs) var(--space-md); border-radius: var(--rounded-full); border: 2px solid var(--outline-variant); background-color: var(--surface-container-low); color: var(--on-surface); font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: transform var(--dur-short) var(--ease-bounce), background-color var(--dur-micro) var(--ease-out), border-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out); }
+    .chip { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: var(--space-xs) var(--space-md); border-radius: var(--rounded-full); border: 2px solid var(--outline-variant); background-color: var(--surface-container-low); color: var(--on-surface); font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: transform var(--dur-short) var(--ease-bounce), background-color var(--dur-micro) var(--ease-out), border-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out), opacity var(--dur-micro) var(--ease-out); }
     .chip:hover:not(:disabled) { transform: var(--pop-scale); border-color: var(--primary); }
-    .chip:disabled { opacity: 0.55; cursor: not-allowed; }
+    .chip:disabled { opacity: 0.46; cursor: not-allowed; }
     .chip[aria-pressed="true"], .chip.is-active { background-color: var(--primary); border-color: var(--primary); color: var(--on-primary); box-shadow: var(--shadow-pink); }
+    .chip-count { font-size: 0.76rem; font-weight: 800; padding: 1px 7px; border-radius: var(--rounded-full); background-color: var(--surface-container); color: var(--on-surface-variant); }
+    .chip.is-active .chip-count { background-color: rgba(255, 255, 255, 0.24); color: #ffffff; }
+    .cat-dot { width: 9px; height: 9px; border-radius: var(--rounded-full); background-color: var(--data-1); flex-shrink: 0; }
+    .cat-dot--2 { background-color: var(--data-2); } .cat-dot--3 { background-color: var(--data-3); } .cat-dot--4 { background-color: var(--data-4); }
+    .chip.is-active .cat-dot { background-color: #ffffff; }
     .segmented { display: inline-grid; grid-template-columns: 1fr 1fr; max-width: 280px; background-color: var(--surface-container-high); padding: var(--space-xs); border-radius: var(--rounded-full); gap: var(--space-xs); }
     .seg-btn { min-height: 38px; padding: var(--space-xs) var(--space-md); border-radius: var(--rounded-full); border: none; background-color: transparent; color: var(--on-surface-variant); font-weight: 700; font-size: 0.85rem; cursor: pointer; transition: background-color var(--dur-short) var(--ease-in-out), color var(--dur-short) var(--ease-in-out), box-shadow var(--dur-short) var(--ease-in-out); }
     .seg-btn[aria-pressed="true"] { background-color: var(--surface-container-low); color: var(--primary); box-shadow: var(--shadow-pink); }
-    .field-hint { font-size: 0.8rem; color: var(--on-surface-variant); line-height: 1.4; }
+    .field-hint { font-size: 0.82rem; color: var(--on-surface-variant); line-height: 1.4; }
+    .field-hint.is-warning { color: var(--warning); font-weight: 600; }
     .screen { display: grid; gap: var(--space-lg); animation: fadeUpIn var(--dur-long) var(--ease-out) both; }
     .is-hidden { display: none !important; }
-    .start-grid { display: grid; grid-template-columns: minmax(0, 1.48fr) minmax(0, 1fr); gap: var(--space-lg); align-items: start; }
+    .start-grid { display: grid; grid-template-columns: minmax(0, 1.52fr) minmax(0, 1fr); gap: var(--space-lg); align-items: start; }
     .side-stack { display: grid; gap: var(--space-lg); }
     .rule-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-sm); }
     .rule-item { display: flex; align-items: flex-start; gap: var(--space-sm); padding: var(--space-sm) var(--space-md); background-color: var(--surface-container); border-radius: var(--rounded); font-size: 0.92rem; }
     .rule-icon { flex-shrink: 0; min-width: 34px; height: 28px; padding: 0 6px; border-radius: var(--rounded-full); background-color: var(--primary-container); color: var(--on-primary-container); display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.8rem; margin-top: 2px; }
     .rule-icon--grape { background-color: var(--secondary); color: var(--on-secondary); }
     .rule-icon--sky { background-color: var(--tertiary); color: var(--on-primary); }
-    .category-showcase { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
-    .cat-pill { display: inline-flex; align-items: center; gap: var(--space-xs); padding: var(--space-xs) var(--space-md); border-radius: var(--rounded-full); background-color: var(--surface-container); color: var(--on-surface); font-size: 0.875rem; font-weight: 600; }
-    .cat-dot { width: 10px; height: 10px; border-radius: var(--rounded-full); background-color: var(--data-1); flex-shrink: 0; }
-    .cat-dot--2 { background-color: var(--data-2); } .cat-dot--3 { background-color: var(--data-3); } .cat-dot--4 { background-color: var(--data-4); }
     .mini-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-sm); }
     .mini-stat { background-color: var(--surface-container); border-radius: var(--rounded); padding: var(--space-md); display: flex; flex-direction: column; gap: var(--space-xs); }
     .mini-stat-val { font-size: clamp(1.2rem, 1.05rem + 0.5vw, 1.55rem); color: var(--primary); }
@@ -213,7 +217,7 @@
           </span>
         </div>
         <h1 class="display">Ortak <em>Akıl</em> Bilgi Yarışması</h1>
-        <p class="subtitle">Günlük yaşamın pratik gerçeklerinden bilime, tarihten spora ve popüler kültüre uzanan 11 kategoride zamana karşı bilgi yarışı. Doğruları sırala, seri bonuslarını kap!</p>
+        <p class="subtitle">Günlük yaşamın pratik gerçeklerinden bilime, tarihten fantastik dünyalara ve popüler kültüre uzanan konu havuzundan seçtiklerinle zamana karşı yarış. Doğruları sırala, seri bonuslarını kap!</p>
       </div>
     </header>
 
@@ -223,7 +227,7 @@
         <div class="card card--hero">
           <div class="field-group">
             <span class="label-kicker">Yarışma Hazırlığı</span>
-            <h2>Kurallarını seç ve sahneye çık</h2>
+            <h2>Konularını seç ve sahneye çık</h2>
           </div>
 
           <div class="setup-two-col">
@@ -233,19 +237,22 @@
             </div>
             <div class="field-group">
               <label class="field-label" for="room-code-input">Oda Kodu (İsteğe Bağlı Düello)</label>
-              <input type="text" id="room-code-input" class="pill-input room-code-input" maxlength="20" placeholder="Örn. MASMAVİ-322" oninput="handleRoomCodeInput(this.value)">
-              <span class="field-hint" id="room-code-hint">Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen aynı sorular gelir.</span>
+              <input type="text" id="room-code-input" class="pill-input room-code-input" maxlength="24" placeholder="Örn. MASMAVİ-322-A9F" oninput="handleRoomCodeInput(this.value)">
+              <span class="field-hint" id="room-code-hint">Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen seçtiğin konular ve sorular birebir gelir.</span>
             </div>
           </div>
 
           <div class="field-group">
-            <span class="field-label">Kategori Paketi</span>
-            <div class="chip-row" id="mode-chips">
-              <button type="button" class="chip is-active" data-mode="all" aria-pressed="true" onclick="selectPackMode('all', this)">Tüm Kategoriler (11)</button>
-              <button type="button" class="chip" data-mode="culture" aria-pressed="false" onclick="selectPackMode('culture', this)">Tarih, Edebiyat &amp; Şehirler</button>
-              <button type="button" class="chip" data-mode="science" aria-pressed="false" onclick="selectPackMode('science', this)">Bilim, Bilim İnsanları &amp; Coğrafya</button>
-              <button type="button" class="chip" data-mode="life" aria-pressed="false" onclick="selectPackMode('life', this)">Spor, Ekonomi &amp; Popüler Kültür</button>
+            <div class="topic-header-bar">
+              <span class="field-label" id="topic-selection-label">Yarışma Konuları (En az 3, en fazla 4 seçim)</span>
+              <div class="topic-tools">
+                <span class="tag tag--filled" id="topic-counter-badge">0 / 4 Seçili</span>
+                <button type="button" class="btn btn-secondary btn-sm" id="btn-random-topics" onclick="pickRandomTopics()">Rastgele Seç</button>
+                <button type="button" class="btn btn-quiet btn-sm" id="btn-clear-topics" onclick="clearSelectedTopics()">Temizle</button>
+              </div>
             </div>
+            <div class="chip-row" id="topic-chips"></div>
+            <span class="field-hint" id="topic-selection-hint">Başlamak için listeden en az 3, en fazla 4 konu seçebilir ya da "Rastgele Seç" butonunu kullanabilirsin.</span>
           </div>
 
           <div class="field-group">
@@ -258,9 +265,9 @@
           </div>
 
           <div class="hud-actions" style="margin-top: var(--space-xs);">
-            <button type="button" class="btn btn-primary btn-lg" onclick="startGame()">
+            <button type="button" class="btn btn-primary btn-lg" id="btn-start-game" onclick="startGame()">
               <svg class="icon-svg icon-svg--lg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>
-              Yarışmayı Başlat (02:00)
+              <span id="btn-start-label">Yarışmayı Başlat (02:00)</span>
             </button>
             <span class="tag tag--filled" id="total-bank-badge">Sorular Yükleniyor...</span>
             <button type="button" class="btn btn-soft" onclick="toggleQuestionManager()">
@@ -307,22 +314,26 @@
           </div>
           <button type="button" class="btn btn-soft btn-sm" onclick="toggleQuestionManager()">Kapat</button>
         </div>
-        <p class="subtitle">Tek tek soru ekleyebilir ya da yapay zekâdan aldığın JSON çıktısını topluca yapıştırıp tarayıcına ekleyebilirsin. İndirdiğin JSON verisini <strong>sorubankasi.json</strong> dosyasına ekleyerek tüm ziyaretçiler için kalıcı hale getirebilirsin.</p>
+        <p class="subtitle">Tek tek soru ekleyebilir ya da yapay zekâdan aldığın JSON çıktısını topluca yapıştırıp tarayıcına ekleyebilirsin. Mevcut bir konuyu seçebileceğin gibi yepyeni bir konu adı da yazabilirsin; <strong>sorubankasi.json</strong> dosyasına eklediğin tüm yeni konular ana ekranda otomatik görünür.</p>
         <div id="qm-feedback" class="status-toast is-hidden"></div>
         <div class="card" style="background-color: var(--surface-container); box-shadow: none;">
           <h3>1. Tek Soru Ekle</h3>
           <div class="pool-grid">
-            <div class="field-group"><label class="field-label" for="qm-category">Kategori</label><select id="qm-category" class="select-input"></select></div>
+            <div class="field-group">
+              <label class="field-label" for="qm-category">Konu Başlığı (Seç veya Yeni Yaz)</label>
+              <input type="text" id="qm-category" list="qm-category-list" class="pill-input" placeholder="Örn. Yüzüklerin Efendisi">
+              <datalist id="qm-category-list"></datalist>
+            </div>
             <div class="field-group"><label class="field-label" for="qm-difficulty">Zorluk Seviyesi</label><select id="qm-difficulty" class="select-input"><option value="1">Kolay (Isınma)</option><option value="2" selected>Orta</option><option value="3">Zor</option></select></div>
           </div>
-          <div class="field-group"><label class="field-label" for="qm-question">Soru Metni</label><input type="text" id="qm-question" class="pill-input" placeholder="Örn. Dünyanın en derin gölü hangisidir?"></div>
+          <div class="field-group"><label class="field-label" for="qm-question">Soru Metni</label><input type="text" id="qm-question" class="pill-input" placeholder="Örn. Tek Yüzük hangi dağın ateşinde dövülmüştür?"></div>
           <div class="pool-grid">
-            <div class="field-group"><label class="field-label" for="qm-answer">Doğru Cevap</label><input type="text" id="qm-answer" class="pill-input" placeholder="Örn. Baykal Gölü"></div>
-            <div class="field-group"><label class="field-label" for="qm-w1">Yanlış Şık 1</label><input type="text" id="qm-w1" class="pill-input" placeholder="Örn. Hazar Denizi"></div>
-            <div class="field-group"><label class="field-label" for="qm-w2">Yanlış Şık 2</label><input type="text" id="qm-w2" class="pill-input" placeholder="Örn. Tanganika Gölü"></div>
-            <div class="field-group"><label class="field-label" for="qm-w3">Yanlış Şık 3</label><input type="text" id="qm-w3" class="pill-input" placeholder="Örn. Victoria Gölü"></div>
+            <div class="field-group"><label class="field-label" for="qm-answer">Doğru Cevap</label><input type="text" id="qm-answer" class="pill-input" placeholder="Örn. Hüküm Dağı"></div>
+            <div class="field-group"><label class="field-label" for="qm-w1">Yanlış Şık 1</label><input type="text" id="qm-w1" class="pill-input" placeholder="Örn. Yalnız Dağ"></div>
+            <div class="field-group"><label class="field-label" for="qm-w2">Yanlış Şık 2</label><input type="text" id="qm-w2" class="pill-input" placeholder="Örn. Caradhras"></div>
+            <div class="field-group"><label class="field-label" for="qm-w3">Yanlış Şık 3</label><input type="text" id="qm-w3" class="pill-input" placeholder="Örn. Gundabad Dağı"></div>
           </div>
-          <div class="field-group"><label class="field-label" for="qm-note">Ortak Akıl Notu (Cevap Sonrası Bilgi)</label><input type="text" id="qm-note" class="pill-input" placeholder="Örn. Sibirya'daki Baykal Gölü 1.642 metre derinliğiyle dünyanın en derin gölüdür."></div>
+          <div class="field-group"><label class="field-label" for="qm-note">Ortak Akıl Notu (Cevap Sonrası Bilgi)</label><input type="text" id="qm-note" class="pill-input" placeholder="Örn. Sauron, Tek Yüzük'ü Mordor'daki Hüküm Dağı'nın (Orodruin) ateşinde dövmüştür."></div>
           <div class="hud-actions"><button type="button" class="btn btn-primary" onclick="addSingleCustomQuestion()">Soruyu Havuza Ekle</button></div>
         </div>
         <div class="card" style="background-color: var(--surface-container); box-shadow: none;">
@@ -333,17 +344,12 @@
               <button type="button" class="btn btn-soft btn-sm" onclick="exportCustomQuestionsJson()">Özel Soruları İndir (JSON)</button>
             </div>
           </div>
-          <div class="field-group"><label class="field-label" for="qm-json-input">JSON Soru Dizisi Yapıştır</label><textarea id="qm-json-input" class="area-input" placeholder='[{"category":"Bilim","difficulty":2,"question":"...","answer":"Doğru Şık","options":["Doğru Şık","Yanlış 1","Yanlış 2","Yanlış 3"],"note":"Kısa bilgi notu"}]'></textarea></div>
+          <div class="field-group"><label class="field-label" for="qm-json-input">JSON Soru Dizisi Yapıştır</label><textarea id="qm-json-input" class="area-input" placeholder='[{"category":"Bilim Kurgu","difficulty":2,"question":"...","answer":"Doğru Şık","options":["Doğru Şık","Yanlış 1","Yanlış 2","Yanlış 3"],"note":"Kısa bilgi notu"}]'></textarea></div>
           <div class="hud-actions" style="justify-content: space-between;">
             <button type="button" class="btn btn-primary" onclick="importBulkJsonQuestions()">JSON Sorularını İçe Aktar</button>
             <button type="button" class="btn btn-quiet btn-sm" id="btn-clear-custom" onclick="clearCustomQuestionsConfirm(this)">Özel Soruları Temizle (0)</button>
           </div>
         </div>
-      </section>
-
-      <section class="card card--grape">
-        <span class="label-kicker">Kapsanan 11 Kategori</span>
-        <div class="category-showcase" id="category-showcase"></div>
       </section>
 
       <section class="card card--sky is-hidden" id="start-leaderboard-card">
@@ -353,7 +359,7 @@
         </div>
         <div class="table-wrap">
           <table class="score-table">
-            <thead><tr><th>#</th><th>Yarışmacı</th><th>Paket</th><th>Oda Kodu</th><th class="num-col">Puan</th><th class="num-col">Doğru</th><th class="num-col">İsabet</th></tr></thead>
+            <thead><tr><th>#</th><th>Yarışmacı</th><th>Seçilen Konular</th><th>Oda Kodu</th><th class="num-col">Puan</th><th class="num-col">Doğru</th><th class="num-col">İsabet</th></tr></thead>
             <tbody id="start-leaderboard-body"></tbody>
           </table>
         </div>
@@ -417,7 +423,7 @@
             <p class="subtitle" id="res-rank-desc"></p>
 
             <div class="room-banner">
-              <span><strong>Oda Kodu:</strong> <span id="res-room-code" style="font-weight:900;letter-spacing:0.05em;">MASMAVİ-322</span> — Arkadaşına gönder, aynı sorularla yarışsın!</span>
+              <span><strong>Oda Kodu:</strong> <span id="res-room-code" style="font-weight:900;letter-spacing:0.05em;">MASMAVİ-322</span> — Arkadaşına gönder, aynı konular ve sorularla yarışsın!</span>
               <div class="hud-actions">
                 <button type="button" class="btn btn-maviblue btn-sm" id="btn-copy-room" onclick="copyRoomChallenge(false)">Kodu Kopyala</button>
                 <button type="button" class="btn btn-soft btn-sm" id="btn-copy-invite" onclick="copyRoomChallenge(true)">Meydan Okuma Metni</button>
@@ -450,7 +456,7 @@
       </div>
 
       <div class="results-split">
-        <div class="card card--sky"><span class="label-kicker">Kategori Analizi</span><h3>Kategori Bazlı Performans</h3><div class="cat-bars" id="res-category-bars"></div></div>
+        <div class="card card--sky"><span class="label-kicker">Konu Analizi</span><h3>Konu Bazlı Performans</h3><div class="cat-bars" id="res-category-bars"></div></div>
         <div class="card card--grape">
           <div class="question-meta">
             <div><span class="label-kicker">Skor Tablosu</span><h3>En İyi Dereceler</h3></div>
@@ -486,30 +492,24 @@
   </div>
 
   <script>
-    const STORAGE_KEY = `ortak_akil_v2_state`;
+    const STORAGE_KEY = `ortak_akil_v3_state`;
     const QUESTIONS_FILE_URL = `./sorubankasi.json`;
+
+    // =========================================================================
+    // KONU SEÇİM LİMİTLERİ (İleride soru bankası büyüdüğünde 3'ü 1 yapabilirsin)
+    // =========================================================================
+    const MIN_SELECTED_TOPICS = 3;
+    const MAX_SELECTED_TOPICS = 4;
+
     const GAME_DURATION_SECONDS = 120;
     const BASE_POINTS = 100;
     const SPEED_BONUS_POINTS = 25;
     const SPEED_BONUS_WINDOW_MS = 5000;
     const AUTO_ADVANCE_DELAY_MS = 3000;
 
-    const CATEGORIES = [`Spor`, `Ekonomi`, `Tarih`, `Edebiyat`, `Coğrafya`, `Ülkeler`, `Şehirler`, `Bilim İnsanları`, `Bilim`, `Popüler Kültür`, `Genel Kültür`];
-    const PACK_MAP = {
-      all: CATEGORIES,
-      culture: [`Tarih`, `Edebiyat`, `Şehirler`],
-      science: [`Bilim`, `Bilim İnsanları`, `Coğrafya`, `Ülkeler`],
-      life: [`Spor`, `Ekonomi`, `Popüler Kültür`, `Genel Kültür`]
-    };
-    const PACK_LABELS = { all: `Tüm Kategoriler`, culture: `Tarih & Edebiyat`, science: `Bilim & Coğrafya`, life: `Spor, Ekonomi & Pop` };
+    const DEFAULT_CATEGORIES = [`Spor`, `Ekonomi`, `Tarih`, `Edebiyat`, `Coğrafya`, `Ülkeler`, `Şehirler`, `Bilim İnsanları`, `Bilim`, `Popüler Kültür`, `Genel Kültür`];
     const DIFFICULTY_LABELS = { 1: `Kolay`, 2: `Orta`, 3: `Zor` };
-
-    const ROOM_WORDS_BY_PACK = {
-      all: [`MASMAVİ`, `ANKARA`, `İSTANBUL`, `KAPADOKYA`, `EFES`, `BOĞAZİÇİ`, `TRUVA`, `PAMUKKALE`, `OLYMPOS`, `ASPENDOS`, `GALATA`, `AKDENİZ`],
-      culture: [`DESTAN`, `OSMANLI`, `MİRAS`, `ROMAN`, `ŞİİR`, `TARİH`, `KÜLTÜR`, `KİTAP`],
-      science: [`EVREN`, `GALAKSİ`, `ATOM`, `KUZEY`, `OKYANUS`, `YILDIZ`, `BİLİM`, `PUSULA`],
-      life: [`ŞAMPİYON`, `ZİRVE`, `SAHNE`, `REKOR`, `ALTIN`, `FİNAL`, `KUPA`, `EFSANE`]
-    };
+    const ROOM_WORDS = [`MASMAVİ`, `ANKARA`, `İSTANBUL`, `KAPADOKYA`, `EFES`, `BOĞAZİÇİ`, `TRUVA`, `PAMUKKALE`, `OLYMPOS`, `ASPENDOS`, `GALATA`, `AKDENİZ`, `EVREN`, `GALAKSİ`, `DESTAN`, `EFSANE`, `ZİRVE`, `PUSULA`];
 
     const FALLBACK_QUESTIONS = [
       { id: `fb1`, category: `Tarih`, difficulty: 1, question: `Türkiye Büyük Millet Meclisi (TBMM) Ankara’da hangi tarihte açılmıştır?`, answer: `23 Nisan 1920`, options: [`23 Nisan 1920`, `19 Mayıs 1919`, `29 Ekim 1923`, `30 Ağustos 1922`], note: `23 Nisan 1920 tarihi Türkiye’de Ulusal Egemenlik ve Çocuk Bayramı olarak kutlanmaktadır.` },
@@ -521,15 +521,38 @@
     const CATEGORY_DOT_CLASSES = [``, `cat-dot--2`, `cat-dot--3`, `cat-dot--4`];
 
     const appState = {
-      playerName: `Yarışmacı`, packMode: `all`, soundEnabled: true,
+      playerName: `Yarışmacı`, selectedTopics: [], soundEnabled: true,
       history: [], customQuestions: [], seenQuestionIds: [],
       gameActive: false, timerPaused: false, manualPaused: false, timerId: null, autoAdvanceId: null,
       remainingSeconds: GAME_DURATION_SECONDS, deck: [], deckCursor: 0, currentQuestion: null,
       questionStartTime: 0, questionAnswered: false, score: 0, basePointsEarned: 0, bonusPointsEarned: 0,
       streak: 0, maxStreak: 0, correctCount: 0, wrongCount: 0, passCount: 0, passesLeft: 1,
       totalResponseMs: 0, answeredQuestionsCount: 0, runLog: [], currentRunId: null, reviewFilter: `all`,
-      activeRoomCode: ``, isJoinedRoom: false, pendingRoomInput: ``, rngFn: Math.random
+      activeRoomCode: ``, activeTopicsSnapshot: [], isJoinedRoom: false, pendingRoomInput: ``, rngFn: Math.random
     };
+
+    function getAllQuestions() {
+      return BASE_QUESTION_BANK.concat(appState.customQuestions || []);
+    }
+
+    function getAvailableCategories() {
+      const seen = new Set();
+      const ordered = [];
+      getAllQuestions().forEach(function (q) {
+        const cat = String(q.category || ``).trim();
+        if (cat && !seen.has(cat)) {
+          seen.add(cat);
+          ordered.push(cat);
+        }
+      });
+      DEFAULT_CATEGORIES.forEach(function (cat) {
+        if (!seen.has(cat)) {
+          seen.add(cat);
+          ordered.push(cat);
+        }
+      });
+      return ordered;
+    }
 
     function stringToSeed(str) {
       let h = 2166136261 >>> 0;
@@ -554,61 +577,75 @@
       return String(str || ``).trim().toLocaleUpperCase(`tr-TR`);
     }
 
-    function detectPackFromWord(word) {
-      const cleanWord = normalizeTrUpper(word).replace(/[^A-ZÇĞİÖŞÜ]/g, ``);
-      const packs = Object.keys(ROOM_WORDS_BY_PACK);
-      for (let i = 0; i < packs.length; i++) {
-        const p = packs[i];
-        if (ROOM_WORDS_BY_PACK[p].indexOf(cleanWord) !== -1) return p;
+    function encodeTopicsMask(topicsList) {
+      const allCats = getAvailableCategories();
+      let mask = 0;
+      topicsList.forEach(function (t) {
+        const idx = allCats.indexOf(t);
+        if (idx !== -1 && idx < 30) mask |= (1 << idx);
+      });
+      return mask > 0 ? mask.toString(36).toUpperCase() : ``;
+    }
+
+    function decodeTopicsMask(code36) {
+      if (!code36) return null;
+      const mask = parseInt(code36, 36);
+      if (isNaN(mask) || mask <= 0) return null;
+      const allCats = getAvailableCategories();
+      const result = [];
+      for (let i = 0; i < allCats.length && i < 30; i++) {
+        if ((mask & (1 << i)) !== 0) result.push(allCats[i]);
       }
-      return null;
+      return result.length > 0 ? result : null;
     }
 
     function parseRoomCode(rawInput) {
       const clean = normalizeTrUpper(rawInput).replace(/\s+/g, ``);
       if (!clean) return null;
-      const match = clean.match(/^([A-ZÇĞİÖŞÜ]{3,14})-?(\d{2,4})$/);
+      const match = clean.match(/^([A-ZÇĞİÖŞÜ]{3,14})-?(\d{2,4})(?:-([0-9A-Z]{1,8}))?$/);
       if (!match) return null;
       const word = match[1];
       const num = match[2];
-      const detectedPack = detectPackFromWord(word);
-      return { formatted: `${word}-${num}`, packMode: detectedPack };
+      const maskPart = match[3] || ``;
+      const decodedTopics = maskPart ? decodeTopicsMask(maskPart) : null;
+      const formatted = maskPart ? `${word}-${num}-${maskPart}` : `${word}-${num}`;
+      return { formatted: formatted, topics: decodedTopics };
     }
 
-    function generateRoomCode(packMode) {
-      const words = ROOM_WORDS_BY_PACK[packMode] || ROOM_WORDS_BY_PACK.all;
-      const word = words[Math.floor(Math.random() * words.length)];
+    function generateRoomCode(selectedTopics) {
+      const word = ROOM_WORDS[Math.floor(Math.random() * ROOM_WORDS.length)];
       const num = Math.floor(100 + Math.random() * 900);
-      return `${word}-${num}`;
+      const maskCode = encodeTopicsMask(selectedTopics);
+      return maskCode ? `${word}-${num}-${maskCode}` : `${word}-${num}`;
     }
 
     function handleRoomCodeInput(val) {
       appState.pendingRoomInput = val;
       const parsed = parseRoomCode(val);
       const hintEl = document.getElementById(`room-code-hint`);
-      const chips = document.querySelectorAll(`#mode-chips .chip`);
 
       if (parsed) {
-        if (parsed.packMode) {
-          selectPackMode(parsed.packMode, document.querySelector(`#mode-chips .chip[data-mode="${parsed.packMode}"]`));
-          chips.forEach(function (c) { c.disabled = true; });
-          if (hintEl) hintEl.textContent = `Oda onaylandı (${parsed.formatted}) • Paket: ${PACK_LABELS[parsed.packMode]}`;
+        if (parsed.topics && parsed.topics.length > 0) {
+          appState.selectedTopics = parsed.topics.slice();
+          appState.isJoinedRoom = true;
+          renderTopicSelector();
+          if (hintEl) hintEl.textContent = `Oda onaylandı (${parsed.formatted}) • Konular kilitlendi: ${parsed.topics.join(`, `)}`;
         } else {
-          chips.forEach(function (c) { c.disabled = false; });
-          if (hintEl) hintEl.textContent = `Özel düello kodu (${parsed.formatted}) hazır. Seçili paketle başlayacak.`;
+          appState.isJoinedRoom = false;
+          renderTopicSelector();
+          if (hintEl) hintEl.textContent = `Özel düello kodu (${parsed.formatted}) hazır. Aşağıdan seçtiğin konularla başlayacak.`;
         }
       } else {
-        chips.forEach(function (c) { c.disabled = false; });
+        if (appState.isJoinedRoom) {
+          appState.isJoinedRoom = false;
+          renderTopicSelector();
+        }
         if (hintEl) {
           hintEl.textContent = val.trim().length > 0
-            ? `Format örneği: MASMAVİ-322 veya ANKARA476 (Kelime + 3 rakam)`
-            : `Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen aynı sorular gelir.`;
+            ? `Format örneği: MASMAVİ-322-A9F veya ANKARA-476`
+            : `Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen seçtiğin konular ve sorular birebir gelir.`;
         }
       }
-    }
-
-    function getAllQuestions() {
-      return BASE_QUESTION_BANK.concat(appState.customQuestions || []);
     }
 
     async function loadExternalQuestionBank() {
@@ -620,7 +657,7 @@
           BASE_QUESTION_BANK = data.map(function (item, index) {
             return {
               id: item.id || `ext_${index}`,
-              category: CATEGORIES.indexOf(item.category) !== -1 ? item.category : `Genel Kültür`,
+              category: String(item.category || `Genel Kültür`).trim() || `Genel Kültür`,
               difficulty: [1, 2, 3].indexOf(Number(item.difficulty)) !== -1 ? Number(item.difficulty) : 2,
               question: String(item.question || ``).trim(),
               answer: String(item.answer || ``).trim(),
@@ -639,7 +676,7 @@
     function saveStateToStorage() {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify({
-          playerName: appState.playerName, packMode: appState.packMode, soundEnabled: appState.soundEnabled,
+          playerName: appState.playerName, selectedTopics: appState.selectedTopics, soundEnabled: appState.soundEnabled,
           history: (appState.history || []).slice(0, 25), customQuestions: appState.customQuestions || [],
           seenQuestionIds: (appState.seenQuestionIds || []).slice(-300)
         }));
@@ -653,7 +690,7 @@
         const saved = JSON.parse(raw);
         if (!saved || typeof saved !== `object`) return;
         if (typeof saved.playerName === `string` && saved.playerName.trim()) appState.playerName = saved.playerName.trim();
-        if (typeof saved.packMode === `string` && PACK_MAP[saved.packMode]) appState.packMode = saved.packMode;
+        if (Array.isArray(saved.selectedTopics)) appState.selectedTopics = saved.selectedTopics.map(String);
         if (typeof saved.soundEnabled === `boolean`) appState.soundEnabled = saved.soundEnabled;
         if (Array.isArray(saved.history)) appState.history = saved.history;
         if (Array.isArray(saved.customQuestions)) appState.customQuestions = saved.customQuestions;
@@ -710,9 +747,9 @@
       return copy;
     }
 
-    function buildSmartDeck(mode, useStrictSeedOrder) {
-      const allowedCats = PACK_MAP[mode] || CATEGORIES;
-      const allBank = getAllQuestions().filter(function (q) { return allowedCats.indexOf(q.category) !== -1; });
+    function buildSmartDeck(topicsList, useStrictSeedOrder) {
+      const allowedSet = new Set(topicsList);
+      const allBank = getAllQuestions().filter(function (q) { return allowedSet.has(q.category); });
 
       function sortWarmupAndBalance(pool) {
         const easy = shuffleArray(pool.filter(function (q) { return (q.difficulty || 2) === 1; }));
@@ -746,17 +783,129 @@
       saveStateToStorage();
     }
 
-    function selectPackMode(mode, btn) {
-      appState.packMode = mode;
-      document.querySelectorAll(`#mode-chips .chip`).forEach(function (c) {
-        c.classList.remove(`is-active`);
-        c.setAttribute(`aria-pressed`, `false`);
-      });
-      if (btn) {
-        btn.classList.add(`is-active`);
-        btn.setAttribute(`aria-pressed`, `true`);
+    function toggleTopicSelection(categoryName) {
+      if (appState.isJoinedRoom) return;
+      const idx = appState.selectedTopics.indexOf(categoryName);
+      if (idx !== -1) {
+        appState.selectedTopics.splice(idx, 1);
+      } else {
+        if (appState.selectedTopics.length >= MAX_SELECTED_TOPICS) return;
+        appState.selectedTopics.push(categoryName);
       }
       saveStateToStorage();
+      renderTopicSelector();
+    }
+
+    function pickRandomTopics() {
+      if (appState.isJoinedRoom) return;
+      const allQs = getAllQuestions();
+      const nonEmptyCats = getAvailableCategories().filter(function (cat) {
+        return allQs.some(function (q) { return q.category === cat; });
+      });
+      const pool = nonEmptyCats.length >= MIN_SELECTED_TOPICS ? nonEmptyCats : getAvailableCategories();
+      const copy = pool.slice();
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = copy[i]; copy[i] = copy[j]; copy[j] = tmp;
+      }
+      const targetCount = Math.min(copy.length, MAX_SELECTED_TOPICS);
+      appState.selectedTopics = copy.slice(0, targetCount);
+      saveStateToStorage();
+      renderTopicSelector();
+    }
+
+    function clearSelectedTopics() {
+      if (appState.isJoinedRoom) return;
+      appState.selectedTopics = [];
+      saveStateToStorage();
+      renderTopicSelector();
+    }
+
+    function renderTopicSelector() {
+      const container = document.getElementById(`topic-chips`);
+      const datalistEl = document.getElementById(`qm-category-list`);
+      const labelEl = document.getElementById(`topic-selection-label`);
+      const counterBadge = document.getElementById(`topic-counter-badge`);
+      const hintEl = document.getElementById(`topic-selection-hint`);
+      const startBtn = document.getElementById(`btn-start-game`);
+      const startLabel = document.getElementById(`btn-start-label`);
+      const randomBtn = document.getElementById(`btn-random-topics`);
+      const clearBtn = document.getElementById(`btn-clear-topics`);
+
+      const allQs = getAllQuestions();
+      const availableCats = getAvailableCategories();
+
+      // Geçersiz kalmış eski seçimleri temizle
+      appState.selectedTopics = (appState.selectedTopics || []).filter(function (t) {
+        return availableCats.indexOf(t) !== -1;
+      });
+      if (!appState.isJoinedRoom && appState.selectedTopics.length > MAX_SELECTED_TOPICS) {
+        appState.selectedTopics = appState.selectedTopics.slice(0, MAX_SELECTED_TOPICS);
+      }
+
+      const selectedCount = appState.selectedTopics.length;
+      const effectiveMin = appState.isJoinedRoom ? 1 : Math.min(MIN_SELECTED_TOPICS, availableCats.length);
+      const isValidSelection = selectedCount >= effectiveMin && (appState.isJoinedRoom || selectedCount <= MAX_SELECTED_TOPICS);
+
+      if (labelEl) {
+        labelEl.textContent = MIN_SELECTED_TOPICS === MAX_SELECTED_TOPICS
+          ? `Yarışma Konuları (${MIN_SELECTED_TOPICS} Konu Seçin)`
+          : `Yarışma Konuları (En az ${MIN_SELECTED_TOPICS}, en fazla ${MAX_SELECTED_TOPICS} seçim)`;
+      }
+
+      if (counterBadge) {
+        counterBadge.textContent = `${selectedCount} / ${MAX_SELECTED_TOPICS} Seçili`;
+        counterBadge.className = isValidSelection ? `tag tag--positive` : `tag tag--warning`;
+      }
+
+      if (randomBtn) randomBtn.disabled = appState.isJoinedRoom;
+      if (clearBtn) clearBtn.disabled = appState.isJoinedRoom || selectedCount === 0;
+
+      if (container) {
+        const maxReached = selectedCount >= MAX_SELECTED_TOPICS;
+        container.innerHTML = availableCats.map(function (cat, idx) {
+          const count = allQs.filter(function (q) { return q.category === cat; }).length;
+          const isSelected = appState.selectedTopics.indexOf(cat) !== -1;
+          const isDisabled = appState.isJoinedRoom || (!isSelected && maxReached);
+          const safeAttr = escapeHtml(cat);
+          return `<button type="button" class="chip ${isSelected ? `is-active` : ``}" aria-pressed="${isSelected ? `true` : `false`}" ${isDisabled ? `disabled` : ``} onclick="toggleTopicSelection(this.dataset.cat)" data-cat="${safeAttr}"><span class="cat-dot ${CATEGORY_DOT_CLASSES[idx % 4]}" aria-hidden="true"></span><span>${safeAttr}</span><span class="chip-count">${count}</span></button>`;
+        }).join(``);
+      }
+
+      if (datalistEl) {
+        datalistEl.innerHTML = availableCats.map(function (cat) {
+          return `<option value="${escapeHtml(cat)}">`;
+        }).join(``);
+      }
+
+      if (hintEl) {
+        if (appState.isJoinedRoom) {
+          hintEl.classList.remove(`is-warning`);
+          hintEl.textContent = `Oda kodu ile katıldığın için rakibinin seçtiği konular (${appState.selectedTopics.join(`, `)}) otomatik uygulandı.`;
+        } else if (selectedCount < effectiveMin) {
+          const diff = effectiveMin - selectedCount;
+          hintEl.classList.add(`is-warning`);
+          hintEl.textContent = `Yarışmaya başlamak için ${diff} konu daha seçmelisin (ya da "Rastgele Seç"e tıkla).`;
+        } else if (selectedCount === MAX_SELECTED_TOPICS) {
+          hintEl.classList.remove(`is-warning`);
+          hintEl.textContent = `Maksimum (${MAX_SELECTED_TOPICS}) konuya ulaştın. Farklı bir konu seçmek için seçili olanlardan birini çıkarabilirsin.`;
+        } else {
+          hintEl.classList.remove(`is-warning`);
+          hintEl.textContent = `${selectedCount} konu seçildi (${appState.selectedTopics.join(`, `)}). İstersen 1 konu daha ekleyebilir ya da hemen başlayabilirsin.`;
+        }
+      }
+
+      if (startBtn && startLabel) {
+        startBtn.disabled = !isValidSelection;
+        startLabel.textContent = isValidSelection
+          ? `Yarışmayı Başlat (02:00)`
+          : `En Az ${effectiveMin} Konu Seçin (${selectedCount}/${effectiveMin})`;
+      }
+
+      const bankBadge = document.getElementById(`total-bank-badge`);
+      if (bankBadge) bankBadge.textContent = `${allQs.length} Soru • ${availableCats.length} Konu`;
+      const clearCustomBtn = document.getElementById(`btn-clear-custom`);
+      if (clearCustomBtn) clearCustomBtn.textContent = `Özel Soruları Temizle (${(appState.customQuestions || []).length})`;
     }
 
     function setSoundPref(enabled) {
@@ -764,25 +913,6 @@
       document.getElementById(`sound-on-btn`).setAttribute(`aria-pressed`, enabled ? `true` : `false`);
       document.getElementById(`sound-off-btn`).setAttribute(`aria-pressed`, !enabled ? `true` : `false`);
       saveStateToStorage();
-    }
-
-    function renderCategoryShowcase() {
-      const container = document.getElementById(`category-showcase`);
-      const selectEl = document.getElementById(`qm-category`);
-      const allQs = getAllQuestions();
-      if (container) {
-        container.innerHTML = CATEGORIES.map(function (cat, idx) {
-          const count = allQs.filter(function (q) { return q.category === cat; }).length;
-          return `<span class="cat-pill"><span class="cat-dot ${CATEGORY_DOT_CLASSES[idx % 4]}" aria-hidden="true"></span>${escapeHtml(cat)} (${count})</span>`;
-        }).join(``);
-      }
-      if (selectEl) {
-        selectEl.innerHTML = CATEGORIES.map(function (cat) { return `<option value="${escapeHtml(cat)}">${escapeHtml(cat)}</option>`; }).join(``);
-      }
-      const bankBadge = document.getElementById(`total-bank-badge`);
-      if (bankBadge) bankBadge.textContent = `${allQs.length} Özgün Soru`;
-      const clearBtn = document.getElementById(`btn-clear-custom`);
-      if (clearBtn) clearBtn.textContent = `Özel Soruları Temizle (${(appState.customQuestions || []).length})`;
     }
 
     function renderStartStatsAndBoard() {
@@ -810,7 +940,8 @@
         boardCard.classList.remove(`is-hidden`);
         const sorted = history.slice().sort(function (a, b) { return b.score - a.score; }).slice(0, 8);
         boardBody.innerHTML = sorted.map(function (row, i) {
-          return `<tr><td>${i + 1}</td><td>${escapeHtml(row.playerName)}</td><td>${escapeHtml(PACK_LABELS[row.packMode] || `Tümü`)}</td><td><span class="tag tag--room" style="padding:2px 8px;font-size:0.72rem;">${escapeHtml(row.roomCode || `-`)}</span></td><td class="num-col">${row.score.toLocaleString(`tr-TR`)}</td><td class="num-col">${row.correct}/${row.total}</td><td class="num-col">%${row.accuracy}</td></tr>`;
+          const topicsSummary = Array.isArray(row.topics) && row.topics.length > 0 ? row.topics.join(`, `) : `Karma`;
+          return `<tr><td>${i + 1}</td><td>${escapeHtml(row.playerName)}</td><td style="max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${escapeHtml(topicsSummary)}">${escapeHtml(topicsSummary)}</td><td><span class="tag tag--room" style="padding:2px 8px;font-size:0.72rem;">${escapeHtml(row.roomCode || `-`)}</span></td><td class="num-col">${row.score.toLocaleString(`tr-TR`)}</td><td class="num-col">${row.correct}/${row.total}</td><td class="num-col">%${row.accuracy}</td></tr>`;
         }).join(``);
       }
     }
@@ -838,7 +969,7 @@
     }
 
     function addSingleCustomQuestion() {
-      const cat = document.getElementById(`qm-category`).value;
+      const cat = document.getElementById(`qm-category`).value.trim();
       const diff = Number(document.getElementById(`qm-difficulty`).value) || 2;
       const qText = document.getElementById(`qm-question`).value.trim();
       const ans = document.getElementById(`qm-answer`).value.trim();
@@ -846,22 +977,23 @@
       const w2 = document.getElementById(`qm-w2`).value.trim();
       const w3 = document.getElementById(`qm-w3`).value.trim();
       const note = document.getElementById(`qm-note`).value.trim();
-      if (!qText || !ans || !w1 || !w2 || !w3) {
-        showQmFeedback(`Lütfen soru metnini, doğru cevabı ve 3 yanlış şıkkı eksiksiz doldurun.`, true);
+      if (!cat || !qText || !ans || !w1 || !w2 || !w3) {
+        showQmFeedback(`Lütfen konu adını, soru metnini, doğru cevabı ve 3 yanlış şıkkı eksiksiz doldurun.`, true);
         return;
       }
       appState.customQuestions.push({
         id: `custom_` + Date.now() + `_` + Math.floor(Math.random() * 1000),
-        category: CATEGORIES.indexOf(cat) !== -1 ? cat : `Genel Kültür`,
+        category: cat,
         difficulty: diff, question: qText, answer: ans, options: [ans, w1, w2, w3], note: note || `Doğru yanıt: ${ans}.`
       });
-      saveStateToStorage(); renderCategoryShowcase(); renderStartStatsAndBoard();
+      saveStateToStorage(); renderTopicSelector(); renderStartStatsAndBoard();
       [`qm-question`, `qm-answer`, `qm-w1`, `qm-w2`, `qm-w3`, `qm-note`].forEach(function (id) { document.getElementById(id).value = ``; });
-      showQmFeedback(`"${qText.slice(0, 45)}..." sorusu havuza eklendi!`, false);
+      showQmFeedback(`"${qText.slice(0, 45)}..." sorusu "${cat}" konusuna eklendi!`, false);
     }
 
     function copyAiPromptTemplate() {
-      const promptText = `Bana "Ortak Akıl" genel kültür yarışması için Türkçe 15 adet özgün çoktan seçmeli soru üret.\nKurallar:\n1. Çıktıyı SADECE geçerli bir JSON dizisi olarak ver, başka açıklama yazma.\n2. Kategoriler şunlardan seçilmeli: "Spor", "Ekonomi", "Tarih", "Edebiyat", "Coğrafya", "Ülkeler", "Şehirler", "Bilim İnsanları", "Bilim", "Popüler Kültür", "Genel Kültür".\n3. Doğru cevabı parantez içinde açıklama yazarak belli etme, şıkların uzunlukları dengeli olsun.\n4. Format:\n[{"category":"Bilim","difficulty":2,"question":"Soru?","answer":"Doğru","options":["Doğru","Yanlış 1","Yanlış 2","Yanlış 3"],"note":"Kısa bilgi notu."}]`;
+      const currentCats = getAvailableCategories().map(function (c) { return `"${c}"`; }).join(`, `);
+      const promptText = `Bana "Ortak Akıl" genel kültür yarışması için Türkçe 15 adet özgün çoktan seçmeli soru üret.\nKurallar:\n1. Çıktıyı SADECE geçerli bir JSON dizisi olarak ver, başka açıklama yazma.\n2. Mevcut konular: ${currentCats} (veya istediğin yeni bir konu başlığı kullanabilirsin).\n3. Doğru cevabı parantez içinde açıklama yazarak belli etme, şıkların uzunlukları dengeli olsun.\n4. Format:\n[{"category":"Bilim Kurgu","difficulty":2,"question":"Soru?","answer":"Doğru","options":["Doğru","Yanlış 1","Yanlış 2","Yanlış 3"],"note":"Kısa bilgi notu."}]`;
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(promptText).then(function () { showQmFeedback(`Yapay zekâ soru üretme komutu panoya kopyalandı!`, false); });
       }
@@ -880,10 +1012,11 @@
           if (!item || typeof item.question !== `string` || typeof item.answer !== `string` || !Array.isArray(item.options) || item.options.length < 2) return;
           const cleanOptions = item.options.map(function (o) { return String(o).trim(); }).filter(Boolean);
           const cleanAnswer = item.answer.trim();
+          const cleanCat = typeof item.category === `string` && item.category.trim() ? item.category.trim() : `Genel Kültür`;
           if (cleanOptions.indexOf(cleanAnswer) === -1) cleanOptions[0] = cleanAnswer;
           appState.customQuestions.push({
             id: `imp_` + Date.now() + `_` + idx,
-            category: CATEGORIES.indexOf(item.category) !== -1 ? item.category : `Genel Kültür`,
+            category: cleanCat,
             difficulty: [1, 2, 3].indexOf(Number(item.difficulty)) !== -1 ? Number(item.difficulty) : 2,
             question: item.question.trim(), answer: cleanAnswer, options: cleanOptions.slice(0, 4),
             note: typeof item.note === `string` && item.note.trim() ? item.note.trim() : `Doğru yanıt: ${cleanAnswer}.`
@@ -891,7 +1024,7 @@
           addedCount += 1;
         });
         if (addedCount === 0) { showQmFeedback(`Geçerli soru yapısı bulunamadı.`, true); return; }
-        saveStateToStorage(); renderCategoryShowcase(); renderStartStatsAndBoard(); area.value = ``;
+        saveStateToStorage(); renderTopicSelector(); renderStartStatsAndBoard(); area.value = ``;
         showQmFeedback(`Harika! ${addedCount} yeni soru başarıyla havuza eklendi.`, false);
       } catch (err) { showQmFeedback(`JSON sözdizimi hatası.`, true); }
     }
@@ -910,7 +1043,7 @@
         return;
       }
       btn.dataset.armed = `false`; btn.classList.remove(`btn-danger-arm`);
-      appState.customQuestions = []; saveStateToStorage(); renderCategoryShowcase(); renderStartStatsAndBoard();
+      appState.customQuestions = []; saveStateToStorage(); renderTopicSelector(); renderStartStatsAndBoard();
       showQmFeedback(`Tüm özel eklenen sorular temizlendi.`, false);
     }
 
@@ -924,12 +1057,13 @@
     function showStartScreen() {
       stopTimers();
       appState.gameActive = false;
+      appState.isJoinedRoom = false;
       const roomInput = document.getElementById(`room-code-input`);
       if (roomInput) {
         roomInput.value = ``;
         handleRoomCodeInput(``);
       }
-      renderCategoryShowcase();
+      renderTopicSelector();
       renderStartStatsAndBoard();
       switchScreen(`screen-start`);
     }
@@ -940,6 +1074,9 @@
     }
 
     function startGame() {
+      const effectiveMin = appState.isJoinedRoom ? 1 : Math.min(MIN_SELECTED_TOPICS, getAvailableCategories().length);
+      if (appState.selectedTopics.length < effectiveMin) return;
+
       stopTimers();
       const nameInput = document.getElementById(`player-name-input`);
       if (nameInput && nameInput.value.trim()) appState.playerName = nameInput.value.trim();
@@ -950,17 +1087,21 @@
       if (parsedRoom) {
         appState.isJoinedRoom = true;
         appState.activeRoomCode = parsedRoom.formatted;
-        if (parsedRoom.packMode) appState.packMode = parsedRoom.packMode;
+        if (parsedRoom.topics && parsedRoom.topics.length > 0) {
+          appState.selectedTopics = parsedRoom.topics.slice();
+        }
       } else {
         appState.isJoinedRoom = false;
-        appState.activeRoomCode = generateRoomCode(appState.packMode);
+        appState.activeRoomCode = generateRoomCode(appState.selectedTopics);
       }
 
-      appState.rngFn = createSeededRng(`${appState.activeRoomCode}::${appState.packMode}`);
+      appState.activeTopicsSnapshot = appState.selectedTopics.slice();
+      const sortedTopicsKey = appState.activeTopicsSnapshot.slice().sort().join(`|`);
+      appState.rngFn = createSeededRng(`${appState.activeRoomCode}::${sortedTopicsKey}`);
 
       appState.gameActive = true; appState.timerPaused = false; appState.manualPaused = false;
       appState.remainingSeconds = GAME_DURATION_SECONDS;
-      appState.deck = buildSmartDeck(appState.packMode, appState.isJoinedRoom);
+      appState.deck = buildSmartDeck(appState.activeTopicsSnapshot, appState.isJoinedRoom);
       appState.deckCursor = 0; appState.score = 0; appState.basePointsEarned = 0; appState.bonusPointsEarned = 0;
       appState.streak = 0; appState.maxStreak = 0; appState.correctCount = 0; appState.wrongCount = 0;
       appState.passCount = 0; appState.passesLeft = 1; appState.totalResponseMs = 0; appState.answeredQuestionsCount = 0;
@@ -1042,8 +1183,12 @@
       if (appState.autoAdvanceId) { clearTimeout(appState.autoAdvanceId); appState.autoAdvanceId = null; }
       appState.timerPaused = false;
       if (appState.deckCursor >= appState.deck.length) {
-        appState.deck = buildSmartDeck(appState.packMode, appState.isJoinedRoom);
+        appState.deck = buildSmartDeck(appState.activeTopicsSnapshot, appState.isJoinedRoom);
         appState.deckCursor = 0;
+      }
+      if (appState.deck.length === 0) {
+        finishGame(`Seçilen Konularda Soru Kalmadı`);
+        return;
       }
       const rawQ = appState.deck[appState.deckCursor++];
       markQuestionAsSeen(rawQ.id);
@@ -1186,7 +1331,7 @@
     function getRankDetails(score, accuracy) {
       if (score >= 1100) return { title: `Ortak Akıl Efsanesi`, desc: `Müthiş bir tempo ve yüksek isabet! 2 dakikada genel kültür sınırlarını zorladın.` };
       if (score >= 700) return { title: `Genel Kültür Şampiyonu`, desc: `Hızlı reflekslerin ve güçlü bilgi birikiminle büyük ödüle göz kırptın.` };
-      if (score >= 500 || accuracy >= 65) return { title: `Pratik Zekâ Ustası`, desc: `Farklı kategorilerde dengeli bir performans sergiledin. Birkaç hızlı yanıtla rekor kırabilirsin!` };
+      if (score >= 500 || accuracy >= 65) return { title: `Pratik Zekâ Ustası`, desc: `Seçtiğin konularda dengeli bir performans sergiledin. Birkaç hızlı yanıtla rekor kırabilirsin!` };
       return { title: `Meraklı Kâşif`, desc: `Yeni bilgiler öğrenerek ısınma turunu tamamladın. Bir sonraki 2 dakikada skorun katlanacak!` };
     }
 
@@ -1202,7 +1347,7 @@
       const isNewRecord = appState.score > 0 && appState.score > prevBest;
 
       appState.history.unshift({
-        id: appState.currentRunId, playerName: appState.playerName, packMode: appState.packMode,
+        id: appState.currentRunId, playerName: appState.playerName, topics: appState.activeTopicsSnapshot.slice(),
         roomCode: appState.activeRoomCode, score: appState.score, correct: appState.correctCount,
         wrong: appState.wrongCount, pass: appState.passCount, total: appState.runLog.length,
         accuracy: accuracy, maxStreak: appState.maxStreak, avgSec: avgSec
@@ -1235,8 +1380,9 @@
 
     function copyRoomChallenge(withMessage) {
       const code = appState.activeRoomCode;
+      const topicsListStr = appState.activeTopicsSnapshot.join(`, `);
       const text = withMessage
-        ? `Ortak Akıl Bilgi Yarışması'nda ${appState.score.toLocaleString(`tr-TR`)} puan yaptım! Aynı sorularla yarışmak için Oda Kodum: ${code} • maviblue.win`
+        ? `Ortak Akıl Bilgi Yarışması'nda (${topicsListStr}) ${appState.score.toLocaleString(`tr-TR`)} puan yaptım! Aynı sorularla yarışmak için Oda Kodum: ${code} • maviblue.win`
         : code;
       const btn = document.getElementById(withMessage ? `btn-copy-invite` : `btn-copy-room`);
       const previewBox = document.getElementById(`room-preview-box`);
@@ -1321,7 +1467,7 @@
     }
 
     function exportResultsCsv() {
-      const header = `Oda Kodu,Kategori,Soru,Verilen Cevap,Dogru Cevap,Durum,Puan,Sure (sn)\n`;
+      const header = `Oda Kodu,Konu,Soru,Verilen Cevap,Dogru Cevap,Durum,Puan,Sure (sn)\n`;
       const rows = appState.runLog.map(function (item) {
         return [appState.activeRoomCode, item.category, item.question, item.chosen, item.answer, item.status, String(item.points), String(item.elapsedSec)]
           .map(function (v) { return `"${String(v).replace(/"/g, `""`)}"`; }).join(`,`);
@@ -1345,9 +1491,12 @@
       await loadExternalQuestionBank();
       const nameInput = document.getElementById(`player-name-input`);
       if (nameInput) nameInput.value = appState.playerName;
-      selectPackMode(appState.packMode, document.querySelector(`#mode-chips .chip[data-mode="${appState.packMode}"]`));
+      if (!appState.selectedTopics || appState.selectedTopics.length === 0) {
+        pickRandomTopics();
+      } else {
+        renderTopicSelector();
+      }
       setSoundPref(appState.soundEnabled);
-      renderCategoryShowcase();
       renderStartStatsAndBoard();
     }
 
