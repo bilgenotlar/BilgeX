@@ -87,6 +87,8 @@
     .room-code-input { font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; background-color: #f0f9ff; border-color: var(--maviblue-border); color: var(--maviblue-ink); }
     .room-code-input:focus { border-color: var(--maviblue-accent); box-shadow: 0 0 0 3px rgb(2 132 199 / 0.2); }
     .room-banner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm); padding: var(--space-sm) var(--space-md); border-radius: var(--rounded); background-color: var(--maviblue-bg); border: 1.5px solid var(--maviblue-border); color: var(--maviblue-ink); font-size: 0.9rem; }
+    .room-preview-box { flex-basis: 100%; margin-top: var(--space-xs); padding: var(--space-sm) var(--space-md); border-radius: var(--rounded); background-color: #ffffff; border: 1.5px dashed var(--maviblue-border); color: var(--on-surface); font-size: 0.88rem; line-height: 1.45; user-select: all; animation: fadeUpIn var(--dur-short) var(--ease-out) both; }
+    .room-preview-label { display: block; font-size: var(--label-size); font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--maviblue-accent); margin-bottom: 2px; user-select: none; }
     .chip-row { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
     .chip { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 42px; padding: var(--space-xs) var(--space-md); border-radius: var(--rounded-full); border: 2px solid var(--outline-variant); background-color: var(--surface-container-low); color: var(--on-surface); font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: transform var(--dur-short) var(--ease-bounce), background-color var(--dur-micro) var(--ease-out), border-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out); }
     .chip:hover:not(:disabled) { transform: var(--pop-scale); border-color: var(--primary); }
@@ -207,7 +209,7 @@
           </a>
           <span class="badge">
             <svg class="icon-svg icon-svg--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
-            3 Dakika Modu • Pratik Genel Kültür
+            2 Dakika Modu • Pratik Genel Kültür
           </span>
         </div>
         <h1 class="display">Ortak <em>Akıl</em> Bilgi Yarışması</h1>
@@ -419,6 +421,10 @@
               <div class="hud-actions">
                 <button type="button" class="btn btn-maviblue btn-sm" id="btn-copy-room" onclick="copyRoomChallenge(false)">Kodu Kopyala</button>
                 <button type="button" class="btn btn-soft btn-sm" id="btn-copy-invite" onclick="copyRoomChallenge(true)">Meydan Okuma Metni</button>
+              </div>
+              <div class="room-preview-box is-hidden" id="room-preview-box">
+                <span class="room-preview-label" id="room-preview-label">Panoya Kopyalanan Metin:</span>
+                <span id="room-preview-text"></span>
               </div>
             </div>
 
@@ -1210,6 +1216,7 @@
       document.getElementById(`res-rank-title`).textContent = rank.title;
       document.getElementById(`res-rank-desc`).textContent = rank.desc;
       document.getElementById(`res-room-code`).textContent = appState.activeRoomCode;
+      document.getElementById(`room-preview-box`).classList.add(`is-hidden`);
       document.getElementById(`res-player-label`).textContent = `${appState.playerName} • Final Puanı`;
       document.getElementById(`res-final-score`).textContent = appState.score.toLocaleString(`tr-TR`);
       document.getElementById(`res-bonus-breakdown`).textContent = `${appState.basePointsEarned} temel + ${appState.bonusPointsEarned} seri ve hız bonusu`;
@@ -1229,9 +1236,19 @@
     function copyRoomChallenge(withMessage) {
       const code = appState.activeRoomCode;
       const text = withMessage
-        ? `Ortak Akıl Bilgi Yarışması'nda ${appState.score.toLocaleString(`tr-TR`)} puan yaptım! Aynı sorularla yarışmak için Oda Kodum: ${code}`
+        ? `Ortak Akıl Bilgi Yarışması'nda ${appState.score.toLocaleString(`tr-TR`)} puan yaptım! Aynı sorularla yarışmak için Oda Kodum: ${code} • maviblue.win`
         : code;
       const btn = document.getElementById(withMessage ? `btn-copy-invite` : `btn-copy-room`);
+      const previewBox = document.getElementById(`room-preview-box`);
+      const previewText = document.getElementById(`room-preview-text`);
+      const previewLabel = document.getElementById(`room-preview-label`);
+
+      if (previewBox && previewText && previewLabel) {
+        previewLabel.textContent = withMessage ? `Panoya Kopyalanan Meydan Okuma Metni:` : `Panoya Kopyalanan Oda Kodu:`;
+        previewText.textContent = text;
+        previewBox.classList.remove(`is-hidden`);
+      }
+
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(function () {
           if (btn) {
