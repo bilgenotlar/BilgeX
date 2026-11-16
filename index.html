@@ -92,9 +92,8 @@
     .chip:hover:not(:disabled) { transform: var(--pop-scale); border-color: var(--primary); }
     .chip:disabled { opacity: 0.55; cursor: not-allowed; }
     .chip[aria-pressed="true"], .chip.is-active { background-color: var(--primary); border-color: var(--primary); color: var(--on-primary); box-shadow: var(--shadow-pink); }
-    .segmented-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: var(--space-md); }
-    .segmented { display: inline-grid; grid-template-columns: 1fr 1fr; background-color: var(--surface-container-high); padding: var(--space-xs); border-radius: var(--rounded-full); gap: var(--space-xs); }
-    .seg-btn { min-height: 38px; padding: var(--space-xs) var(--space-sm); border-radius: var(--rounded-full); border: none; background-color: transparent; color: var(--on-surface-variant); font-weight: 700; font-size: 0.84rem; cursor: pointer; transition: background-color var(--dur-short) var(--ease-in-out), color var(--dur-short) var(--ease-in-out), box-shadow var(--dur-short) var(--ease-in-out); }
+    .segmented { display: inline-grid; grid-template-columns: 1fr 1fr; max-width: 280px; background-color: var(--surface-container-high); padding: var(--space-xs); border-radius: var(--rounded-full); gap: var(--space-xs); }
+    .seg-btn { min-height: 38px; padding: var(--space-xs) var(--space-md); border-radius: var(--rounded-full); border: none; background-color: transparent; color: var(--on-surface-variant); font-weight: 700; font-size: 0.85rem; cursor: pointer; transition: background-color var(--dur-short) var(--ease-in-out), color var(--dur-short) var(--ease-in-out), box-shadow var(--dur-short) var(--ease-in-out); }
     .seg-btn[aria-pressed="true"] { background-color: var(--surface-container-low); color: var(--primary); box-shadow: var(--shadow-pink); }
     .field-hint { font-size: 0.8rem; color: var(--on-surface-variant); line-height: 1.4; }
     .screen { display: grid; gap: var(--space-lg); animation: fadeUpIn var(--dur-long) var(--ease-out) both; }
@@ -131,6 +130,7 @@
     .hud-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-sm); }
     .hud-actions .btn { min-height: 42px; padding: var(--space-xs) var(--space-md); font-size: 0.875rem; }
     .question-card { position: relative; background-color: var(--surface-container-low); border-radius: var(--rounded-lg); box-shadow: var(--shadow-pink-deep); padding: var(--space-xl); display: grid; gap: var(--space-lg); overflow: hidden; }
+    .question-card.is-ready-next { cursor: pointer; }
     .question-card.anim-correct { box-shadow: var(--shadow-positive); }
     .question-card.anim-wrong { box-shadow: var(--shadow-error); animation: cardShake 360ms var(--ease-out); }
     .question-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm); }
@@ -158,7 +158,7 @@
     .feedback-panel.is-pass { background-color: var(--warning-soft); border-left-color: var(--warning); }
     .feedback-title { font-weight: 800; font-size: var(--subhead-size); margin-bottom: var(--space-xs); }
     .feedback-note { margin: 0; font-size: 0.9375rem; color: var(--on-surface); }
-    .auto-next-bar { position: absolute; bottom: 0; left: 0; height: 4px; width: 100%; background-color: var(--primary); transform-origin: left center; }
+    .auto-next-bar { position: absolute; bottom: 0; left: 0; height: 5px; width: 100%; background-color: var(--primary); transform-origin: left center; }
     @keyframes shrinkBar { from { transform: scaleX(1); } to { transform: scaleX(0); } }
     .results-hero { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: var(--space-lg); align-items: center; }
     .final-score-box { background-color: var(--surface-container); border-radius: var(--rounded-lg); padding: var(--space-lg); display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-sm); }
@@ -246,29 +246,13 @@
             </div>
           </div>
 
-          <div class="segmented-row">
-            <div class="field-group">
-              <span class="field-label">Ses Efektleri</span>
-              <div class="segmented" role="group" aria-label="Ses Efektleri">
-                <button type="button" id="sound-on-btn" class="seg-btn" aria-pressed="true" onclick="setSoundPref(true)">Açık</button>
-                <button type="button" id="sound-off-btn" class="seg-btn" aria-pressed="false" onclick="setSoundPref(false)">Kapalı</button>
-              </div>
+          <div class="field-group">
+            <span class="field-label">Ses Efektleri</span>
+            <div class="segmented" role="group" aria-label="Ses Efektleri">
+              <button type="button" id="sound-on-btn" class="seg-btn" aria-pressed="true" onclick="setSoundPref(true)">Açık</button>
+              <button type="button" id="sound-off-btn" class="seg-btn" aria-pressed="false" onclick="setSoundPref(false)">Kapalı</button>
             </div>
-            <div class="field-group">
-              <span class="field-label">Soru Geçiş Modu</span>
-              <div class="segmented" role="group" aria-label="Soru Geçiş Modu">
-                <button type="button" id="auto-on-btn" class="seg-btn" aria-pressed="true" onclick="setAutoAdvancePref(true)">Otomatik (2.5 sn)</button>
-                <button type="button" id="auto-off-btn" class="seg-btn" aria-pressed="false" onclick="setAutoAdvancePref(false)">Manuel (Not Oku)</button>
-              </div>
-            </div>
-            <div class="field-group">
-              <span class="field-label">Cevap Sonrası Sayaç</span>
-              <div class="segmented" role="group" aria-label="Cevap Sonrası Sayaç">
-                <button type="button" id="pause-on-btn" class="seg-btn" aria-pressed="true" onclick="setPauseOnReviewPref(true)">Duraklat (Adil)</button>
-                <button type="button" id="pause-off-btn" class="seg-btn" aria-pressed="false" onclick="setPauseOnReviewPref(false)">Akmaya Devam</button>
-              </div>
-              <span class="field-hint">Arkadaşlarla tartışarak oynarken "Duraklat" ve "Manuel" seçmek keyfi artırır.</span>
-            </div>
+            <span class="field-hint">Cevap sonrası 3 saniyelik bilgi barı akar; beklemeden geçmek için karta veya "Sonraki Soru"ya tıklayabilirsin.</span>
           </div>
 
           <div class="hud-actions" style="margin-top: var(--space-xs);">
@@ -294,7 +278,7 @@
               <div class="mini-stat"><span class="label-kicker">Görülen Soru</span><span class="tabular-figure mini-stat-val" id="start-seen-count">0 / 0</span></div>
             </div>
             <div class="hud-actions" style="justify-content: space-between;">
-              <span class="field-hint" id="start-history-note">Sorduğumuz soruları hatırlarız; yeni turlarda önce görmediğin sorular gelir.</span>
+              <span class="field-hint" id="start-history-note">Sorduğumuz soruları hatırlarız; tekli turlarda önce görmediğin sorular gelir.</span>
               <button type="button" class="btn btn-quiet btn-sm" onclick="resetSeenQuestions()">Hafızayı Sıfırla</button>
             </div>
           </div>
@@ -397,7 +381,7 @@
         </div>
       </div>
 
-      <article class="question-card" id="question-card">
+      <article class="question-card" id="question-card" onclick="handleQuestionCardClick(event)">
         <div class="fx-layer" id="fx-layer" aria-hidden="true"></div>
         <div class="question-meta">
           <div class="question-meta-left">
@@ -406,7 +390,7 @@
             <span class="tag tag--filled" id="q-bonus-tag">+100 Puan</span>
             <span class="tag tag--room" id="hud-room-badge" title="Bu oda kodunu arkadaşınla paylaşarak aynı sorularla yarışabilirsin">Oda: MASMAVİ-322</span>
           </div>
-          <span class="label-kicker">Kısayol: 1–4 / A–D • Pas: P • Geç: Enter</span>
+          <span class="label-kicker">Kısayol: 1–4 / A–D • Pas: P • Hızlı Geç: Enter / Tıkla</span>
         </div>
         <h2 class="question-text" id="q-text">Soru yükleniyor…</h2>
         <div class="options-grid" id="options-grid"></div>
@@ -502,7 +486,7 @@
     const BASE_POINTS = 100;
     const SPEED_BONUS_POINTS = 25;
     const SPEED_BONUS_WINDOW_MS = 5000;
-    const AUTO_ADVANCE_DELAY_MS = 2500;
+    const AUTO_ADVANCE_DELAY_MS = 3000;
 
     const CATEGORIES = [`Spor`, `Ekonomi`, `Tarih`, `Edebiyat`, `Coğrafya`, `Ülkeler`, `Şehirler`, `Bilim İnsanları`, `Bilim`, `Popüler Kültür`, `Genel Kültür`];
     const PACK_MAP = {
@@ -514,7 +498,6 @@
     const PACK_LABELS = { all: `Tüm Kategoriler`, culture: `Tarih & Edebiyat`, science: `Bilim & Coğrafya`, life: `Spor, Ekonomi & Pop` };
     const DIFFICULTY_LABELS = { 1: `Kolay`, 2: `Orta`, 3: `Zor` };
 
-    // Söylenebilir Oda Kodu Kelime Havuzu (Kelime paketi otomatik belirler)
     const ROOM_WORDS_BY_PACK = {
       all: [`MASMAVİ`, `ANKARA`, `İSTANBUL`, `KAPADOKYA`, `EFES`, `BOĞAZİÇİ`, `TRUVA`, `PAMUKKALE`, `OLYMPOS`, `ASPENDOS`, `GALATA`, `AKDENİZ`],
       culture: [`DESTAN`, `OSMANLI`, `MİRAS`, `ROMAN`, `ŞİİR`, `TARİH`, `KÜLTÜR`, `KİTAP`],
@@ -532,7 +515,7 @@
     const CATEGORY_DOT_CLASSES = [``, `cat-dot--2`, `cat-dot--3`, `cat-dot--4`];
 
     const appState = {
-      playerName: `Yarışmacı`, packMode: `all`, soundEnabled: true, autoAdvance: true, pauseOnReview: true,
+      playerName: `Yarışmacı`, packMode: `all`, soundEnabled: true,
       history: [], customQuestions: [], seenQuestionIds: [],
       gameActive: false, timerPaused: false, manualPaused: false, timerId: null, autoAdvanceId: null,
       remainingSeconds: GAME_DURATION_SECONDS, deck: [], deckCursor: 0, currentQuestion: null,
@@ -542,7 +525,6 @@
       activeRoomCode: ``, isJoinedRoom: false, pendingRoomInput: ``, rngFn: Math.random
     };
 
-    // Deterministik Tohumlu Rastgele Sayı Üreteci (Aynı kod = aynı soru ve şık sırası)
     function stringToSeed(str) {
       let h = 2166136261 >>> 0;
       for (let i = 0; i < str.length; i++) {
@@ -579,22 +561,18 @@
     function parseRoomCode(rawInput) {
       const clean = normalizeTrUpper(rawInput).replace(/\s+/g, ``);
       if (!clean) return null;
-      // MASMAVİ-322, MASMAVİ322 veya herhangi bir KELİME-SAYI formatını destekler
       const match = clean.match(/^([A-ZÇĞİÖŞÜ]{3,14})-?(\d{2,4})$/);
       if (!match) return null;
       const word = match[1];
       const num = match[2];
       const detectedPack = detectPackFromWord(word);
-      return {
-        formatted: `${word}-${num}`,
-        packMode: detectedPack
-      };
+      return { formatted: `${word}-${num}`, packMode: detectedPack };
     }
 
     function generateRoomCode(packMode) {
       const words = ROOM_WORDS_BY_PACK[packMode] || ROOM_WORDS_BY_PACK.all;
       const word = words[Math.floor(Math.random() * words.length)];
-      const num = Math.floor(100 + Math.random() * 900); // 100 - 999 arası 3 basamaklı sayı
+      const num = Math.floor(100 + Math.random() * 900);
       return `${word}-${num}`;
     }
 
@@ -656,7 +634,6 @@
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify({
           playerName: appState.playerName, packMode: appState.packMode, soundEnabled: appState.soundEnabled,
-          autoAdvance: appState.autoAdvance, pauseOnReview: appState.pauseOnReview,
           history: (appState.history || []).slice(0, 25), customQuestions: appState.customQuestions || [],
           seenQuestionIds: (appState.seenQuestionIds || []).slice(-300)
         }));
@@ -672,8 +649,6 @@
         if (typeof saved.playerName === `string` && saved.playerName.trim()) appState.playerName = saved.playerName.trim();
         if (typeof saved.packMode === `string` && PACK_MAP[saved.packMode]) appState.packMode = saved.packMode;
         if (typeof saved.soundEnabled === `boolean`) appState.soundEnabled = saved.soundEnabled;
-        if (typeof saved.autoAdvance === `boolean`) appState.autoAdvance = saved.autoAdvance;
-        if (typeof saved.pauseOnReview === `boolean`) appState.pauseOnReview = saved.pauseOnReview;
         if (Array.isArray(saved.history)) appState.history = saved.history;
         if (Array.isArray(saved.customQuestions)) appState.customQuestions = saved.customQuestions;
         if (Array.isArray(saved.seenQuestionIds)) appState.seenQuestionIds = saved.seenQuestionIds;
@@ -740,10 +715,7 @@
         return easy.slice(0, 4).concat(shuffleArray(easy.slice(4).concat(medium, hard)));
       }
 
-      // Oda koduyla oynanırken her iki oyuncuda da birebir aynı sıra oluşması için görülenler atlanmaz
-      if (useStrictSeedOrder) {
-        return sortWarmupAndBalance(allBank);
-      }
+      if (useStrictSeedOrder) return sortWarmupAndBalance(allBank);
 
       const seenSet = new Set(appState.seenQuestionIds || []);
       const unseen = allBank.filter(function (q) { return !seenSet.has(q.id); });
@@ -785,20 +757,6 @@
       appState.soundEnabled = Boolean(enabled);
       document.getElementById(`sound-on-btn`).setAttribute(`aria-pressed`, enabled ? `true` : `false`);
       document.getElementById(`sound-off-btn`).setAttribute(`aria-pressed`, !enabled ? `true` : `false`);
-      saveStateToStorage();
-    }
-
-    function setAutoAdvancePref(enabled) {
-      appState.autoAdvance = Boolean(enabled);
-      document.getElementById(`auto-on-btn`).setAttribute(`aria-pressed`, enabled ? `true` : `false`);
-      document.getElementById(`auto-off-btn`).setAttribute(`aria-pressed`, !enabled ? `true` : `false`);
-      saveStateToStorage();
-    }
-
-    function setPauseOnReviewPref(enabled) {
-      appState.pauseOnReview = Boolean(enabled);
-      document.getElementById(`pause-on-btn`).setAttribute(`aria-pressed`, enabled ? `true` : `false`);
-      document.getElementById(`pause-off-btn`).setAttribute(`aria-pressed`, !enabled ? `true` : `false`);
       saveStateToStorage();
     }
 
@@ -992,12 +950,11 @@
         appState.activeRoomCode = generateRoomCode(appState.packMode);
       }
 
-      // Oda kodundan deterministik RNG oluştur (Her iki oyuncuya aynı sıra garantisi)
       appState.rngFn = createSeededRng(`${appState.activeRoomCode}::${appState.packMode}`);
 
       appState.gameActive = true; appState.timerPaused = false; appState.manualPaused = false;
       appState.remainingSeconds = GAME_DURATION_SECONDS;
-      appState.deck = buildSmartDeck(appState.packMode, true);
+      appState.deck = buildSmartDeck(appState.packMode, appState.isJoinedRoom);
       appState.deckCursor = 0; appState.score = 0; appState.basePointsEarned = 0; appState.bonusPointsEarned = 0;
       appState.streak = 0; appState.maxStreak = 0; appState.correctCount = 0; appState.wrongCount = 0;
       appState.passCount = 0; appState.passesLeft = 1; appState.totalResponseMs = 0; appState.answeredQuestionsCount = 0;
@@ -1038,7 +995,7 @@
       const labelEl = document.getElementById(`hud-timer-label`);
       const pct = Math.max(0, (appState.remainingSeconds / GAME_DURATION_SECONDS) * 100);
       const isPaused = appState.timerPaused || appState.manualPaused;
-      if (labelEl) labelEl.textContent = isPaused ? `Süre Duraklatıldı` : `Kalan Süre`;
+      if (labelEl) labelEl.textContent = appState.manualPaused ? `Oyun Duraklatıldı` : (appState.timerPaused ? `Geçiş Bekleniyor` : `Kalan Süre`);
       if (timerEl) {
         timerEl.textContent = formatClock(appState.remainingSeconds);
         timerEl.classList.remove(`is-warning`, `is-danger`, `is-paused`);
@@ -1079,7 +1036,7 @@
       if (appState.autoAdvanceId) { clearTimeout(appState.autoAdvanceId); appState.autoAdvanceId = null; }
       appState.timerPaused = false;
       if (appState.deckCursor >= appState.deck.length) {
-        appState.deck = buildSmartDeck(appState.packMode, true);
+        appState.deck = buildSmartDeck(appState.packMode, appState.isJoinedRoom);
         appState.deckCursor = 0;
       }
       const rawQ = appState.deck[appState.deckCursor++];
@@ -1089,7 +1046,8 @@
       appState.questionAnswered = false;
       appState.questionStartTime = Date.now();
 
-      document.getElementById(`question-card`).classList.remove(`anim-correct`, `anim-wrong`);
+      const qCard = document.getElementById(`question-card`);
+      qCard.classList.remove(`anim-correct`, `anim-wrong`, `is-ready-next`);
       document.getElementById(`fx-layer`).innerHTML = ``;
       document.getElementById(`q-category-tag`).textContent = rawQ.category;
       document.getElementById(`q-difficulty-tag`).textContent = DIFFICULTY_LABELS[rawQ.difficulty || 2] || `Orta`;
@@ -1103,6 +1061,12 @@
         return `<button type="button" class="option-btn" data-index="${idx}" onclick="submitAnswer(${idx})"><span class="option-letter">${letters[idx]}</span><span class="option-text">${escapeHtml(opt)}</span></button>`;
       }).join(``);
       updateHud();
+    }
+
+    function handleQuestionCardClick(event) {
+      if (!appState.gameActive || !appState.questionAnswered) return;
+      if (event.target && event.target.closest(`button, a`)) return;
+      advanceToNextQuestion();
     }
 
     function showScoreDelta(text) {
@@ -1121,15 +1085,16 @@
 
     function triggerAutoAdvanceBar(durationMs) {
       const bar = document.getElementById(`auto-next-bar`);
-      if (!appState.autoAdvance) { bar.classList.add(`is-hidden`); return; }
-      bar.classList.remove(`is-hidden`); bar.style.animation = `none`; void bar.offsetWidth;
+      bar.classList.remove(`is-hidden`);
+      bar.style.animation = `none`;
+      void bar.offsetWidth;
       bar.style.animation = `shrinkBar ${durationMs}ms linear forwards`;
     }
 
     function submitAnswer(optionIdx) {
       if (!appState.gameActive || appState.questionAnswered || !appState.currentQuestion) return;
       appState.questionAnswered = true;
-      if (appState.pauseOnReview) appState.timerPaused = true;
+      appState.timerPaused = true;
 
       const elapsedMs = Math.max(200, Date.now() - appState.questionStartTime);
       appState.totalResponseMs += elapsedMs;
@@ -1163,7 +1128,8 @@
         else btn.classList.add(`is-dimmed`);
       });
 
-      document.getElementById(`question-card`).classList.add(isCorrect ? `anim-correct` : `anim-wrong`);
+      const qCard = document.getElementById(`question-card`);
+      qCard.classList.add(isCorrect ? `anim-correct` : `anim-wrong`, `is-ready-next`);
       const feedback = document.getElementById(`feedback-panel`);
       feedback.classList.remove(`is-hidden`, `is-correct`, `is-wrong`, `is-pass`);
       feedback.classList.add(isCorrect ? `is-correct` : `is-wrong`);
@@ -1173,16 +1139,14 @@
       document.getElementById(`feedback-note`).textContent = q.note;
       updateHud();
 
-      if (appState.autoAdvance) {
-        triggerAutoAdvanceBar(AUTO_ADVANCE_DELAY_MS);
-        appState.autoAdvanceId = setTimeout(advanceToNextQuestion, AUTO_ADVANCE_DELAY_MS);
-      } else { triggerAutoAdvanceBar(0); }
+      triggerAutoAdvanceBar(AUTO_ADVANCE_DELAY_MS);
+      appState.autoAdvanceId = setTimeout(advanceToNextQuestion, AUTO_ADVANCE_DELAY_MS);
     }
 
     function usePass() {
       if (!appState.gameActive || appState.questionAnswered || appState.passesLeft <= 0 || !appState.currentQuestion) return;
       appState.questionAnswered = true; appState.passesLeft -= 1; appState.passCount += 1;
-      if (appState.pauseOnReview) appState.timerPaused = true;
+      appState.timerPaused = true;
       playTone(`pass`);
       const q = appState.currentQuestion;
       appState.runLog.push({ category: q.category, question: q.question, chosen: `Pas Geçildi`, answer: q.answer, status: `pass`, points: 0, elapsedSec: ((Date.now() - appState.questionStartTime) / 1000).toFixed(1), note: q.note });
@@ -1190,15 +1154,15 @@
         btn.disabled = true;
         btn.classList.add(q.options[idx] === q.answer ? `is-reveal-correct` : `is-dimmed`);
       });
+      document.getElementById(`question-card`).classList.add(`is-ready-next`);
       const feedback = document.getElementById(`feedback-panel`);
       feedback.classList.remove(`is-hidden`, `is-correct`, `is-wrong`, `is-pass`); feedback.classList.add(`is-pass`);
       document.getElementById(`feedback-title`).textContent = `Pas Hakkı Kullanıldı — Doğru Cevap: ${q.answer}`;
       document.getElementById(`feedback-note`).textContent = q.note;
       updateHud();
-      if (appState.autoAdvance) {
-        triggerAutoAdvanceBar(AUTO_ADVANCE_DELAY_MS);
-        appState.autoAdvanceId = setTimeout(advanceToNextQuestion, AUTO_ADVANCE_DELAY_MS);
-      } else { triggerAutoAdvanceBar(0); }
+
+      triggerAutoAdvanceBar(AUTO_ADVANCE_DELAY_MS);
+      appState.autoAdvanceId = setTimeout(advanceToNextQuestion, AUTO_ADVANCE_DELAY_MS);
     }
 
     function advanceToNextQuestion() { if (appState.gameActive) loadNextQuestion(); }
@@ -1366,8 +1330,6 @@
       if (nameInput) nameInput.value = appState.playerName;
       selectPackMode(appState.packMode, document.querySelector(`#mode-chips .chip[data-mode="${appState.packMode}"]`));
       setSoundPref(appState.soundEnabled);
-      setAutoAdvancePref(appState.autoAdvance);
-      setPauseOnReviewPref(appState.pauseOnReview);
       renderCategoryShowcase();
       renderStartStatsAndBoard();
     }
