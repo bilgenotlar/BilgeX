@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ortak Akıl — 3 Dakikalık Genel Kültür Yarışması</title>
+  <title>Ortak Akıl — 2 Dakikalık Genel Kültür Yarışması</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..900;1,9..40,400..900&display=swap" rel="stylesheet">
@@ -258,7 +258,7 @@
           <div class="hud-actions" style="margin-top: var(--space-xs);">
             <button type="button" class="btn btn-primary btn-lg" onclick="startGame()">
               <svg class="icon-svg icon-svg--lg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>
-              Yarışmayı Başlat (03:00)
+              Yarışmayı Başlat (02:00)
             </button>
             <span class="tag tag--filled" id="total-bank-badge">Sorular Yükleniyor...</span>
             <button type="button" class="btn btn-soft" onclick="toggleQuestionManager()">
@@ -363,7 +363,7 @@
       <div class="hud-grid">
         <div class="hud-card">
           <div class="hud-top"><span class="label-kicker" id="hud-timer-label">Kalan Süre</span><span class="tag tag--filled" id="hud-question-counter">Soru 1</span></div>
-          <div class="tabular-figure timer-value" id="hud-timer">03:00</div>
+          <div class="tabular-figure timer-value" id="hud-timer">02:00</div>
           <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="hud-timer-bar"></div></div>
         </div>
         <div class="hud-card hud-card--score">
@@ -482,7 +482,7 @@
   <script>
     const STORAGE_KEY = `ortak_akil_v2_state`;
     const QUESTIONS_FILE_URL = `./sorubankasi.json`;
-    const GAME_DURATION_SECONDS = 180;
+    const GAME_DURATION_SECONDS = 120;
     const BASE_POINTS = 100;
     const SPEED_BONUS_POINTS = 25;
     const SPEED_BONUS_WINDOW_MS = 5000;
@@ -1178,10 +1178,10 @@
     }
 
     function getRankDetails(score, accuracy) {
-      if (score >= 1600) return { title: `Ortak Akıl Efsanesi`, desc: `Müthiş bir tempo ve yüksek isabet! 3 dakikada genel kültür sınırlarını zorladın.` };
-      if (score >= 1000) return { title: `Genel Kültür Şampiyonu`, desc: `Hızlı reflekslerin ve güçlü bilgi birikiminle büyük ödüle göz kırptın.` };
+      if (score >= 1100) return { title: `Ortak Akıl Efsanesi`, desc: `Müthiş bir tempo ve yüksek isabet! 2 dakikada genel kültür sınırlarını zorladın.` };
+      if (score >= 700) return { title: `Genel Kültür Şampiyonu`, desc: `Hızlı reflekslerin ve güçlü bilgi birikiminle büyük ödüle göz kırptın.` };
       if (score >= 500 || accuracy >= 65) return { title: `Pratik Zekâ Ustası`, desc: `Farklı kategorilerde dengeli bir performans sergiledin. Birkaç hızlı yanıtla rekor kırabilirsin!` };
-      return { title: `Meraklı Kâşif`, desc: `Yeni bilgiler öğrenerek ısınma turunu tamamladın. Bir sonraki 3 dakikada skorun katlanacak!` };
+      return { title: `Meraklı Kâşif`, desc: `Yeni bilgiler öğrenerek ısınma turunu tamamladın. Bir sonraki 2 dakikada skorun katlanacak!` };
     }
 
     function finishGame(reasonLabel) {
