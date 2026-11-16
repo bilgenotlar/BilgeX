@@ -1,0 +1,866 @@
+[
+  {
+    "id": "sp1",
+    "category": "Spor",
+    "difficulty": 3,
+    "question": "Beyzbol kurallarına göre bir atıcının hiç sayı, vuruş ve hata vermeden 27 vurucuyu art arda oyun dışı bıraktığı maça ne ad verilir?",
+    "answer": "Mükemmel Oyun",
+    "options": ["Mükemmel Oyun", "Altın Vuruş", "Tam Set", "Temiz Sayfa"],
+    "note": "Major League Baseball (MLB) tarihinde yalnızca 24 kez görülen \"Perfect Game\", savunma ve atıcılıkta kusursuzluğu simgeler."
+  },
+  {
+    "id": "sp2",
+    "category": "Spor",
+    "difficulty": 1,
+    "question": "Türkiye A Milli Kadın Voleybol Takımı (Filenin Sultanları), 2023 FIVB Milletler Ligi ve 2023 Avrupa Şampiyonası’nda hangi dereceyi elde etmiştir?",
+    "answer": "Şampiyonluk",
+    "options": ["Şampiyonluk", "İkincilik", "Üçüncülük", "Dördüncülük"],
+    "note": "Filenin Sultanları 2023 yılında hem Milletler Ligi’ni hem de Avrupa Şampiyonası’nı altın madalya ile tamamlamıştır."
+  },
+  {
+    "id": "sp3",
+    "category": "Spor",
+    "difficulty": 1,
+    "question": "Modern Olimpiyat Oyunları bayrağındaki iç içe geçmiş beş renkli halka neyi temsil eder?",
+    "answer": "Dünyanın beş kıtasını",
+    "options": ["Dünyanın beş kıtasını", "Beş temel spor branşını", "Antik Yunan’daki beş şehri", "Olimpiyatların beş gününü"],
+    "note": "Baron Pierre de Coubertin tarafından tasarlanan beş halka, beş kıtanın spor aracılığıyla birleşmesini simgeler."
+  },
+  {
+    "id": "sp4",
+    "category": "Spor",
+    "difficulty": 2,
+    "question": "Türkiye Süper Ligi tarihinde bir sezonu namağlup şampiyon tamamlayan tek takım hangisidir?",
+    "answer": "Beşiktaş",
+    "options": ["Beşiktaş", "Galatasaray", "Fenerbahçe", "Trabzonspor"],
+    "note": "Gordon Milne yönetimindeki Beşiktaş, 1991–92 sezonunu 30 maçta 23 galibiyet ve 7 beraberlikle yenilgisiz bitirmiştir."
+  },
+  {
+    "id": "sp5",
+    "category": "Spor",
+    "difficulty": 2,
+    "question": "Teniste \"Grand Slam\" olarak adlandırılan dört büyük turnuva arasında toprak kortta oynanan tek turnuva hangisidir?",
+    "answer": "Fransa Açık (Roland Garros)",
+    "options": ["Fransa Açık (Roland Garros)", "İngiltere Açık (Wimbledon)", "ABD Açık (US Open)", "Avustralya Açık"],
+    "note": "Wimbledon çim kortta, ABD ve Avustralya Açık sert kortta oynanırken Fransa Açık kırmızı toprak kortuyla bilinir."
+  },
+  {
+    "id": "sp6",
+    "category": "Spor",
+    "difficulty": 2,
+    "question": "Bir futbol maçında aynı oyuncunun bir karşılaşmada üç gol atmasına verilen uluslararası spor terimi nedir?",
+    "answer": "Hat-trick",
+    "options": ["Hat-trick", "Asist", "Röveşata", "Plase"],
+    "note": "Terim ilk olarak 19. yüzyılda kriket sporunda üç vurucuyu art arda oyun dışı bırakan atıcılara şapka hediye edilmesinden doğmuştur."
+  },
+  {
+    "id": "ek1",
+    "category": "Ekonomi",
+    "difficulty": 1,
+    "question": "Bir ekonomide mal ve hizmetlerin genel fiyat düzeyinin sürekli olarak yükselmesine ne ad verilir?",
+    "answer": "Enflasyon",
+    "options": ["Enflasyon", "Deflasyon", "Resesyon", "Devalüasyon"],
+    "note": "Enflasyon paranın satın alma gücünün düşmesi anlamına gelir; fiyatların genel düşüşü ise deflasyondur."
+  },
+  {
+    "id": "ek2",
+    "category": "Ekonomi",
+    "difficulty": 1,
+    "question": "Türkiye’de banknot (kağıt para) basma yetkisi ve tekeli hangi kuruma aittir?",
+    "answer": "Türkiye Cumhuriyet Merkez Bankası",
+    "options": ["Türkiye Cumhuriyet Merkez Bankası", "Borsa İstanbul", "Hazine ve Maliye Bakanlığı", "Darphane Genel Müdürlüğü"],
+    "note": "Kağıt banknotlar TCMB tarafından ihraç edilirken madeni ufaklık paralar Darphane tarafından basılır."
+  },
+  {
+    "id": "ek3",
+    "category": "Ekonomi",
+    "difficulty": 2,
+    "question": "Bir şirketin yıllık kârından hissedarlarına (pay sahiplerine) dağıttığı kâr payına ekonomi dilinde ne denir?",
+    "answer": "Temettü",
+    "options": ["Temettü", "İskonto", "Repo", "Tahvil"],
+    "note": "Temettü dağıtımı, şirketlerin kârlarını ortaklarıyla paylaşmasının en yaygın yoludur."
+  },
+  {
+    "id": "ek4",
+    "category": "Ekonomi",
+    "difficulty": 1,
+    "question": "Günlük bankacılık işlemlerinde sıkça kullanılan \"IBAN\" kısaltmasının Türkçedeki karşılığı nedir?",
+    "answer": "Uluslararası Banka Hesap Numarası",
+    "options": ["Uluslararası Banka Hesap Numarası", "İnternet Bankacılığı Aktivasyon Kodu", "İç Borçlanma Anonim Numarası", "İl Bazlı Aidat Numarası"],
+    "note": "International Bank Account Number ifadesinin kısaltması olan IBAN, Türkiye’de TR ile başlar ve 26 haneden oluşur."
+  },
+  {
+    "id": "ek5",
+    "category": "Ekonomi",
+    "difficulty": 2,
+    "question": "Ekonomide bir ülkenin iki çeyrek (6 ay) üst üste ekonomik küçülme yaşamasına ne ad verilir?",
+    "answer": "Resesyon",
+    "options": ["Resesyon", "Stagflasyon", "Sübvansiyon", "Amortisman"],
+    "note": "Resesyon (durgunluk), ekonomik faaliyetlerdeki genel yavaşlama ve GSYH daralmasını ifade eder."
+  },
+  {
+    "id": "ek6",
+    "category": "Ekonomi",
+    "difficulty": 3,
+    "question": "Hisse senedi piyasalarında fiyatların uzun süre yükseliş trendinde olduğu dönemi tanımlamak için hangi hayvan metaforu kullanılır?",
+    "answer": "Boğa piyasası",
+    "options": ["Boğa piyasası", "Ayı piyasası", "Kurt piyasası", "Şahin piyasası"],
+    "note": "Boğanın boynuzlarını aşağıdan yukarıya savurması yükselişi, ayının pençesini yukarıdan aşağı indirmesi ise düşüşü (ayı piyasası) simgeler."
+  },
+  {
+    "id": "ta1",
+    "category": "Tarih",
+    "difficulty": 1,
+    "question": "Türkiye Büyük Millet Meclisi (TBMM) Ankara’da hangi tarihte açılmıştır?",
+    "answer": "23 Nisan 1920",
+    "options": ["23 Nisan 1920", "19 Mayıs 1919", "29 Ekim 1923", "30 Ağustos 1922"],
+    "note": "23 Nisan 1920 tarihi Türkiye’de Ulusal Egemenlik ve Çocuk Bayramı olarak kutlanmaktadır."
+  },
+  {
+    "id": "ta2",
+    "category": "Tarih",
+    "difficulty": 1,
+    "question": "Anadolu topraklarında tarihte ilk kez madeni parayı icat edip kullanan uygarlık hangisidir?",
+    "answer": "Lidyalılar",
+    "options": ["Lidyalılar", "Hititler", "Frigler", "Urartular"],
+    "note": "Başkenti Sardes (Manisa) olan Lidyalılar, MÖ 7. yüzyılda altın-gümüş karışımı elektrondan ilk sikkeleri basmışlardır."
+  },
+  {
+    "id": "ta3",
+    "category": "Tarih",
+    "difficulty": 2,
+    "question": "Mitolojide dokunduğu her şeyi altına çevirme dileğiyle bilinen ünlü Frigya Kralı kimdir?",
+    "answer": "Kral Midas",
+    "options": ["Kral Midas", "Kral Leonidas", "Kral Agamemnon", "Kral Oidipus"],
+    "note": "Kral Midas efsanesi, tarih boyunca açgözlülüğe karşı anlatılan en bilinen uyarılardan biri olmuştur."
+  },
+  {
+    "id": "ta4",
+    "category": "Tarih",
+    "difficulty": 2,
+    "question": "Avrupa’da hareketli metal harfli matbaayı geliştirerek kitap basımında çığır açan mucit kimdir?",
+    "answer": "Johannes Gutenberg",
+    "options": ["Johannes Gutenberg", "İbrahim Müteferrika", "Leonardo da Vinci", "Galileo Galilei"],
+    "note": "15. yüzyılda Gutenberg’in matbaası bilginin Avrupa’da hızla yayılmasının ve Rönesans’ın önünü açmıştır."
+  },
+  {
+    "id": "ta5",
+    "category": "Tarih",
+    "difficulty": 2,
+    "question": "1923 yılında Lozan Barış Antlaşması görüşmelerinde Türkiye heyetine kim başkanlık etmiştir?",
+    "answer": "İsmet İnönü",
+    "options": ["İsmet İnönü", "Kazım Karabekir", "Fevzi Çakmak", "Rauf Orbay"],
+    "note": "24 Temmuz 1923’te imzalanan Lozan Barış Antlaşması, Türkiye Cumhuriyeti’nin uluslararası alanda tanınmasını sağlamıştır."
+  },
+  {
+    "id": "ta6",
+    "category": "Tarih",
+    "difficulty": 3,
+    "question": "Mısır hiyerogliflerinin çözülmesini sağlayan ve üç farklı dilde yazılmış ünlü taş yazıtın adı nedir?",
+    "answer": "Rosetta Taşı",
+    "options": ["Rosetta Taşı", "Orhun Yazıtları", "Hammurabi Kanunları", "Kadeş Antlaşması"],
+    "note": "1799’da bulunan Rosetta Taşı sayesinde Jean-François Champollion 1822 yılında Mısır hiyerogliflerini çözmeyi başarmıştır."
+  },
+  {
+    "id": "ed1",
+    "category": "Edebiyat",
+    "difficulty": 3,
+    "question": "Klasik \"Rüzgar Gibi Geçti\" romanının 1991 yılında yayımlanan resmi devam kitabının adı nedir?",
+    "answer": "Scarlett",
+    "options": ["Scarlett", "Rhett", "Uğultulu Tepeler", "Küçük Kadınlar"],
+    "note": "Alexandra Ripley tarafından kaleme alınan \"Scarlett\", orijinal romanın başkahramanı Scarlett O’Hara’nın hikayesini sürdürür."
+  },
+  {
+    "id": "ed2",
+    "category": "Edebiyat",
+    "difficulty": 1,
+    "question": "\"Kürk Mantolu Madonna\", \"İçimizdeki Şeytan\" ve \"Kuyucaklı Yusuf\" romanlarının yazarı kimdir?",
+    "answer": "Sabahattin Ali",
+    "options": ["Sabahattin Ali", "Reşat Nuri Güntekin", "Yakup Kadri Karaosmanoğlu", "Peyami Safa"],
+    "note": "1943’te yayımlanan Kürk Mantolu Madonna, Türk edebiyatının en çok okunan klasikleri arasında yer alır."
+  },
+  {
+    "id": "ed3",
+    "category": "Edebiyat",
+    "difficulty": 1,
+    "question": "2006 yılında Nobel Edebiyat Ödülü’nü kazanan ilk Türk yazar kimdir?",
+    "answer": "Orhan Pamuk",
+    "options": ["Orhan Pamuk", "Yaşar Kemal", "Aziz Nesin", "Ahmet Hamdi Tanpınar"],
+    "note": "Orhan Pamuk, \"Benim Adım Kırmızı\", \"Kar\" ve \"Masumiyet Müzesi\" gibi eserleriyle dünya çapında tanınmaktadır."
+  },
+  {
+    "id": "ed4",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "Türk edebiyatında \"Tutunamayanlar\" ve \"Tehlikeli Oyunlar\" romanlarıyla modernizmin öncülerinden sayılan yazar kimdir?",
+    "answer": "Oğuz Atay",
+    "options": ["Oğuz Atay", "Yusuf Atılgan", "Sait Faik Abasıyanık", "Tarık Buğra"],
+    "note": "1972’de yayımlanan Tutunamayanlar, Selim Işık ve Turgut Özben üzerinden bireyin iç dünyasını işler."
+  },
+  {
+    "id": "ed5",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "\"Sefiller\" ve \"Notre Dame’ın Kamburu\" gibi dünya klasiklerini yazan ünlü Fransız edebiyatçı kimdir?",
+    "answer": "Victor Hugo",
+    "options": ["Victor Hugo", "Honoré de Balzac", "Fyodor Dostoyevski", "Charles Dickens"],
+    "note": "19. yüzyıl Romantizm akımının liderlerinden Victor Hugo, Sefiller’i 1862 yılında yayımlamıştır."
+  },
+  {
+    "id": "ed6",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "George Orwell’in gözetim toplumunu ve \"Büyük Birader\" kavramını anlattığı ünlü distopik romanının adı nedir?",
+    "answer": "1984",
+    "options": ["1984", "Cesur Yeni Dünya", "Fahrenheit 451", "Otomatik Portakal"],
+    "note": "1949’da yayımlanan 1984, günümüzde bile veri gizliliği ve otoriterlik tartışmalarında en sık atıf yapılan eserdir."
+  },
+  {
+    "id": "cg1",
+    "category": "Coğrafya",
+    "difficulty": 1,
+    "question": "Türkiye’nin yüzölçümü bakımından en büyük ili hangisidir?",
+    "answer": "Konya",
+    "options": ["Konya", "Sivas", "Ankara", "Erzurum"],
+    "note": "Konya yaklaşık 40 bin kilometrekareyi aşan yüzölçümüyle Türkiye’nin en geniş toprağına sahip ilidir."
+  },
+  {
+    "id": "cg2",
+    "category": "Coğrafya",
+    "difficulty": 1,
+    "question": "Türkiye sınırları içindeki en büyük göl hangisidir?",
+    "answer": "Van Gölü",
+    "options": ["Van Gölü", "Tuz Gölü", "Beyşehir Gölü", "Eğirdir Gölü"],
+    "note": "Sodalı ve tuzlu suyuyla bilinen Van Gölü, aynı zamanda dünyanın en büyük sodalı göllerinden biridir."
+  },
+  {
+    "id": "cg3",
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Almanya’dan doğup birçok Avrupa başkentinden geçerek Karadeniz’e dökülen ünlü nehir hangisidir?",
+    "answer": "Tuna Nehri",
+    "options": ["Tuna Nehri", "Ren Nehri", "Sen Nehri", "Po Nehri"],
+    "note": "Tuna Nehri, Volga’dan sonra Avrupa’nın ikinci en uzun nehridir ve on ülkeden geçer."
+  },
+  {
+    "id": "cg4",
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Türkiye’nin en doğusunda yer alan ve güneşin en erken doğduğu sınır ilimiz hangisidir?",
+    "answer": "Iğdır",
+    "options": ["Iğdır", "Kars", "Van", "Ağrı"],
+    "note": "Iğdır’ın Aralık ilçesindeki Dilucu mevkii, Türkiye’nin en doğu ucunu oluşturur."
+  },
+  {
+    "id": "cg5",
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Ekvator çizgisi üzerindeki bir noktada yıl boyunca gece ve gündüz süreleri nasıldır?",
+    "answer": "Her gün yaklaşık 12 saat gece, 12 saat gündüz",
+    "options": ["Her gün yaklaşık 12 saat gece, 12 saat gündüz", "6 ay kesintisiz gündüz, 6 ay gece", "Kış aylarında 18 saat gece", "Yaz aylarında 20 saat gündüz"],
+    "note": "Ekvator, aydınlanma çemberini her zaman iki eşit parçaya böldüğü için yıl boyu gece-gündüz eşitliği görülür."
+  },
+  {
+    "id": "cg6",
+    "category": "Coğrafya",
+    "difficulty": 3,
+    "question": "Asya ve Kuzey Amerika kıtalarını birbirinden ayıran dar su geçidinin adı nedir?",
+    "answer": "Bering Boğazı",
+    "options": ["Bering Boğazı", "Cebelitarık Boğazı", "Hürmüz Boğazı", "Malakka Boğazı"],
+    "note": "Rusya ile Alaska arasındaki Bering Boğazı en dar yerinde yalnızca 82 kilometre genişliğindedir."
+  },
+  {
+    "id": "ul1",
+    "category": "Ülkeler",
+    "difficulty": 3,
+    "question": "Çevre araştırmalarına göre belediye atığı geri dönüşüm oranında dünyada ilk sırada yer alan ülke hangisidir?",
+    "answer": "Almanya",
+    "options": ["Almanya", "İsveç", "Güney Kore", "Japonya"],
+    "note": "Almanya, belediye atıklarının %65’inden fazlasını geri dönüştürerek dünya genelinde ilk sırada yer almaktadır."
+  },
+  {
+    "id": "ul2",
+    "category": "Ülkeler",
+    "difficulty": 1,
+    "question": "Yüzölçümü bakımından dünyanın en küçük bağımsız devleti hangisidir?",
+    "answer": "Vatikan",
+    "options": ["Vatikan", "Monako", "San Marino", "Malta"],
+    "note": "Roma şehrinin içinde yer alan Vatikan’ın yüzölçümü yalnızca 0,49 kilometrekaredir."
+  },
+  {
+    "id": "ul3",
+    "category": "Ülkeler",
+    "difficulty": 2,
+    "question": "Japonya’nın geleneksel sahne sanatlarından olan ve dramatik makyaj ile dans ustalığı gerektiren köklü geleneği hangisidir?",
+    "answer": "Kabuki",
+    "options": ["Kabuki", "Origami", "Bonsai", "Ikebana"],
+    "note": "17. yüzyılda ortaya çıkan Kabuki tiyatrosu UNESCO Somut Olmayan Kültürel Miras listesinde yer alır."
+  },
+  {
+    "id": "ul4",
+    "category": "Ülkeler",
+    "difficulty": 1,
+    "question": "Bayrağının tam ortasında kırmızı akçaağaç yaprağı sembolü bulunan ülke hangisidir?",
+    "answer": "Kanada",
+    "options": ["Kanada", "Avustralya", "Yeni Zelanda", "İsviçre"],
+    "note": "Akçaağaç yaprağı 1965 yılından bu yana Kanada’nın resmi ulusal bayrağında yer almaktadır."
+  },
+  {
+    "id": "ul5",
+    "category": "Ülkeler",
+    "difficulty": 2,
+    "question": "Almanca, Fransızca, İtalyanca ve Romanşça olmak üzere dört resmi dili bulunan Orta Avrupa ülkesi hangisidir?",
+    "answer": "İsviçre",
+    "options": ["İsviçre", "Belçika", "Avusturya", "Lüksemburg"],
+    "note": "Kantonlardan oluşan İsviçre Konfederasyonu, çok dilli yönetim yapısıyla öne çıkar."
+  },
+  {
+    "id": "ul6",
+    "category": "Ülkeler",
+    "difficulty": 2,
+    "question": "Kuzey Avrupa’da yer alan ve sahip olduğu binlerce buzul gölü nedeniyle \"Bin Göller Ülkesi\" olarak anılan ülke hangisidir?",
+    "answer": "Finlandiya",
+    "options": ["Finlandiya", "Norveç", "İzlanda", "Danimarka"],
+    "note": "Finlandiya sınırları içinde 180.000’den fazla göl bulunmaktadır."
+  },
+  {
+    "id": "sh1",
+    "category": "Şehirler",
+    "difficulty": 2,
+    "question": "ABD’de otomobil endüstrisinin tarihsel merkezi olması sebebiyle \"Motor City\" lakabıyla anılan şehir hangisidir?",
+    "answer": "Detroit",
+    "options": ["Detroit", "Chicago", "Cleveland", "Pittsburgh"],
+    "note": "Michigan eyaletindeki Detroit, Henry Ford ve Amerikan otomotiv devlerinin doğduğu merkezdir."
+  },
+  {
+    "id": "sh2",
+    "category": "Şehirler",
+    "difficulty": 2,
+    "question": "Çoğunlukla Sidney veya Melbourne sanılsa da Avustralya’nın resmi başkenti hangi şehirdir?",
+    "answer": "Canberra",
+    "options": ["Canberra", "Sidney", "Melbourne", "Perth"],
+    "note": "1908 yılında Sidney ve Melbourne arasındaki rekabeti sonlandırmak için iki şehrin arasında Canberra başkent seçilmiştir."
+  },
+  {
+    "id": "sh3",
+    "category": "Şehirler",
+    "difficulty": 1,
+    "question": "\"Ebedi Şehir\" lakabıyla anılan ve içinde Vatikan’ı barındıran Avrupa başkenti hangisidir?",
+    "answer": "Roma",
+    "options": ["Roma", "Atina", "Viyana", "Madrid"],
+    "note": "İtalya’nın başkenti Roma, Antik Çağ’dan günümüze uzanan mirası nedeniyle bu unvanla anılır."
+  },
+  {
+    "id": "sh4",
+    "category": "Şehirler",
+    "difficulty": 1,
+    "question": "Boğaziçi ile Asya ve Avrupa kıtalarını birbirine bağlayan, Türkiye’nin en kalabalık metropol şehri hangisidir?",
+    "answer": "İstanbul",
+    "options": ["İstanbul", "İzmir", "Bursa", "Antalya"],
+    "note": "İstanbul tarih boyunca Roma, Bizans ve Osmanlı imparatorluklarına başkentlik yapmıştır."
+  },
+  {
+    "id": "sh5",
+    "category": "Şehirler",
+    "difficulty": 2,
+    "question": "İspanya’nın Barselona şehrinde bulunan ve inşası 1882’den bu yana süren Antoni Gaudí tasarımı ünlü bazilikanın adı nedir?",
+    "answer": "Sagrada Família",
+    "options": ["Sagrada Família", "Elhamra Sarayı", "Kolezyum", "Notre Dame"],
+    "note": "Gotik ve Art Nouveau çizgileri birleştiren Sagrada Família, Barselona’nın en ikonik yapısıdır."
+  },
+  {
+    "id": "sh6",
+    "category": "Şehirler",
+    "difficulty": 3,
+    "question": "Japonya’da 1868 yılına kadar bin yılı aşkın süre imparatorluk başkenti olan ve tapınaklarıyla ünlü tarihi şehir hangisidir?",
+    "answer": "Kyoto",
+    "options": ["Kyoto", "Osaka", "Hiroşima", "Yokohama"],
+    "note": "Meiji Restorasyonu ile başkent Tokyo’ya taşınana kadar Kyoto Japonya’nın kültürel ve siyasi merkeziydi."
+  },
+  {
+    "id": "bi1",
+    "category": "Bilim İnsanları",
+    "difficulty": 1,
+    "question": "Fizik ve kimya olmak üzere iki farklı bilim dalında Nobel Ödülü kazanan ilk bilim insanı kimdir?",
+    "answer": "Marie Curie",
+    "options": ["Marie Curie", "Albert Einstein", "Nikola Tesla", "Isaac Newton"],
+    "note": "Marie Curie 1903’te Fizik, 1911’de ise Radyum ve Polonyum keşifleriyle Kimya Nobel’ini kazanmıştır."
+  },
+  {
+    "id": "bi2",
+    "category": "Bilim İnsanları",
+    "difficulty": 1,
+    "question": "DNA onarım mekanizmaları üzerine çalışmalarıyla 2015 Nobel Kimya Ödülü’nü kazanan Türk bilim insanı kimdir?",
+    "answer": "Aziz Sancar",
+    "options": ["Aziz Sancar", "Cahit Arf", "Feza Gürsey", "Oktay Sinanoğlu"],
+    "note": "Mardin Savurlu Prof. Dr. Aziz Sancar, bilim dünyasında çığır açan buluşlarıyla Nobel Ödülü’nü ülkemize getirmiştir."
+  },
+  {
+    "id": "bi3",
+    "category": "Bilim İnsanları",
+    "difficulty": 1,
+    "question": "Matematikte \"Arf Değişmezi\" ile tanınan ve 10 Türk Lirası banknotunun arka yüzünde portresi yer alan Türk matematikçi kimdir?",
+    "answer": "Cahit Arf",
+    "options": ["Cahit Arf", "Ali Kuşçu", "Kerim Erim", "Tosun Terzioğlu"],
+    "note": "Ordinaryüs Profesör Cahit Arf, cebir alanındaki katkılarıyla dünya matematik literatürüne adını yazdırmıştır."
+  },
+  {
+    "id": "bi4",
+    "category": "Bilim İnsanları",
+    "difficulty": 2,
+    "question": "\"Kozmos\" belgeseli ve kitabıyla milyonlarca kişiye astronomiyi sevdiren ünlü Amerikalı astrofizikçi kimdir?",
+    "answer": "Carl Sagan",
+    "options": ["Carl Sagan", "Stephen Hawking", "Edwin Hubble", "Johannes Kepler"],
+    "note": "Carl Sagan, \"Soluk Mavi Nokta\" sözüyle de uzay bilincinin yayılmasına büyük katkı sağlamıştır."
+  },
+  {
+    "id": "bi5",
+    "category": "Bilim İnsanları",
+    "difficulty": 2,
+    "question": "Alternatif akım (AC) elektrik iletim sisteminin öncüsü olarak kabul edilen mucit ve fizikçi kimdir?",
+    "answer": "Nikola Tesla",
+    "options": ["Nikola Tesla", "Thomas Edison", "Michael Faraday", "James Watt"],
+    "note": "Tesla’nın alternatif akım buluşu, elektriğin uzak mesafelere verimli biçimde taşınmasını mümkün kılmıştır."
+  },
+  {
+    "id": "bi6",
+    "category": "Bilim İnsanları",
+    "difficulty": 3,
+    "question": "Penisilini keşfederek modern antibiyotik çağını başlatan İskoç bakteriyolog kimdir?",
+    "answer": "Alexander Fleming",
+    "options": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+    "note": "Fleming 1928 yılında laboratuvarda bir küf mantarının bakterileri yok ettiğini fark ederek tıp tarihini değiştirdi."
+  },
+  {
+    "id": "bl1",
+    "category": "Bilim",
+    "difficulty": 1,
+    "question": "Tarımsal bitkilerin ve meyvelerin tozlaşmasında en hayati rolü üstlenen böcek grubu hangisidir?",
+    "answer": "Arılar",
+    "options": ["Arılar", "Kelebekler", "Yusufçuklar", "Uğur böcekleri"],
+    "note": "Dünya gıda üretiminin büyük bir bölümü arıların gerçekleştirdiği tozlaşmaya doğrudan bağlıdır."
+  },
+  {
+    "id": "bl2",
+    "category": "Bilim",
+    "difficulty": 2,
+    "question": "Kireç taşının yüksek sıcaklık ve basınç altında başkalaşmasıyla oluşan mermer, hangi kayaç türüne örnektir?",
+    "answer": "Metamorfik kayaç",
+    "options": ["Metamorfik kayaç", "Magmatik kayaç", "Tortul kayaç", "Volkanik kayaç"],
+    "note": "Mevcut kayaçların yer kabuğu derinliklerinde ısı ve basınçla değişmesi metamorfik (başkalaşım) kayaçları oluşturur."
+  },
+  {
+    "id": "bl3",
+    "category": "Bilim",
+    "difficulty": 3,
+    "question": "Bir doktor muayene sonrasında düştüğünüz için \"kontüzyon\" teşhisi koyduysa sizde aslında ne vardır?",
+    "answer": "Çürük ve ezilme",
+    "options": ["Çürük ve ezilme", "Kemik kırığı", "Beyin sarsıntısı", "Kas yırtılması"],
+    "note": "Tıp dilinde kontüzyon, darbe sonucu deri bütünlüğü bozulmadan dokuda oluşan ezilme ve morarmayı ifade eder."
+  },
+  {
+    "id": "bl4",
+    "category": "Bilim",
+    "difficulty": 1,
+    "question": "Dünya atmosferinde hacim bakımından en büyük paya (%78) sahip olan gaz hangisidir?",
+    "answer": "Azot",
+    "options": ["Azot", "Oksijen", "Karbondioksit", "Argon"],
+    "note": "Soluduğumuz havanın yaklaşık %78’i azot, %21’i oksijen ve %1’i diğer gazlardan oluşur."
+  },
+  {
+    "id": "bl5",
+    "category": "Bilim",
+    "difficulty": 2,
+    "question": "Güneş’ten çıkan ışığın Dünya’ya ulaşması yaklaşık ne kadar zaman alır?",
+    "answer": "8 dakika",
+    "options": ["8 dakika", "1 saniye", "2 saat", "1 gün"],
+    "note": "Saniyede yaklaşık 300.000 km hızla yol alan ışık, 150 milyon km mesafeyi 8 dakika 20 saniyede kat eder."
+  },
+  {
+    "id": "bl6",
+    "category": "Bilim",
+    "difficulty": 2,
+    "question": "Periyodik tabloda \"Au\" sembolüyle gösterilen değerli element hangisidir?",
+    "answer": "Altın",
+    "options": ["Altın", "Gümüş", "Alüminyum", "Bakır"],
+    "note": "Sembolü Latince \"aurum\" kelimesinden gelen altının atom numarası 79’dur."
+  },
+  {
+    "id": "pk1",
+    "category": "Popüler Kültür",
+    "difficulty": 2,
+    "question": "Günümüzde çocukların oyun hamuru olarak bildiği \"Play-Doh\", ilk icat edildiğinde aslında ne amaçla üretilmişti?",
+    "answer": "Duvar kağıdı temizleyicisi",
+    "options": ["Duvar kağıdı temizleyicisi", "Ayakkabı cilası", "Pencere macunu", "Diş macunu"],
+    "note": "Vinil duvar kağıtlarının sabunlu suyla temizlenebilmeye başlamasıyla ürün çocuk oyuncağı olarak yeniden piyasaya sürüldü."
+  },
+  {
+    "id": "pk2",
+    "category": "Popüler Kültür",
+    "difficulty": 2,
+    "question": "Dünyaca ünlü zar oyunu \"Yahtzee\"de bir oyuncu kendi turunda kaç adet zarla oynar?",
+    "answer": "5 zar",
+    "options": ["5 zar", "2 zar", "6 zar", "9 zar"],
+    "note": "Yahtzee yapabilmek için 5 zarın tamamında aynı sayının gelmesi gerekir."
+  },
+  {
+    "id": "pk3",
+    "category": "Popüler Kültür",
+    "difficulty": 1,
+    "question": "1990’ların efsanevi komedi dizisi \"Friends\"te arkadaş grubunun sıkça buluştuğu kafenin adı nedir?",
+    "answer": "Central Perk",
+    "options": ["Central Perk", "Monk’s Café", "MacLaren’s Pub", "Luke’s Diner"],
+    "note": "Turuncu koltuğuyla hafızalara kazınan Central Perk, dizinin en ikonik buluşma mekanıdır."
+  },
+  {
+    "id": "pk4",
+    "category": "Popüler Kültür",
+    "difficulty": 1,
+    "question": "Türkiye’ye ilk Eurovision Şarkı Yarışması birinciliğini 2003 yılında \"Everyway That I Can\" ile getiren sanatçı kimdir?",
+    "answer": "Sertab Erener",
+    "options": ["Sertab Erener", "Şebnem Paker", "maNga", "Hadise"],
+    "note": "Letonya’nın başkenti Riga’da düzenlenen 2003 Eurovision’da Sertab Erener 167 puanla birinciliği elde etmiştir."
+  },
+  {
+    "id": "pk5",
+    "category": "Popüler Kültür",
+    "difficulty": 1,
+    "question": "Sinema tarihinin en yüksek gişe yapan yapımlarından \"Titanic\" ve \"Avatar\" filmlerinin yönetmeni kimdir?",
+    "answer": "James Cameron",
+    "options": ["James Cameron", "Steven Spielberg", "Christopher Nolan", "Peter Jackson"],
+    "note": "James Cameron, teknik görsel efekt sınırlarını zorlayan yapımlarıyla sinema tarihine damga vurmuştur."
+  },
+  {
+    "id": "pk6",
+    "category": "Popüler Kültür",
+    "difficulty": 2,
+    "question": "Satranç tahtasında oyun başlangıcında her iki oyuncunun toplam kaç adet taşı bulunur?",
+    "answer": "16 taş",
+    "options": ["16 taş", "12 taş", "20 taş", "24 taş"],
+    "note": "Her oyuncunun 8 piyon, 2 kale, 2 at, 2 fil, 1 vezir ve 1 şah olmak üzere 16 taşı vardır."
+  },
+  {
+    "id": "gk1",
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "Mutfakta sebzeleri kısa süre kaynar suya batırıp ardından pişmeyi durdurmak için buzlu suya alma tekniğine ne ad verilir?",
+    "answer": "Şoklama",
+    "options": ["Şoklama", "Poşe etme", "Mühürleme", "Karamelize etme"],
+    "note": "Blanching (şoklama) tekniği sebzelerin canlı yeşil rengini korur ve diriliğini kaybetmemesini sağlar."
+  },
+  {
+    "id": "gk2",
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "Manyetik şeridi aşınmış bir kredi kartı cihazda zor okunuyorsa, kartı neyin içine koyup geçirmek okumayı kolaylaştırabilir?",
+    "answer": "İnce plastik poşet",
+    "options": ["İnce plastik poşet", "Kalın kağıt zarf", "Pamuklu mendil", "Alüminyum folyo"],
+    "note": "İnce bir plastik poşet, aşınmış manyetik şeritteki okuma parazitini azaltarak cihazın sinyali algılamasına yardımcı olur."
+  },
+  {
+    "id": "gk3",
+    "category": "Genel Kültür",
+    "difficulty": 1,
+    "question": "Kamp yaparken telefonunuzun el fenerini çadırı yumuşakça aydınlatan bir lambaya çevirmek için ışığı neyin altına tutmalısınız?",
+    "answer": "Su dolu şeffaf şişe",
+    "options": ["Su dolu şeffaf şişe", "Karton tabak", "Kuru yaprak", "Metal matara"],
+    "note": "Su, noktasal fener ışığını her yöne kırıp dağıtarak kamp alanını aydınlatan pratik bir lamba etkisi yaratır."
+  },
+  {
+    "id": "gk4",
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "İçten yanmalı motorlu araçlarda litre başına en uzun menzil (yakıt verimliliği) açısından genellikle hangi yakıt türü öne çıkar?",
+    "answer": "Motorin (Dizel)",
+    "options": ["Motorin (Dizel)", "Kurşunsuz benzin", "Yüksek oktanlı benzin", "Gaz yağı"],
+    "note": "Dizel motorlar yüksek sıkıştırma oranıyla yakıtı daha verimli yakar; elbette yalnızca dizel araçlara konulmalıdır."
+  },
+  {
+    "id": "gk5",
+    "category": "Genel Kültür",
+    "difficulty": 3,
+    "question": "Gazetecilikte ve uluslararası medyada sıkça referans alınan \"AP stili\"ndeki \"AP\" kısaltması hangi haber ajansını ifade eder?",
+    "answer": "Associated Press",
+    "options": ["Associated Press", "Agence Presse", "Anadolu Postası", "Avrupa Basını"],
+    "note": "Associated Press yazım kılavuzu, gazetecilikte dil birliği ve netlik sağlamak için dünya genelinde referans alınır."
+  },
+  {
+    "id": "gk6",
+    "category": "Genel Kültür",
+    "difficulty": 1,
+    "question": "Kahve fincanlarında veya çay bardaklarında oluşan inatçı lekeleri doğal yolla çıkarmak için suyla karıştırılıp sürülebilecek en pratik mutfak malzemesi nedir?",
+    "answer": "Karbonat",
+    "options": ["Karbonat", "Pudra şekeri", "Nişasta", "Zeytinyağı"],
+    "note": "Hafif aşındırıcı ve alkali yapıdaki karbonat, porseleni çizmeden çay ve kahve lekelerini hızla çözer."
+  },
+  {
+    "id": "imp_1794821155626_0",
+    "category": "Tarih",
+    "difficulty": 1,
+    "question": "Mustafa Kemal Atatürk'ün 'Ordular, ilk hedefiniz Akdeniz'dir. İleri!' emrini verdiği tarihi olay hangisidir?",
+    "answer": "Büyük Taarruz",
+    "options": ["Büyük Taarruz", "Sakarya Meydan Muharebesi", "Çanakkale Savaşı", "I. İnönü Muharebesi"],
+    "note": "Bu tarihi emir, 1 Eylül 1922 tarihinde Dumlupınar'da verilmiştir."
+  },
+  {
+    "id": "imp_1794821155626_1",
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Türkiye'nin yüz ölçümü bakımından en büyük gölü aşağıdakilerden hangisidir?",
+    "answer": "Van Gölü",
+    "options": ["Van Gölü", "Tuz Gölü", "Beyşehir Gölü", "Eğirdir Gölü"],
+    "note": "Soda bakımından zengin olan Van Gölü, dünyanın en büyük sodalı gölüdür."
+  },
+  {
+    "id": "imp_1794821155626_2",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "Türk edebiyatının ilk yerli romanı kabul edilen 'Taaşşuk-ı Talat ve Fitnat' kimin eseridir?",
+    "answer": "Şemseddin Sami",
+    "options": ["Şemseddin Sami", "Namık Kemal", "Recaizade Mahmud Ekrem", "Ahmet Mithat Efendi"],
+    "note": "Eser, 1872-1873 yılları arasında Hafta dergisinde tefrika edilerek yayımlanmıştır."
+  },
+  {
+    "id": "imp_1794821155626_3",
+    "category": "Şehirler",
+    "difficulty": 1,
+    "question": "Türkiye'de iki kıta üzerinde kurulu tek büyükşehir hangisidir?",
+    "answer": "İstanbul",
+    "options": ["İstanbul", "Çanakkale", "İzmir", "Bursa"],
+    "note": "İstanbul, Boğaziçi sayesinde hem Asya hem de Avrupa kıtalarında toprak sahibi olan dünyadaki tek metropoldür."
+  },
+  {
+    "id": "imp_1794821155626_4",
+    "category": "Bilim İnsanları",
+    "difficulty": 2,
+    "question": "2015 yılında Kimya dalında Nobel Ödülü kazanan ilk Türk bilim insanı kimdir?",
+    "answer": "Aziz Sancar",
+    "options": ["Aziz Sancar", "Cahit Arf", "Gazi Yaşargil", "Oktay Sinanoğlu"],
+    "note": "Aziz Sancar, DNA onarımı mekanizmaları üzerine yaptığı haritalama çalışmalarıyla bu ödüle layık görülmüştür."
+  },
+  {
+    "id": "imp_1794821155626_5",
+    "category": "Spor",
+    "difficulty": 1,
+    "question": "Türkiye milli futbol takımı, Dünya Kupası tarihindeki en büyük başarısını hangi yılda elde etmiştir?",
+    "answer": "2002",
+    "options": ["2002", "1954", "2008", "1996"],
+    "note": "Türkiye, 2002 Güney Kore-Japonya Dünya Kupası'nda dünya üçüncüsü olmuştur."
+  },
+  {
+    "id": "imp_1794821155626_6",
+    "category": "Ülkeler",
+    "difficulty": 1,
+    "question": "Dünyanın yüz ölçümü bakımından en büyük ülkesi aşağıdakilerden hangisidir?",
+    "answer": "Rusya",
+    "options": ["Rusya", "Kanada", "Çin", "Amerika Birleşik Devletleri"],
+    "note": "Rusya, Asya ve Avrupa kıtalarına yayılan 17 milyon kilometrekareden fazla yüz ölçümüne sahiptir."
+  },
+  {
+    "id": "imp_1794821155626_7",
+    "category": "Genel Kültür",
+    "difficulty": 1,
+    "question": "Dünyanın Yedi Harikası'ndan biri olan Halikarnas Mozolesi günümüzde Türkiye'nin hangi ilçesinde yer almaktaydı?",
+    "answer": "Bodrum",
+    "options": ["Bodrum", "Fethiye", "Selçuk", "Marmaris"],
+    "note": "Kral Mausolos adına yaptırılan bu anıt mezar, Muğla'nın Bodrum ilçesinde bulunmaktaydı."
+  },
+  {
+    "id": "imp_1794821155626_8",
+    "category": "Bilim",
+    "difficulty": 2,
+    "question": "Güneş Sistemimizdeki en büyük gezegen aşağıdakilerden hangisidir?",
+    "answer": "Jüpiter",
+    "options": ["Jüpiter", "Satürn", "Neptün", "Dünya"],
+    "note": "Jüpiter'in kütlesi, Güneş Sistemi'ndeki diğer tüm gezegenlerin toplam kütlesinden iki kattan daha fazladır."
+  },
+  {
+    "id": "imp_1794821155626_9",
+    "category": "Popüler Kültür",
+    "difficulty": 1,
+    "question": "Kemal Sunal'ın canlandırdığı ünlü 'İnek Şaban' karakteri ilk olarak hangi sinema uyarlamasıyla seyirciyle buluşmuştur?",
+    "answer": "Hababam Sınıfı",
+    "options": ["Hababam Sınıfı", "Tosun Paşa", "Kapıcılar Kralı", "Süt Kardeşler"],
+    "note": "Rıfat Ilgaz'ın aynı adlı romanından uyarlanan yapım, Türk sinema tarihinin en sevilen klasiklerindendir."
+  },
+  {
+    "id": "imp_1794821155626_10",
+    "category": "Ekonomi",
+    "difficulty": 2,
+    "question": "Türkiye Cumhuriyeti Merkez Bankası'nın kurumsal ve finansal alandaki resmi kısaltması hangisidir?",
+    "answer": "TCMB",
+    "options": ["TCMB", "TMB", "TCRB", "MBTC"],
+    "note": "Türkiye Cumhuriyet Merkez Bankası 1930 yılında kurulmuş ve 1931 yılında faaliyete geçmiştir."
+  },
+  {
+    "id": "imp_1794821155626_11",
+    "category": "Tarih",
+    "difficulty": 2,
+    "question": "Osmanlı Devleti'nin fethedilerek ilk resmi başkent yaptığı şehir aşağıdakilerden hangisidir?",
+    "answer": "Bursa",
+    "options": ["Bursa", "Söğüt", "Edirne", "İstanbul"],
+    "note": "Orhan Bey döneminde 1326 yılında fethedilen Bursa, devletin ilk resmi başkenti olmuştur."
+  },
+  {
+    "id": "imp_1794821155626_12",
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Türkiye'nin kıyı kıvrımları ve koyları sebebiyle en uzun kıyı şeridine sahip olan bölgesi hangisidir?",
+    "answer": "Ege Bölgesi",
+    "options": ["Ege Bölgesi", "Karadeniz Bölgesi", "Akdeniz Bölgesi", "Marmara Bölgesi"],
+    "note": "Ege kıyılarının aşırı girintili çıkıntılı yapısı, gerçek kıyı uzunluğunu açık ara birinci yapmaktadır."
+  },
+  {
+    "id": "imp_1794821155626_13",
+    "category": "Bilim İnsanları",
+    "difficulty": 2,
+    "question": "10 Türk Lirası banknotunun arka yüzünde portresi bulunan ünlü Türk matematikçi kimdir?",
+    "answer": "Cahit Arf",
+    "options": ["Cahit Arf", "Ali Kuşçu", "Ömer Hayyam", "Matrakçı Nasuh"],
+    "note": "Cahit Arf, matematik dünyasına 'Arf Sabiti' ve 'Arf Halkaları' gibi önemli terimleri kazandırmıştır."
+  },
+  {
+    "id": "imp_1794821155626_14",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "Türk edebiyatının ilk kadın romancısı kabul edilen yazar aşağıdakilerden hangisidir?",
+    "answer": "Fatma Aliye Hanım",
+    "options": ["Fatma Aliye Hanım", "Halide Edib Adıvar", "Nezihe Muhiddin", "Afife Jale"],
+    "note": "Fatma Aliye Hanım'ın portresi aynı zamanda 50 Türk Lirası banknotunun arka yüzünde yer almaktadır."
+  },
+  {
+    "id": "imp_1794821155626_15",
+    "category": "Şehirler",
+    "difficulty": 2,
+    "question": "Gaziantep şehri UNESCO tarafından hangi alanda Yaratıcı Şehirler Ağı'na dahil edilmiştir?",
+    "answer": "Gastronomi",
+    "options": ["Gastronomi", "Zanaat ve Halk Sanatları", "Tasarım", "Müzik"],
+    "note": "Gaziantep, zengin mutfak kültürü sayesinde 2015 yılında bu uluslararası listeye eklenmiştir."
+  },
+  {
+    "id": "imp_1794821155626_16",
+    "category": "Ülkeler",
+    "difficulty": 2,
+    "question": "Aşağıdaki ülkelerden hangisinin toprakları kıtalararası bir konumda yer almaz?",
+    "answer": "Almanya",
+    "options": ["Almanya", "Türkiye", "Rusya", "Kazakistan"],
+    "note": "Almanya topraklarının tamamı Orta Avrupa kıtası sınırları içerisinde yer almaktadır."
+  },
+  {
+    "id": "imp_1794821155626_17",
+    "category": "Spor",
+    "difficulty": 2,
+    "question": "Kırkpınar Yağlı Güreşleri geleneksel olarak Türkiye'nin hangi ilinde düzenlenmektedir?",
+    "answer": "Edirne",
+    "options": ["Edirne", "Kırklareli", "Tekirdağ", "Balıkesir"],
+    "note": "Kırkpınar Yağlı Güreşleri, dünyada kesintisiz devam eden en eski spor organizasyonlarından biridir."
+  },
+  {
+    "id": "imp_1794821155626_18",
+    "category": "Bilim",
+    "difficulty": 1,
+    "question": "İnsan vücudundaki en büyük organ aşağıdakilerden hangisidir?",
+    "answer": "Deri",
+    "options": ["Deri", "Karaciğer", "Akciğer", "Beyin"],
+    "note": "Yetişkin bir insanda deri organı yaklaşık 1.5 - 2 metrekarelik bir alanı kaplamaktadır."
+  },
+  {
+    "id": "imp_1794821155626_19",
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "İstiklal Marşı'mızın günümüzde kullanılan bestesi kime aittir?",
+    "answer": "Osman Zeki Üngör",
+    "options": ["Osman Zeki Üngör", "Mehmet Akif Ersoy", "Ali Rıfat Çağatay", "Hacı Arif Bey"],
+    "note": "Mehmet Akif Ersoy şiiri yazmış, günümüzde okunan bestesini ise Osman Zeki Üngör hazırlamıştır."
+  },
+  {
+    "id": "imp_1794821155626_20",
+    "category": "Popüler Kültür",
+    "difficulty": 2,
+    "question": "Eurovision Şarkı Yarışması'nda Türkiye'ye birincilik kazandıran şarkı hangisidir?",
+    "answer": "Everyway That I Can",
+    "options": ["Everyway That I Can", "Dinle", "For Real", "Rimi Rimi Ley"],
+    "note": "Sertab Erener, 2003 yılında Riga'da düzenlenen yarışmada bu şarkıyla birinci olmuştur."
+  },
+  {
+    "id": "imp_1794821155626_21",
+    "category": "Coğrafya",
+    "difficulty": 1,
+    "question": "Türkiye'nin en yüksek noktası olan Ağrı Dağı'nın zirve yüksekliği yaklaşık kaç metredir?",
+    "answer": "5.137 metre",
+    "options": ["5.137 metre", "3.916 metre", "4.058 metre", "2.543 metre"],
+    "note": "Ağrı Dağı, Türkiye'nin ve Avrupa kıtasının en yüksek zirveleri arasında bulunur."
+  },
+  {
+    "id": "imp_1794821155626_22",
+    "category": "Tarih",
+    "difficulty": 2,
+    "question": "Çanakkale Savaşı sırasında Koca Seyit'in tek başına kaldırdığı top mermisinin ağırlığı yaklaşık kaç kilogramdır?",
+    "answer": "215 kg",
+    "options": ["215 kg", "150 kg", "310 kg", "400 kg"],
+    "note": "Seyit Onbaşı, kaldırdığı bu mermiyle İngiliz Ocean zırhlısını dümen mekanizmasından vurmuştur."
+  },
+  {
+    "id": "imp_1794821155626_23",
+    "category": "Ekonomi",
+    "difficulty": 1,
+    "question": "Resmi para birimi 'Yen' olan Asya ülkesi aşağıdakilerden hangisidir?",
+    "answer": "Japonya",
+    "options": ["Japonya", "Çin", "Güney Kore", "Hindistan"],
+    "note": "Japon Yeni, Amerikan Doları ve Euro'dan sonra dünyada en çok işlem gören üçüncül para birimidir."
+  },
+  {
+    "id": "imp_1794821155626_24",
+    "category": "Edebiyat",
+    "difficulty": 2,
+    "question": "Milli Mücadele dönemindeki aydın-halk çatışmasını konu alan 'Yaban' romanı kime aittir?",
+    "answer": "Yakup Kadri Karaosmanoğlu",
+    "options": ["Yakup Kadri Karaosmanoğlu", "Reşat Nuri Güntekin", "Tarık Buğra", "Kemal Tahir"],
+    "note": "Roman, İç Anadolu'daki bir köyde geçen olayları Ahmet Celal karakterinin gözünden aktarır."
+  },
+  {
+    "id": "imp_1794821155626_25",
+    "category": "Bilim İnsanları",
+    "difficulty": 2,
+    "question": "Cebirin kurucusu kabul edilen ve 'algoritma' kavramına ismi ilham olan Orta Çağ bilim insanı kimdir?",
+    "answer": "El-Harezmi",
+    "options": ["El-Harezmi", "İbn-i Sina", "Biruni", "Farabi"],
+    "note": "El-Harezmi, sıfır rakamını matematiksel işlemlerde düzenli kullanan ilk matematikçilerdendir."
+  },
+  {
+    "id": "imp_1794821155626_26",
+    "category": "Şehirler",
+    "difficulty": 1,
+    "question": "Tarihi sarı taş evleri ve özgün mimarisiyle ünlü Güneydoğu Anadolu şehri hangisidir?",
+    "answer": "Mardin",
+    "options": ["Mardin", "Şanlıurfa", "Diyarbakır", "Batman"],
+    "note": "Mardin evleri, bölgeye özgü kolay işlenebilen sarı kalker taşının kullanılmasıyla inşa edilmiştir."
+  },
+  {
+    "id": "imp_1794821155626_27",
+    "category": "Spor",
+    "difficulty": 2,
+    "question": "Olimpiyatlarda Türkiye'ye halter branşında ilk altın madalyayı kazandıran sporcumuz kimdir?",
+    "answer": "Naim Süleymanoğlu",
+    "options": ["Naim Süleymanoğlu", "Halil Mutlu", "Taner Sağır", "Nurcan Taylan"],
+    "note": "Naim Süleymanoğlu, kendi ağırlığının üç katını kaldıran dünyadaki ender haltercilerdendir."
+  },
+  {
+    "id": "imp_1794821155626_28",
+    "category": "Ülkeler",
+    "difficulty": 2,
+    "question": "Dünyada resmi verilere göre en fazla adaya sahip olan ülke aşağıdakilerden hangisidir?",
+    "answer": "İsveç",
+    "options": ["İsveç", "Endonezya", "Filipinler", "Yunanistan"],
+    "note": "İsveç, 267.000'den fazla adaya ev sahipliği yaparak bu alanda lider konumdadır."
+  },
+  {
+    "id": "imp_1794821155626_29",
+    "category": "Genel Kültür",
+    "difficulty": 1,
+    "question": "Tarihin en eski tapınak kompleksi kabul edilen Göbeklitepe hangi ilimiz sınırları içerisindedir?",
+    "answer": "Şanlıurfa",
+    "options": ["Şanlıurfa", "Adıyaman", "Mardin", "Gaziantep"],
+    "note": "Tarihin sıfır noktası olarak adlandırılan Göbeklitepe yaklaşık 12.000 yıllık bir geçmişe sahiptir."
+  }
+]
