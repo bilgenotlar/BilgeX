@@ -96,6 +96,7 @@
     .chip:hover:not(:disabled) { transform: var(--pop-scale); border-color: var(--primary); }
     .chip:disabled { opacity: 0.46; cursor: not-allowed; }
     .chip[aria-pressed="true"], .chip.is-active { background-color: var(--primary); border-color: var(--primary); color: var(--on-primary); box-shadow: var(--shadow-pink); }
+    .chip--difficulty[aria-pressed="true"], .chip--difficulty.is-active { background-color: var(--secondary); border-color: var(--secondary); color: var(--on-secondary); box-shadow: var(--shadow-grape); }
     .chip-count { font-size: 0.76rem; font-weight: 800; padding: 1px 7px; border-radius: var(--rounded-full); background-color: var(--surface-container); color: var(--on-surface-variant); }
     .chip.is-active .chip-count { background-color: rgba(255, 255, 255, 0.24); color: #ffffff; }
     .cat-dot { width: 9px; height: 9px; border-radius: var(--rounded-full); background-color: var(--data-1); flex-shrink: 0; }
@@ -237,8 +238,8 @@
             </div>
             <div class="field-group">
               <label class="field-label" for="room-code-input">Oda Kodu (İsteğe Bağlı Düello)</label>
-              <input type="text" id="room-code-input" class="pill-input room-code-input" maxlength="24" placeholder="Örn. MASMAVİ-322-A9F" oninput="handleRoomCodeInput(this.value)">
-              <span class="field-hint" id="room-code-hint">Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen seçtiğin konular ve sorular birebir gelir.</span>
+              <input type="text" id="room-code-input" class="pill-input room-code-input" maxlength="26" placeholder="Örn. MASMAVİ-322-A9F-K" oninput="handleRoomCodeInput(this.value)">
+              <span class="field-hint" id="room-code-hint">Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen seçtiğin konular, zorluk ve sorular birebir gelir.</span>
             </div>
           </div>
 
@@ -253,6 +254,17 @@
             </div>
             <div class="chip-row" id="topic-chips"></div>
             <span class="field-hint" id="topic-selection-hint">Başlamak için listeden en az 3, en fazla 4 konu seçebilir ya da "Rastgele Seç" butonunu kullanabilirsin.</span>
+          </div>
+
+          <div class="field-group">
+            <span class="field-label">Soru Zorluğu</span>
+            <div class="chip-row" id="difficulty-chips">
+              <button type="button" class="chip chip--difficulty is-active" data-diff="all" aria-pressed="true" onclick="selectDifficulty('all', this)">Karışık (Tüm Seviyeler)</button>
+              <button type="button" class="chip chip--difficulty" data-diff="1" aria-pressed="false" onclick="selectDifficulty('1', this)">Kolay</button>
+              <button type="button" class="chip chip--difficulty" data-diff="2" aria-pressed="false" onclick="selectDifficulty('2', this)">Orta</button>
+              <button type="button" class="chip chip--difficulty" data-diff="3" aria-pressed="false" onclick="selectDifficulty('3', this)">Zor</button>
+            </div>
+            <span class="field-hint" id="difficulty-hint">Karışık modda seçtiğin konulardaki kolay, orta ve zor sorular dengeli harmanlanarak gelir.</span>
           </div>
 
           <div class="field-group">
@@ -324,7 +336,7 @@
               <input type="text" id="qm-category" list="qm-category-list" class="pill-input" placeholder="Örn. Yüzüklerin Efendisi">
               <datalist id="qm-category-list"></datalist>
             </div>
-            <div class="field-group"><label class="field-label" for="qm-difficulty">Zorluk Seviyesi</label><select id="qm-difficulty" class="select-input"><option value="1">Kolay (Isınma)</option><option value="2" selected>Orta</option><option value="3">Zor</option></select></div>
+            <div class="field-group"><label class="field-label" for="qm-difficulty">Zorluk Seviyesi</label><select id="qm-difficulty" class="select-input"><option value="1">Kolay</option><option value="2" selected>Orta</option><option value="3">Zor</option></select></div>
           </div>
           <div class="field-group"><label class="field-label" for="qm-question">Soru Metni</label><input type="text" id="qm-question" class="pill-input" placeholder="Örn. Tek Yüzük hangi dağın ateşinde dövülmüştür?"></div>
           <div class="pool-grid">
@@ -359,7 +371,7 @@
         </div>
         <div class="table-wrap">
           <table class="score-table">
-            <thead><tr><th>#</th><th>Yarışmacı</th><th>Seçilen Konular</th><th>Oda Kodu</th><th class="num-col">Puan</th><th class="num-col">Doğru</th><th class="num-col">İsabet</th></tr></thead>
+            <thead><tr><th>#</th><th>Yarışmacı</th><th>Seçilen Konular</th><th>Zorluk</th><th>Oda Kodu</th><th class="num-col">Puan</th><th class="num-col">Doğru</th><th class="num-col">İsabet</th></tr></thead>
             <tbody id="start-leaderboard-body"></tbody>
           </table>
         </div>
@@ -423,7 +435,7 @@
             <p class="subtitle" id="res-rank-desc"></p>
 
             <div class="room-banner">
-              <span><strong>Oda Kodu:</strong> <span id="res-room-code" style="font-weight:900;letter-spacing:0.05em;">MASMAVİ-322</span> — Arkadaşına gönder, aynı konular ve sorularla yarışsın!</span>
+              <span><strong>Oda Kodu:</strong> <span id="res-room-code" style="font-weight:900;letter-spacing:0.05em;">MASMAVİ-322</span> — Arkadaşına gönder, aynı konular, zorluk ve sorularla yarışsın!</span>
               <div class="hud-actions">
                 <button type="button" class="btn btn-maviblue btn-sm" id="btn-copy-room" onclick="copyRoomChallenge(false)">Kodu Kopyala</button>
                 <button type="button" class="btn btn-soft btn-sm" id="btn-copy-invite" onclick="copyRoomChallenge(true)">Meydan Okuma Metni</button>
@@ -492,7 +504,7 @@
   </div>
 
   <script>
-    const STORAGE_KEY = `ortak_akil_v3_state`;
+    const STORAGE_KEY = `ortak_akil_v4_state`;
     const QUESTIONS_FILE_URL = `./sorubankasi.json`;
 
     // =========================================================================
@@ -508,27 +520,30 @@
     const AUTO_ADVANCE_DELAY_MS = 3000;
 
     const DEFAULT_CATEGORIES = [`Spor`, `Ekonomi`, `Tarih`, `Edebiyat`, `Coğrafya`, `Ülkeler`, `Şehirler`, `Bilim İnsanları`, `Bilim`, `Popüler Kültür`, `Genel Kültür`];
-    const DIFFICULTY_LABELS = { 1: `Kolay`, 2: `Orta`, 3: `Zor` };
+    const DIFFICULTY_LABELS = { all: `Karışık`, 1: `Kolay`, 2: `Orta`, 3: `Zor` };
+    const DIFFICULTY_CODE_MAP = { all: `K`, '1': `1`, '2': `2`, '3': `3` };
+    const CODE_TO_DIFFICULTY = { K: `all`, '1': `1`, '2': `2`, '3': `3` };
+
     const ROOM_WORDS = [`MASMAVİ`, `ANKARA`, `İSTANBUL`, `KAPADOKYA`, `EFES`, `BOĞAZİÇİ`, `TRUVA`, `PAMUKKALE`, `OLYMPOS`, `ASPENDOS`, `GALATA`, `AKDENİZ`, `EVREN`, `GALAKSİ`, `DESTAN`, `EFSANE`, `ZİRVE`, `PUSULA`];
 
     const FALLBACK_QUESTIONS = [
       { id: `fb1`, category: `Tarih`, difficulty: 1, question: `Türkiye Büyük Millet Meclisi (TBMM) Ankara’da hangi tarihte açılmıştır?`, answer: `23 Nisan 1920`, options: [`23 Nisan 1920`, `19 Mayıs 1919`, `29 Ekim 1923`, `30 Ağustos 1922`], note: `23 Nisan 1920 tarihi Türkiye’de Ulusal Egemenlik ve Çocuk Bayramı olarak kutlanmaktadır.` },
-      { id: `fb2`, category: `Coğrafya`, difficulty: 1, question: `Türkiye sınırları içindeki en büyük göl hangisidir?`, answer: `Van Gölü`, options: [`Van Gölü`, `Tuz Gölü`, `Beyşehir Gölü`, `Eğirdir Gölü`], note: `Sodalı ve tuzlu suyuyla bilinen Van Gölü, dünyanın en büyük sodalı göllerinden biridir.` },
-      { id: `fb3`, category: `Bilim`, difficulty: 1, question: `Dünya atmosferinde hacim bakımından en büyük paya (%78) sahip olan gaz hangisidir?`, answer: `Azot`, options: [`Azot`, `Oksijen`, `Karbondioksit`, `Argon`], note: `Soluduğumuz havanın yaklaşık %78’i azot, %21’i oksijen ve %1’i diğer gazlardan oluşur.` }
+      { id: `fb2`, category: `Coğrafya`, difficulty: 2, question: `Türkiye sınırları içindeki en büyük göl hangisidir?`, answer: `Van Gölü`, options: [`Van Gölü`, `Tuz Gölü`, `Beyşehir Gölü`, `Eğirdir Gölü`], note: `Sodalı ve tuzlu suyuyla bilinen Van Gölü, dünyanın en büyük sodalı göllerinden biridir.` },
+      { id: `fb3`, category: `Bilim`, difficulty: 3, question: `Dünya atmosferinde hacim bakımından en büyük paya (%78) sahip olan gaz hangisidir?`, answer: `Azot`, options: [`Azot`, `Oksijen`, `Karbondioksit`, `Argon`], note: `Soluduğumuz havanın yaklaşık %78’i azot, %21’i oksijen ve %1’i diğer gazlardan oluşur.` }
     ];
 
     let BASE_QUESTION_BANK = [];
     const CATEGORY_DOT_CLASSES = [``, `cat-dot--2`, `cat-dot--3`, `cat-dot--4`];
 
     const appState = {
-      playerName: `Yarışmacı`, selectedTopics: [], soundEnabled: true,
+      playerName: `Yarışmacı`, selectedTopics: [], selectedDifficulty: `all`, soundEnabled: true,
       history: [], customQuestions: [], seenQuestionIds: [],
       gameActive: false, timerPaused: false, manualPaused: false, timerId: null, autoAdvanceId: null,
       remainingSeconds: GAME_DURATION_SECONDS, deck: [], deckCursor: 0, currentQuestion: null,
       questionStartTime: 0, questionAnswered: false, score: 0, basePointsEarned: 0, bonusPointsEarned: 0,
       streak: 0, maxStreak: 0, correctCount: 0, wrongCount: 0, passCount: 0, passesLeft: 1,
       totalResponseMs: 0, answeredQuestionsCount: 0, runLog: [], currentRunId: null, reviewFilter: `all`,
-      activeRoomCode: ``, activeTopicsSnapshot: [], isJoinedRoom: false, pendingRoomInput: ``, rngFn: Math.random
+      activeRoomCode: ``, activeTopicsSnapshot: [], activeDifficultySnapshot: `all`, isJoinedRoom: false, pendingRoomInput: ``, rngFn: Math.random
     };
 
     function getAllQuestions() {
@@ -602,21 +617,26 @@
     function parseRoomCode(rawInput) {
       const clean = normalizeTrUpper(rawInput).replace(/\s+/g, ``);
       if (!clean) return null;
-      const match = clean.match(/^([A-ZÇĞİÖŞÜ]{3,14})-?(\d{2,4})(?:-([0-9A-Z]{1,8}))?$/);
+      const match = clean.match(/^([A-ZÇĞİÖŞÜ]{3,14})-?(\d{2,4})(?:-([0-9A-Z]{1,8}))?(?:-([K123]))?$/);
       if (!match) return null;
       const word = match[1];
       const num = match[2];
       const maskPart = match[3] || ``;
+      const diffChar = match[4] || ``;
       const decodedTopics = maskPart ? decodeTopicsMask(maskPart) : null;
-      const formatted = maskPart ? `${word}-${num}-${maskPart}` : `${word}-${num}`;
-      return { formatted: formatted, topics: decodedTopics };
+      const decodedDiff = diffChar && CODE_TO_DIFFICULTY[diffChar] ? CODE_TO_DIFFICULTY[diffChar] : null;
+      let formatted = `${word}-${num}`;
+      if (maskPart) formatted += `-${maskPart}`;
+      if (diffChar) formatted += `-${diffChar}`;
+      return { formatted: formatted, topics: decodedTopics, difficulty: decodedDiff };
     }
 
-    function generateRoomCode(selectedTopics) {
+    function generateRoomCode(selectedTopics, difficultyMode) {
       const word = ROOM_WORDS[Math.floor(Math.random() * ROOM_WORDS.length)];
       const num = Math.floor(100 + Math.random() * 900);
       const maskCode = encodeTopicsMask(selectedTopics);
-      return maskCode ? `${word}-${num}-${maskCode}` : `${word}-${num}`;
+      const diffCode = DIFFICULTY_CODE_MAP[difficultyMode] || `K`;
+      return maskCode ? `${word}-${num}-${maskCode}-${diffCode}` : `${word}-${num}-${diffCode}`;
     }
 
     function handleRoomCodeInput(val) {
@@ -627,23 +647,30 @@
       if (parsed) {
         if (parsed.topics && parsed.topics.length > 0) {
           appState.selectedTopics = parsed.topics.slice();
+          if (parsed.difficulty) appState.selectedDifficulty = parsed.difficulty;
           appState.isJoinedRoom = true;
+          syncDifficultyChipsUi();
           renderTopicSelector();
-          if (hintEl) hintEl.textContent = `Oda onaylandı (${parsed.formatted}) • Konular kilitlendi: ${parsed.topics.join(`, `)}`;
+          if (hintEl) hintEl.textContent = `Oda onaylandı (${parsed.formatted}) • Zorluk: ${DIFFICULTY_LABELS[appState.selectedDifficulty]} • Konular: ${parsed.topics.join(`, `)}`;
         } else {
           appState.isJoinedRoom = false;
+          if (parsed.difficulty) {
+            appState.selectedDifficulty = parsed.difficulty;
+            syncDifficultyChipsUi();
+          }
           renderTopicSelector();
           if (hintEl) hintEl.textContent = `Özel düello kodu (${parsed.formatted}) hazır. Aşağıdan seçtiğin konularla başlayacak.`;
         }
       } else {
         if (appState.isJoinedRoom) {
           appState.isJoinedRoom = false;
+          syncDifficultyChipsUi();
           renderTopicSelector();
         }
         if (hintEl) {
           hintEl.textContent = val.trim().length > 0
-            ? `Format örneği: MASMAVİ-322-A9F veya ANKARA-476`
-            : `Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen seçtiğin konular ve sorular birebir gelir.`;
+            ? `Format örneği: MASMAVİ-322-A9F-K veya ANKARA-476`
+            : `Boş bırakırsan yeni kod üretilir; arkadaşının kodunu girersen seçtiğin konular, zorluk ve sorular birebir gelir.`;
         }
       }
     }
@@ -676,7 +703,8 @@
     function saveStateToStorage() {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify({
-          playerName: appState.playerName, selectedTopics: appState.selectedTopics, soundEnabled: appState.soundEnabled,
+          playerName: appState.playerName, selectedTopics: appState.selectedTopics,
+          selectedDifficulty: appState.selectedDifficulty, soundEnabled: appState.soundEnabled,
           history: (appState.history || []).slice(0, 25), customQuestions: appState.customQuestions || [],
           seenQuestionIds: (appState.seenQuestionIds || []).slice(-300)
         }));
@@ -691,6 +719,7 @@
         if (!saved || typeof saved !== `object`) return;
         if (typeof saved.playerName === `string` && saved.playerName.trim()) appState.playerName = saved.playerName.trim();
         if (Array.isArray(saved.selectedTopics)) appState.selectedTopics = saved.selectedTopics.map(String);
+        if (typeof saved.selectedDifficulty === `string` && DIFFICULTY_LABELS[saved.selectedDifficulty]) appState.selectedDifficulty = saved.selectedDifficulty;
         if (typeof saved.soundEnabled === `boolean`) appState.soundEnabled = saved.soundEnabled;
         if (Array.isArray(saved.history)) appState.history = saved.history;
         if (Array.isArray(saved.customQuestions)) appState.customQuestions = saved.customQuestions;
@@ -747,23 +776,52 @@
       return copy;
     }
 
-    function buildSmartDeck(topicsList, useStrictSeedOrder) {
+    // Seçilen konuları ve zorluk seviyesini tam rastgele ama konu yığılması olmadan harmanlar
+    function buildSmartDeck(topicsList, difficultyMode, useStrictSeedOrder) {
       const allowedSet = new Set(topicsList);
-      const allBank = getAllQuestions().filter(function (q) { return allowedSet.has(q.category); });
+      const targetDiff = difficultyMode === `all` ? null : Number(difficultyMode);
 
-      function sortWarmupAndBalance(pool) {
-        const easy = shuffleArray(pool.filter(function (q) { return (q.difficulty || 2) === 1; }));
-        const medium = shuffleArray(pool.filter(function (q) { return (q.difficulty || 2) === 2; }));
-        const hard = shuffleArray(pool.filter(function (q) { return (q.difficulty || 2) === 3; }));
-        return easy.slice(0, 4).concat(shuffleArray(easy.slice(4).concat(medium, hard)));
+      let filtered = getAllQuestions().filter(function (q) {
+        if (!allowedSet.has(q.category)) return false;
+        if (targetDiff !== null && Number(q.difficulty || 2) !== targetDiff) return false;
+        return true;
+      });
+
+      // Seçilen zorlukta hiç soru yoksa boş kalmamak için seçilen konuların tüm sorularına dön
+      if (filtered.length === 0) {
+        filtered = getAllQuestions().filter(function (q) { return allowedSet.has(q.category); });
       }
 
-      if (useStrictSeedOrder) return sortWarmupAndBalance(allBank);
-
       const seenSet = new Set(appState.seenQuestionIds || []);
-      const unseen = allBank.filter(function (q) { return !seenSet.has(q.id); });
-      const seen = allBank.filter(function (q) { return seenSet.has(q.id); });
-      return sortWarmupAndBalance(unseen).concat(shuffleArray(seen));
+      const bucketsByTopic = {};
+      topicsList.forEach(function (t) { bucketsByTopic[t] = []; });
+
+      topicsList.forEach(function (topic) {
+        const topicPool = filtered.filter(function (q) { return q.category === topic; });
+        if (useStrictSeedOrder) {
+          bucketsByTopic[topic] = shuffleArray(topicPool);
+        } else {
+          const unseen = shuffleArray(topicPool.filter(function (q) { return !seenSet.has(q.id); }));
+          const seen = shuffleArray(topicPool.filter(function (q) { return seenSet.has(q.id); }));
+          bucketsByTopic[topic] = unseen.concat(seen);
+        }
+      });
+
+      // Her turda konu sırasını yeniden karıştırarak (round-robin) tüm konuları dengeli dağıt
+      const interleaved = [];
+      let remaining = true;
+      while (remaining) {
+        remaining = false;
+        const roundTopics = shuffleArray(topicsList);
+        for (let i = 0; i < roundTopics.length; i++) {
+          const bucket = bucketsByTopic[roundTopics[i]];
+          if (bucket && bucket.length > 0) {
+            interleaved.push(bucket.shift());
+            if (bucket.length > 0) remaining = true;
+          }
+        }
+      }
+      return interleaved;
     }
 
     function formatClock(totalSeconds) {
@@ -781,6 +839,34 @@
       const cleaned = val.trim();
       appState.playerName = cleaned.length > 0 ? cleaned : `Yarışmacı`;
       saveStateToStorage();
+    }
+
+    function selectDifficulty(diffVal, btn) {
+      if (appState.isJoinedRoom) return;
+      appState.selectedDifficulty = DIFFICULTY_LABELS[diffVal] ? diffVal : `all`;
+      syncDifficultyChipsUi();
+      saveStateToStorage();
+      renderTopicSelector();
+    }
+
+    function syncDifficultyChipsUi() {
+      const chips = document.querySelectorAll(`#difficulty-chips .chip`);
+      chips.forEach(function (c) {
+        const isMatch = c.dataset.diff === appState.selectedDifficulty;
+        c.classList.toggle(`is-active`, isMatch);
+        c.setAttribute(`aria-pressed`, isMatch ? `true` : `false`);
+        c.disabled = appState.isJoinedRoom;
+      });
+      const hintEl = document.getElementById(`difficulty-hint`);
+      if (hintEl) {
+        const messages = {
+          all: `Karışık modda seçtiğin konulardaki kolay, orta ve zor sorular dengeli harmanlanarak gelir.`,
+          '1': `Yalnızca Kolay seviyedeki sorular sorulur (seçilen konuda kolay soru yoksa diğer seviyeler devreye girer).`,
+          '2': `Yalnızca Orta seviyedeki sorular sorulur (seçilen konuda orta soru yoksa diğer seviyeler devreye girer).`,
+          '3': `Yalnızca Zor seviyedeki sorular sorulur (seçilen konuda zor soru yoksa diğer seviyeler devreye girer).`
+        };
+        hintEl.textContent = messages[appState.selectedDifficulty] || messages.all;
+      }
     }
 
     function toggleTopicSelection(categoryName) {
@@ -834,8 +920,8 @@
 
       const allQs = getAllQuestions();
       const availableCats = getAvailableCategories();
+      const targetDiff = appState.selectedDifficulty === `all` ? null : Number(appState.selectedDifficulty);
 
-      // Geçersiz kalmış eski seçimleri temizle
       appState.selectedTopics = (appState.selectedTopics || []).filter(function (t) {
         return availableCats.indexOf(t) !== -1;
       });
@@ -864,7 +950,12 @@
       if (container) {
         const maxReached = selectedCount >= MAX_SELECTED_TOPICS;
         container.innerHTML = availableCats.map(function (cat, idx) {
-          const count = allQs.filter(function (q) { return q.category === cat; }).length;
+          const matchingQs = allQs.filter(function (q) {
+            if (q.category !== cat) return false;
+            if (targetDiff !== null && Number(q.difficulty || 2) !== targetDiff) return false;
+            return true;
+          });
+          const count = matchingQs.length;
           const isSelected = appState.selectedTopics.indexOf(cat) !== -1;
           const isDisabled = appState.isJoinedRoom || (!isSelected && maxReached);
           const safeAttr = escapeHtml(cat);
@@ -941,7 +1032,8 @@
         const sorted = history.slice().sort(function (a, b) { return b.score - a.score; }).slice(0, 8);
         boardBody.innerHTML = sorted.map(function (row, i) {
           const topicsSummary = Array.isArray(row.topics) && row.topics.length > 0 ? row.topics.join(`, `) : `Karma`;
-          return `<tr><td>${i + 1}</td><td>${escapeHtml(row.playerName)}</td><td style="max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${escapeHtml(topicsSummary)}">${escapeHtml(topicsSummary)}</td><td><span class="tag tag--room" style="padding:2px 8px;font-size:0.72rem;">${escapeHtml(row.roomCode || `-`)}</span></td><td class="num-col">${row.score.toLocaleString(`tr-TR`)}</td><td class="num-col">${row.correct}/${row.total}</td><td class="num-col">%${row.accuracy}</td></tr>`;
+          const diffText = DIFFICULTY_LABELS[row.difficulty || `all`] || `Karışık`;
+          return `<tr><td>${i + 1}</td><td>${escapeHtml(row.playerName)}</td><td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${escapeHtml(topicsSummary)}">${escapeHtml(topicsSummary)}</td><td>${escapeHtml(diffText)}</td><td><span class="tag tag--room" style="padding:2px 8px;font-size:0.72rem;">${escapeHtml(row.roomCode || `-`)}</span></td><td class="num-col">${row.score.toLocaleString(`tr-TR`)}</td><td class="num-col">${row.correct}/${row.total}</td><td class="num-col">%${row.accuracy}</td></tr>`;
         }).join(``);
       }
     }
@@ -993,7 +1085,7 @@
 
     function copyAiPromptTemplate() {
       const currentCats = getAvailableCategories().map(function (c) { return `"${c}"`; }).join(`, `);
-      const promptText = `Bana "Ortak Akıl" genel kültür yarışması için Türkçe 15 adet özgün çoktan seçmeli soru üret.\nKurallar:\n1. Çıktıyı SADECE geçerli bir JSON dizisi olarak ver, başka açıklama yazma.\n2. Mevcut konular: ${currentCats} (veya istediğin yeni bir konu başlığı kullanabilirsin).\n3. Doğru cevabı parantez içinde açıklama yazarak belli etme, şıkların uzunlukları dengeli olsun.\n4. Format:\n[{"category":"Bilim Kurgu","difficulty":2,"question":"Soru?","answer":"Doğru","options":["Doğru","Yanlış 1","Yanlış 2","Yanlış 3"],"note":"Kısa bilgi notu."}]`;
+      const promptText = `Bana "Ortak Akıl" genel kültür yarışması için Türkçe 15 adet özgün çoktan seçmeli soru üret.\nKurallar:\n1. Çıktıyı SADECE geçerli bir JSON dizisi olarak ver, başka açıklama yazma.\n2. Mevcut konular: ${currentCats} (veya istediğin yeni bir konu başlığı kullanabilirsin).\n3. difficulty değeri 1 (Kolay), 2 (Orta) ve 3 (Zor) olarak dengeli dağılsın.\n4. Doğru cevabı parantez içinde açıklama yazarak belli etme, şıkların uzunlukları dengeli olsun.\n5. Format:\n[{"category":"Bilim Kurgu","difficulty":2,"question":"Soru?","answer":"Doğru","options":["Doğru","Yanlış 1","Yanlış 2","Yanlış 3"],"note":"Kısa bilgi notu."}]`;
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(promptText).then(function () { showQmFeedback(`Yapay zekâ soru üretme komutu panoya kopyalandı!`, false); });
       }
@@ -1063,6 +1155,7 @@
         roomInput.value = ``;
         handleRoomCodeInput(``);
       }
+      syncDifficultyChipsUi();
       renderTopicSelector();
       renderStartStatsAndBoard();
       switchScreen(`screen-start`);
@@ -1090,18 +1183,22 @@
         if (parsedRoom.topics && parsedRoom.topics.length > 0) {
           appState.selectedTopics = parsedRoom.topics.slice();
         }
+        if (parsedRoom.difficulty) {
+          appState.selectedDifficulty = parsedRoom.difficulty;
+        }
       } else {
         appState.isJoinedRoom = false;
-        appState.activeRoomCode = generateRoomCode(appState.selectedTopics);
+        appState.activeRoomCode = generateRoomCode(appState.selectedTopics, appState.selectedDifficulty);
       }
 
       appState.activeTopicsSnapshot = appState.selectedTopics.slice();
+      appState.activeDifficultySnapshot = appState.selectedDifficulty;
       const sortedTopicsKey = appState.activeTopicsSnapshot.slice().sort().join(`|`);
-      appState.rngFn = createSeededRng(`${appState.activeRoomCode}::${sortedTopicsKey}`);
+      appState.rngFn = createSeededRng(`${appState.activeRoomCode}::${sortedTopicsKey}::${appState.activeDifficultySnapshot}`);
 
       appState.gameActive = true; appState.timerPaused = false; appState.manualPaused = false;
       appState.remainingSeconds = GAME_DURATION_SECONDS;
-      appState.deck = buildSmartDeck(appState.activeTopicsSnapshot, appState.isJoinedRoom);
+      appState.deck = buildSmartDeck(appState.activeTopicsSnapshot, appState.activeDifficultySnapshot, appState.isJoinedRoom);
       appState.deckCursor = 0; appState.score = 0; appState.basePointsEarned = 0; appState.bonusPointsEarned = 0;
       appState.streak = 0; appState.maxStreak = 0; appState.correctCount = 0; appState.wrongCount = 0;
       appState.passCount = 0; appState.passesLeft = 1; appState.totalResponseMs = 0; appState.answeredQuestionsCount = 0;
@@ -1183,7 +1280,7 @@
       if (appState.autoAdvanceId) { clearTimeout(appState.autoAdvanceId); appState.autoAdvanceId = null; }
       appState.timerPaused = false;
       if (appState.deckCursor >= appState.deck.length) {
-        appState.deck = buildSmartDeck(appState.activeTopicsSnapshot, appState.isJoinedRoom);
+        appState.deck = buildSmartDeck(appState.activeTopicsSnapshot, appState.activeDifficultySnapshot, appState.isJoinedRoom);
         appState.deckCursor = 0;
       }
       if (appState.deck.length === 0) {
@@ -1201,7 +1298,7 @@
       qCard.classList.remove(`anim-correct`, `anim-wrong`, `is-ready-next`);
       document.getElementById(`fx-layer`).innerHTML = ``;
       document.getElementById(`q-category-tag`).textContent = rawQ.category;
-      document.getElementById(`q-difficulty-tag`).textContent = DIFFICULTY_LABELS[rawQ.difficulty || 2] || `Orta`;
+      document.getElementById(`q-difficulty-tag`).textContent = DIFFICULTY_LABELS[String(rawQ.difficulty || 2)] || `Orta`;
       const streakBonus = appState.streak >= 5 ? 100 : (appState.streak >= 3 ? 50 : 0);
       document.getElementById(`q-bonus-tag`).textContent = streakBonus > 0 ? `+${BASE_POINTS + streakBonus} Puan (Seri!)` : `+${BASE_POINTS} Puan`;
       document.getElementById(`q-text`).textContent = rawQ.question;
@@ -1348,8 +1445,8 @@
 
       appState.history.unshift({
         id: appState.currentRunId, playerName: appState.playerName, topics: appState.activeTopicsSnapshot.slice(),
-        roomCode: appState.activeRoomCode, score: appState.score, correct: appState.correctCount,
-        wrong: appState.wrongCount, pass: appState.passCount, total: appState.runLog.length,
+        difficulty: appState.activeDifficultySnapshot, roomCode: appState.activeRoomCode, score: appState.score,
+        correct: appState.correctCount, wrong: appState.wrongCount, pass: appState.passCount, total: appState.runLog.length,
         accuracy: accuracy, maxStreak: appState.maxStreak, avgSec: avgSec
       });
       if (appState.history.length > 25) appState.history = appState.history.slice(0, 25);
@@ -1381,8 +1478,9 @@
     function copyRoomChallenge(withMessage) {
       const code = appState.activeRoomCode;
       const topicsListStr = appState.activeTopicsSnapshot.join(`, `);
+      const diffLabel = DIFFICULTY_LABELS[appState.activeDifficultySnapshot] || `Karışık`;
       const text = withMessage
-        ? `Ortak Akıl Bilgi Yarışması'nda (${topicsListStr}) ${appState.score.toLocaleString(`tr-TR`)} puan yaptım! Aynı sorularla yarışmak için Oda Kodum: ${code} • maviblue.win`
+        ? `Ortak Akıl Bilgi Yarışması'nda (${topicsListStr} • ${diffLabel}) ${appState.score.toLocaleString(`tr-TR`)} puan yaptım! Aynı sorularla yarışmak için Oda Kodum: ${code} • maviblue.win`
         : code;
       const btn = document.getElementById(withMessage ? `btn-copy-invite` : `btn-copy-room`);
       const previewBox = document.getElementById(`room-preview-box`);
@@ -1491,6 +1589,7 @@
       await loadExternalQuestionBank();
       const nameInput = document.getElementById(`player-name-input`);
       if (nameInput) nameInput.value = appState.playerName;
+      syncDifficultyChipsUi();
       if (!appState.selectedTopics || appState.selectedTopics.length === 0) {
         pickRandomTopics();
       } else {
