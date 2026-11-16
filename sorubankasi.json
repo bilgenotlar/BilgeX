@@ -862,5 +862,485 @@
     "answer": "Şanlıurfa",
     "options": ["Şanlıurfa", "Adıyaman", "Mardin", "Gaziantep"],
     "note": "Tarihin sıfır noktası olarak adlandırılan Göbeklitepe yaklaşık 12.000 yıllık bir geçmişe sahiptir."
+  },
+    {
+    "category": "Yüzüklerin Efendisi",
+    "difficulty": 2,
+    "question": "Yüzük Kardeşliği kurulduğunda kafile toplam kaç üyeden oluşmaktaydı?",
+    "answer": "9",
+    "options": ["9", "7", "11", "8"],
+    "note": "Kardeşlik; 4 Hobbit, 2 İnsan, 1 Elf, 1 Cüce ve 1 Büyücüden oluşuyordu."
+  },
+  {
+    "category": "Yüzüklerin Efendisi",
+    "difficulty": 2,
+    "question": "J.R.R. Tolkien'in evreninde Tek Yüzük hangi dağın alevlerinde dövülmüştür?",
+    "answer": "Hüküm Dağı",
+    "options": ["Hüküm Dağı", "Yalnız Dağ", "Sisli Dağlar", "Gundabad Dağı"],
+    "note": "Hüküm Dağı, Mordor topraklarında yer alan aktif bir yanardağdır."
+  },
+  {
+    "category": "Yüzüklerin Efendisi",
+    "difficulty": 2,
+    "question": "Yüzüklerin Efendisi serisinde Rohirrim atlılarının lideri ve Rohan Kralı kimdir?",
+    "answer": "Théoden",
+    "options": ["Théoden", "Éomer", "Denethor", "Boromir"],
+    "note": "Kral Théoden, Pelennor Çayırları Savaşı'nda Rohan ordusunun başında savaşmıştır."
+  },
+  {
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "Frank Herbert'ın efsanevi bilim kurgu eseri 'Dune' hangi çöl gezegeninde geçmektedir?",
+    "answer": "Arrakis",
+    "options": ["Arrakis", "Caladan", "Giedi Prime", "Kaitain"],
+    "note": "Arrakis gezegeni, evrendeki en değerli madde olan 'baharat'ın tek kaynağıdır."
+  },
+  {
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "Christopher Nolan'ın yönettiği 'Yıldızlararası' (Interstellar) filminde karadeliğin adı nedir?",
+    "answer": "Gargantua",
+    "options": ["Gargantua", "Cygnus", "Endurance", "TARS"],
+    "note": "Film için oluşturulan Gargantua görselleştirmesi astrofiziksel denklemlere dayanmaktadır."
+  },
+  {
+    "category": "Bilim Kurgu",
+    "difficulty": 2,
+    "question": "Arthur C. Clarke'ın '2001: Bir Uzay Destanı' eserindeki yapay zeka bilgisayarın adı nedir?",
+    "answer": "HAL 9000",
+    "options": ["HAL 9000", "T-800", "JARVIS", "Deep Thought"],
+    "note": "HAL ismi, 'Heuristically programmed Algorithmic computer' kelimelerinin kısaltmasıdır."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Nobel Ödülleri her yıl hangi ülkenin kralı tarafından veya adında törenle takdim edilir?",
+    "answer": "İsveç",
+    "options": ["İsveç", "Norveç", "Danimarka", "İsviçre"],
+    "note": "Nobel Barış Ödülü dışındaki tüm ödüller İsveç'in başkenti Stockholm'de verilir."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Nobel Barış Ödülü diğer Nobel ödüllerinden farklı olarak hangi şehirde verilmektedir?",
+    "answer": "Oslo",
+    "options": ["Oslo", "Stockholm", "Kopenhag", "Cenevre"],
+    "note": "Nobel Barış Ödülü, Alfred Nobel'in vasiyeti gereği Norveç'in Oslo şehrinde takdim edilir."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 2,
+    "question": "Radyoaktivite üzerine yaptığı çalışmalarla hem Fizik hem Kimya dalında Nobel kazanan bilim insanı kimdir?",
+    "answer": "Marie Curie",
+    "options": ["Marie Curie", "Rosalind Franklin", "Lise Meitner", "Irene Joliot-Curie"],
+    "note": "Marie Curie, iki farklı bilim dalında Nobel Ödülü kazanan tek kişidir."
+  },
+  {
+    "category": "Oscar",
+    "difficulty": 2,
+    "question": "Akademi Ödülleri (Oscar) tarihinde 'En İyi Film' ödülünü kazanan ilk İngilizce dışındaki film hangisidir?",
+    "answer": "Parasite",
+    "options": ["Parasite", "Roma", "Life Is Beautiful", "Crouching Tiger, Hidden Dragon"],
+    "note": "Güney Kore yapımı Parasite, 2020 yılında düzenlenen 92. Akademi Ödülleri'nde tarihi bir başarı elde etmiştir."
+  },
+  {
+    "category": "Oscar",
+    "difficulty": 2,
+    "question": "Oscar tarihinde toplam 11 dalda ödül kazanarak rekoru paylaşan filmlerden biri hangisidir?",
+    "answer": "Titanic",
+    "options": ["Titanic", "Avatar", "Gladiator", "The Godfather"],
+    "note": "Titanic, Ben-Hur ve Yüzüklerin Efendisi: Kralın Dönüşü ile birlikte 11 Oscar kazanan üç filmden biridir."
+  },
+  {
+    "category": "Oscar",
+    "difficulty": 2,
+    "question": "Oscar ödül heykelciğinin resmi ve orijinal adı aşağıdakilerden hangisidir?",
+    "answer": "Akademi Liyakat Ödülü",
+    "options": ["Akademi Liyakat Ödülü", "Altın Heykelcik", "Sinema Başarı Ödülü", "Hollywood Onur Heykeli"],
+    "note": "Heykelcik resmi olarak 'Academy Award of Merit' adını taşımaktadır."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Dünyanın en uzun nehri kabul edilen Nil Nehri hangi kıtada yer almaktadır?",
+    "answer": "Afrika",
+    "options": ["Afrika", "Güney Amerika", "Asya", "Kuzey Amerika"],
+    "note": "Nil Nehri yaklaşık 6.650 kilometre uzunluğuyla Afrika kıtasının kuzeyine doğru akar."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Dünyanın en yüksek yanardağlarından biri olan Cotopaxi hangi ülkede yer almaktadır?",
+    "answer": "Ekvador",
+    "options": ["Ekvador", "Şili", "Peru", "Kolombiya"],
+    "note": "Cotopaxi, Ant Dağları sırasının bir parçası olarak aktif bir stratovolkandır."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Kuzey Amerika ile Asya kıtalarını birbirine bağlayan ve ayıran boğaz aşağıdakilerden hangisidir?",
+    "answer": "Bering Boğazı",
+    "options": ["Bering Boğazı", "Cebelitarık Boğazı", "Macellan Boğazı", "Malakka Boğazı"],
+    "note": "Bering Boğazı, Alaska ile Rusya'nın Doğu Sibirya bölgesi arasında yer alır."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 2,
+    "question": "Dünyanın en derin noktası olan Mariana Çukuru hangi okyanusta yer almaktadır?",
+    "answer": "Büyük Okyanus",
+    "options": ["Büyük Okyanus", "Atlas Okyanusu", "Hint Okyanusu", "Arktik Okyanusu"],
+    "note": "Mariana Çukuru'nun en derin noktası yaklaşık 11.000 metre derinliğe ulaşmaktadır."
+  },
+  {
+    "category": "Ödüllü Filmler",
+    "difficulty": 2,
+    "question": "Cannes Film Festivali'nde en prestijli ödül kabul edilen ödülün adı nedir?",
+    "answer": "Altın Palmiye",
+    "options": ["Altın Palmiye", "Altın Ayı", "Altın Aslan", "Altın Küre"],
+    "note": "Altın Palmiye (Palme d'Or) ödülü 1955 yılından itibaren ana yarışma birincisine verilmektedir."
+  },
+  {
+    "category": "Ödüllü Filmler",
+    "difficulty": 2,
+    "question": "Nuri Bilge Ceylan'a Cannes Film Festivali'nde Altın Palmiye kazandıran filmi hangisidir?",
+    "answer": "Kış Uykusu",
+    "options": ["Kış Uykusu", "Bir Zamanlar Anadolu'da", "Uzak", "Ahlat Ağacı"],
+    "note": "Kış Uykusu, 2014 yılında 67. Cannes Film Festivali'nde bu büyük ödülü elde etmiştir."
+  },
+  {
+    "category": "Ödüllü Filmler",
+    "difficulty": 2,
+    "question": "Venedik Film Festivali'nde verilen en büyük en prestijli ödül aşağıdakilerden hangisidir?",
+    "answer": "Altın Aslan",
+    "options": ["Altın Aslan", "Altın Ayı", "Altın Palmiye", "Gümüş Denizkızı"],
+    "note": "Venedik Film Festivali dünyadaki en eski uluslararası film festivalidir."
+  },
+  {
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2024 yılında Avrupa Futbol Şampiyonası'na (Euro 2024) ev sahipliği yapan ülke hangisidir?",
+    "answer": "Almanya",
+    "options": ["Almanya", "Fransa", "İngiltere", "İspanya"],
+    "note": "Şampiyonanın final maçı Berlin'deki Olimpiyat Stadyumu'nda oynanmıştır."
+  },
+  {
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "2026 yılında Kış Olimpiyat Oyunları'na ev sahipliği yapacak olan şehirler hangi ülkede bulunmaktadır?",
+    "answer": "İtalya",
+    "options": ["İtalya", "İsviçre", "Kanada", "Japonya"],
+    "note": "Milano ve Cortina d'Ampezzo şehirleri ortaklaşa ev sahipliği üstlenmiştir."
+  },
+  {
+    "category": "Güncel Olaylar",
+    "difficulty": 2,
+    "question": "İngiltere Kraliçesi 2. Elizabeth'in vefatının ardından tahta geçen Kral 3. Charles'ın taç giyme töreni hangi yılda gerçekleşmiştir?",
+    "answer": "2023",
+    "options": ["2023", "2022", "2021", "2024"],
+    "note": "Taç giyme töreni 6 Mayıs 2023 tarihinde Westminster Abbey'de yapılmıştır."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 2,
+    "question": "Güneş Sistemi'nde etrafında en belirgin ve geniş halka sistemine sahip olan gezegen hangisidir?",
+    "answer": "Satürn",
+    "options": ["Satürn", "Jüpiter", "Uranüs", "Neptün"],
+    "note": "Satürn'ün halkaları çoğunlukla buz parçacıkları ve kaya tozlarından oluşur."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 2,
+    "question": "Dünya'ya en yakın yıldız aşağıdakilerden hangisidir?",
+    "answer": "Güneş",
+    "options": ["Güneş", "Proxima Centauri", "Sirius", "Alpha Centauri"],
+    "note": "Güneş dışındaki Dünya'ya en yakın yıldız ise yaklaşık 4,2 ışık yılı uzaklıktaki Proxima Centauri'dir."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 2,
+    "question": "Kızıl Gezegen olarak bilinen Mars'ın kaç tane doğal uydusu bulunmaktadır?",
+    "answer": "2",
+    "options": ["2", "1", "4", "0"],
+    "note": "Mars'ın iki küçük uydusunun adları Phobos ve Deimos'tur."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 2,
+    "question": "Samanyolu Gökadası'na en yakın dev sarmal gökada aşağıdakilerden hangisidir?",
+    "answer": "Andromeda",
+    "options": ["Andromeda", "Triangulum", "Sombrero", "Magellan"],
+    "note": "Andromeda Gökadası yaklaşık 2.5 milyon ışık yılı uzaklıkta yer alır."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "Fransız Devrimi hangi yılda gerçekleşmiştir?",
+    "answer": "1789",
+    "options": ["1789", "1776", "1815", "1799"],
+    "note": "Fransız Devrimi, Bastille Hapishanesi'nin basılmasıyla simgeleşmiştir."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "Leonardo da Vinci'nin dünyaca ünlü Mona Lisa tablosu günümüzde hangi müzede sergilenmektedir?",
+    "answer": "Louvre Müzesi",
+    "options": ["Louvre Müzesi", "Prado Müzesi", "Uffizi Galerisi", "British Museum"],
+    "note": "Paris'te bulunan Louvre Müzesi yılda milyonlarca ziyaretçi ağırlamaktadır."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "Dünya üzerindeki en yüksek yapı olan Burç Halife hangi şehirde bulunmaktadır?",
+    "answer": "Dubai",
+    "options": ["Dubai", "Riyad", "Doha", "Abu Dabi"],
+    "note": "Burç Halife 828 metre yüksekliğiyle dünyanın en yüksek gökdelenidir."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 2,
+    "question": "Müziğin dahi ismi Ludwig van Beethoven hangi ülkede doğmuştur?",
+    "answer": "Almanya",
+    "options": ["Almanya", "Avusturya", "Macaristan", "İsviçre"],
+    "note": "Beethoven 1770 yılında Almanya'nın Bonn şehrinde dünyaya gelmiştir."
+  },
+  {
+    "category": "Yüzüklerin Efendisi",
+    "difficulty": 3,
+    "question": "J.R.R. Tolkien'in eserlerinde Elf dillerinden biri olan Quenya'yı oluşturan köken dil grubuna verilen ad nedir?",
+    "answer": "Eldarin",
+    "options": ["Eldarin", "Sindarin", "Valarin", "Khuzdul"],
+    "note": "Quenya, Elflerin yüksek ve kadim dili olarak Orta Dünya tarihinde özel bir yere sahiptir."
+  },
+  {
+    "category": "Yüzüklerin Efendisi",
+    "difficulty": 3,
+    "question": "Yüzüklerin Efendisi serisinde Isildur'un Sauron'un parmağından kestiği ve kırılan efsanevi kılıcın adı nedir?",
+    "answer": "Narsil",
+    "options": ["Narsil", "Andúril", "Glamdring", "Orcrist"],
+    "note": "Kırılan Narsil kılıcı daha sonra yeniden dövülerek Andúril adını almıştır."
+  },
+  {
+    "category": "Yüzüklerin Efendisi",
+    "difficulty": 3,
+    "question": "Balrog ile yaptığı savaş sonrasında Gri Gandalf'ın ak büyücü olarak dönüştüğü unvan nedir?",
+    "answer": "Ak Gandalf",
+    "options": ["Ak Gandalf", "Mavi Gandalf", "Kutsal Büyücü", "Valar Elçisi"],
+    "note": "Gandalf, Zirakzigil tepesinde Balrog'u mağlup ettikten sonra Orta Dünya'ya Ak Gandalf olarak geri gönderilmiştir."
+  },
+  {
+    "category": "Bilim Kurgu",
+    "difficulty": 3,
+    "question": "Isaac Asimov'un 'Vakıf' (Foundation) serisinde toplumsal psikolojiyi matematiksel yöntemlerle öngören bilim dalına ne ad verilir?",
+    "answer": "Psikotarih",
+    "options": ["Psikotarih", "Sosyofizik", "Kuantum Sosyolojisi", "Sibernetik"],
+    "note": "Hari Seldon karakteri psikotarih bilimini kullanarak galaktik imparatorluğun çöküşünü tahmin etmiştir."
+  },
+  {
+    "category": "Bilim Kurgu",
+    "difficulty": 3,
+    "question": "Philip K. Dick'in 'Bıçak Sırtı' (Blade Runner) filmine ilham veren romanının orijinal adı nedir?",
+    "answer": "Android'ler Elektrikli Koyun Düşler mi?",
+    "options": ["Android'ler Elektrikli Koyun Düşler mi?", "Karanlığı Taramak", "Yüksek Şatodaki Adam", "Azınlık Raporu"],
+    "note": "Eser ilk olarak 1968 yılında yayımlanmış ve bilim kurgu edebiyatının mihenk taşlarından olmuştur."
+  },
+  {
+    "category": "Bilim Kurgu",
+    "difficulty": 3,
+    "question": "William Gibson'ın 'Cyberpunk' türünün kurucu eseri sayılan 1984 tarihli romanı hangisidir?",
+    "answer": "Neuromancer",
+    "options": ["Neuromancer", "Snow Crash", "Altered Carbon", "Hyperion"],
+    "note": "Neuromancer, 'siber alan' (cyberspace) terimini edebiyata popüler anlamda kazandıran ilk eserdir."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "Nobel Ödülü kazanmış olan fakat ödülü kendi isteğiyle reddeden tek edebiyatçı kimdir?",
+    "answer": "Jean-Paul Sartre",
+    "options": ["Jean-Paul Sartre", "Boris Pasternak", "George Bernard Shaw", "Albert Camus"],
+    "note": "Sartre, 1964 yılında kendisine verilen Nobel Edebiyat Ödülü'nü resmi ödülleri kabul etmeme ilkesi nedeniyle reddetmiştir."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "Nobel Ekonomi Ödülü, Alfred Nobel'in vasiyetiyle değil, hangi kurum tarafından 1968 yılında oluşturulmuştur?",
+    "answer": "İsveç Merkez Bankası",
+    "options": ["İsveç Merkez Bankası", "Dünya Bankası", "Stockholm Üniversitesi", "Uluslararası Para Fonu"],
+    "note": "Ödülün resmi adı 'Sveriges Riksbank Alfred Nobel Anısına İktisadi Bilimler Ödülü'dür."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "1901 yılında dağıtılmaya başlanan ilk Nobel Fizik Ödülü'nü kazanan bilim insanı kimdir?",
+    "answer": "Wilhelm Conrad Röntgen",
+    "options": ["Wilhelm Conrad Röntgen", "Max Planck", "Albert Einstein", "Hendrik Lorentz"],
+    "note": "Röntgen, kendi adıyla anılan X-ışınlarını keşfetmesi sebebiyle bu ilk ödüle layık görülmüştür."
+  },
+  {
+    "category": "Nobel",
+    "difficulty": 3,
+    "question": "Nobel tarihinde üç kez Uluslararası Kızılhaç Komitesi'ne verilen tek Nobel kategori alanı hangisidir?",
+    "answer": "Barış",
+    "options": ["Barış", "Fizik", "Tıp", "Kimya"],
+    "note": "Kızılhaç Komitesi 1917, 1944 ve 1963 yıllarında olmak üzere 3 kez Nobel Barış Ödülü almıştır."
+  },
+  {
+    "category": "Oscar",
+    "difficulty": 3,
+    "question": "Oscar tarihinde 'En İyi Yönetmen' ödülünü kazanan ilk kadın yönetmen kimdir?",
+    "answer": "Kathryn Bigelow",
+    "options": ["Kathryn Bigelow", "Jane Campion", "Chloé Zhao", "Greta Gerwig"],
+    "note": "Kathryn Bigelow, 2010 yılında 'The Hurt Locker' filmiyle bu ödülü kazanmıştır."
+  },
+  {
+    "category": "Oscar",
+    "difficulty": 3,
+    "question": "Sinema tarihinde 'En İyi Film', 'En İyi Yönetmen', 'En İyi Erkek Oyuncu', 'En İyi Kadın Oyuncu' ve 'En İyi Senaryo' ödüllerinin hepsini kazanan 3 filmden biri hangisidir?",
+    "answer": "Kuzuların Sessizliği",
+    "options": ["Kuzuların Sessizliği", "Rüzgar Gibi Geçti", "Casablanca", "Schindler'in Listesi"],
+    "note": "'Beş Büyük Ödül'ü kazanan diğer iki film 'İtiş Kitiş' (It Happened One Night) ve 'Guguk Kuşu'dur."
+  },
+  {
+    "category": "Oscar",
+    "difficulty": 3,
+    "question": "Oscar Ödülleri tarihinde en çok oyunculuk ödülü kazanan oyuncu kimdir?",
+    "answer": "Katharine Hepburn",
+    "options": ["Katharine Hepburn", "Meryl Streep", "Jack Nicholson", "Daniel Day-Lewis"],
+    "note": "Katharine Hepburn kariyeri boyunca 4 kez 'En İyi Kadın Oyuncu' Oscar'ı kazanmıştır."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 3,
+    "question": "Dünyada en fazla zaman dilimine (time zone) sahip olan ülke hangisidir?",
+    "answer": "Fransa",
+    "options": ["Fransa", "Rusya", "Amerika Birleşik Devletleri", "Birleşik Krallık"],
+    "note": "Fransa, deniz aşırı toprakları sayesinde toplam 12 farklı zaman dilimine sahiptir."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 3,
+    "question": "Güney Amerika kıtasında Ekvator çizgisi üzerinde yer almayan tek ülke aşağıdakilerden hangisidir?",
+    "answer": "Şili",
+    "options": ["Şili", "Ekvador", "Kolombiya", "Brezilya"],
+    "note": "Ekvator çizgisi Güney Amerika'da sadece Ekvador, Kolombiya ve Brezilya topraklarından geçer."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 3,
+    "question": "Dünyanın deniz seviyesinden en yüksekteki başkenti hangisidir?",
+    "answer": "La Paz",
+    "options": ["La Paz", "Quito", "Bogota", "Lhasa"],
+    "note": "Bolivya'nın idari başkenti La Paz yaklaşık 3.640 metre rakımda yer almaktadır."
+  },
+  {
+    "category": "Coğrafya",
+    "difficulty": 3,
+    "question": "Afrika kıtasının en yüksek dağı olan Kilimanjaro hangi ülke sınırları içindedir?",
+    "answer": "Tanzanya",
+    "options": ["Tanzanya", "Kenya", "Etiyopya", "Uganda"],
+    "note": "Kilimanjaro Dağı, 5.895 metre yüksekliğinde serbest duran bir volkanik dağdır."
+  },
+  {
+    "category": "Ödüllü Filmler",
+    "difficulty": 3,
+    "question": "Berlin Uluslararası Film Festivali'nde verilen en büyük ödül olan Altın Ayı'yı kazanan ilk Türk filmi hangisidir?",
+    "answer": "Susuz Yaz",
+    "options": ["Susuz Yaz", "Duvara Karşı", "Bal", "Yol"],
+    "note": "Metin Erksan'ın yönettiği Susuz Yaz, 1964 yılında Altın Ayı ödülünü kazanmıştır."
+  },
+  {
+    "category": "Ödüllü Filmler",
+    "difficulty": 3,
+    "question": "Yılmaz Güney'in senaryosunu yazdığı ve Cannes Film Festivali'nde Altın Palmiye kazanan efsanevi film hangisidir?",
+    "answer": "Yol",
+    "options": ["Yol", "Sürü", "Umut", "Duvar"],
+    "note": "Şerif Gören'in yönettiği Yol filmi 1982 Cannes Film Festivali'nde Altın Palmiye ödülünü paylaşmıştır."
+  },
+  {
+    "category": "Ödüllü Filmler",
+    "difficulty": 3,
+    "question": "Akira Kurosawa'nın 1951 Venedik Film Festivali'nde Altın Aslan kazanarak Japon sinemasını dünyaya tanıtan filmi hangisidir?",
+    "answer": "Rashomon",
+    "options": ["Rashomon", "Seven Samurai", "Ran", "Yojimbo"],
+    "note": "Rashomon, olayların farklı karakterler gözünden anlatılması tekniğiyle sinema tarihine geçmiştir."
+  },
+  {
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "2024 yılında James Webb Uzay Teleskobu tarafından gözlemlenen ve bilinen en eski galaksi adayı kabul edilen gökada hangisidir?",
+    "answer": "JADES-GS-z14-0",
+    "options": ["JADES-GS-z14-0", "GN-z11", "HD1", "MACS1149-JD1"],
+    "note": "Bu gökada Büyük Patlama'dan sadece 290 milyon yıl sonrasına tarihlenmektedir."
+  },
+  {
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "Avrupa Birliği'ne en son katılan ve 28. üye ülke olan (İngiltere ayrılmadan önce) Balkan ülkesi hangisidir?",
+    "answer": "Hırvatistan",
+    "options": ["Hırvatistan", "Slovenya", "Bulgaristan", "Karadağ"],
+    "note": "Hırvatistan 1 Temmuz 2013 tarihinde Avrupa Birliği'nin tam üyesi olmuştur."
+  },
+  {
+    "category": "Güncel Olaylar",
+    "difficulty": 3,
+    "question": "Dünyanın en büyük serbest ticaret anlaşmalarından biri olan RCEP (Bölgesel Kapsamlı Ekonomik Ortaklık) hangi bölge merkezli imzalanmıştır?",
+    "answer": "Asya-Pasifik",
+    "options": ["Asya-Pasifik", "Kuzey Amerika", "Latin Amerika", "Doğu Avrupa"],
+    "note": "RCEP anlaşması dünya nüfusunun ve ekonomisinin yaklaşık üçte birini kapsamaktadır."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Güneş Sistemi dışındaki bir yıldızın etrafında dönen ilk ötegezegen (exoplanet) hangi yıldızın etrafında keşfedilmiştir?",
+    "answer": "51 Pegasi",
+    "options": ["51 Pegasi", "Kepler-186", "TRAPPIST-1", "Proxima Centauri"],
+    "note": "51 Pegasi b ötegezegeninin keşfi, 2019 yılında Nobel Fizik Ödülü kazandırmıştır."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Güneş yüzeyinde gerçekleşen patlamalar sonucu ortaya çıkan ve Dünya'da kutup ışıklarına (Aurora) neden olan parçacık akımına ne ad verilir?",
+    "answer": "Güneş Rüzgarı",
+    "options": ["Güneş Rüzgarı", "Kozmik Işınım", "Güneş Lekesi", "Kütle Çekim Dalgası"],
+    "note": "Güneş rüzgarları Dünya'nın manyetosferi ile etkileşime girerek Aurora Borealis ve Australis'i oluşturur."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Bir yıldızın karadeliğe dönüşmeden önceki son kütlesel üst sınırını belirleyen fiziksel sınıra ne ad verilir?",
+    "answer": "Chandrasekhar Sınırı",
+    "options": ["Chandrasekhar Sınırı", "Oort Sınırı", "Roche Sınırı", "Kuiper Sınırı"],
+    "note": "Chandrasekhar sınırı, bir beyaz cücenin sahip olabileceği maksimum kütleyi (yaklaşık 1,4 Güneş kütlesi) ifade eder."
+  },
+  {
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Jüpiter'in etrafında dönen ve Güneş Sistemi'ndeki en büyük uydu olan gök cismi hangisidir?",
+    "answer": "Ganymede",
+    "options": ["Ganymede", "Titan", "Callisto", "Europa"],
+    "note": "Ganymede, Merkür gezegeninden bile daha büyük bir çapa sahiptir."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 3,
+    "question": "'Sanat Sanat İçindir' anlayışını savunan Parnasyizm akımı ilk olarak hangi ülkede ortaya çıkmıştır?",
+    "answer": "Fransa",
+    "options": ["Fransa", "İngiltere", "İtalya", "Almanya"],
+    "note": "Parnasyizm, 19. yüzyılın ikinci yarısında romantizme tepki olarak gelişen bir şiir akımıdır."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 3,
+    "question": "Dünyanın bilinen en eski yazılı kanunlarından biri olan Hammurabi Kanunları hangi uygarlık tarafından hazırlanmıştır?",
+    "answer": "Babil",
+    "options": ["Babil", "Sümer", "Asur", "Akad"],
+    "note": "Hammurabi Kanunları 282 maddeden oluşmakta ve göze göz, dişe diş prensibine dayanmaktadır."
+  },
+  {
+    "category": "Genel Kültür",
+    "difficulty": 3,
+    "question": "Ünlü ressam Edvard Munch'un ikonik 'Çığlık' (The Scream) tablosunun orijinal versiyonu hangi ülkenin ulusal müzesinde bulunmaktadır?",
+    "answer": "Norveç",
+    "options": ["Norveç", "İsveç", "Hollanda", "Danimarka"],
+    "note": "Norveçli dışavurumcu ressam Edvard Munch bu eseri 1893 yılında tamamlamıştır."
   }
 ]
