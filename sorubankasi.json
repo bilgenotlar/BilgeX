@@ -5426,5 +5426,831 @@
       "Dilma Rousseff"
     ],
     "note": "Eski Mexico City Belediye Başkanı ve iklim bilimci olan Claudia Sheinbaum, Ekim 2024'te görevi devralmıştır."
+  },
+  {
+    "id": "q_1794851944003_0_852",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "Güneş Sistemi'nde Dünya'ya en yakın konumda bulunan ve 'Kızıl Gezegen' olarak adlandırılan gezegen hangisidir?",
+    "answer": "Mars",
+    "options": [
+      "Mars",
+      "Venüs",
+      "Jüpiter",
+      "Merkür"
+    ],
+    "note": "Mars yüzeyindeki demir oksit mineralleri gezegene pas kırmızısı rengini verir."
+  },
+  {
+    "id": "q_1794851944010_1_433",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "Dünya'nın tek doğal uydusu olan ve gelgit olaylarının oluşmasında en büyük paya sahip gök cismi hangisidir?",
+    "answer": "Ay",
+    "options": [
+      "Ay",
+      "Titan",
+      "Europa",
+      "Phobos"
+    ],
+    "note": "Ay her yıl Dünya'dan yaklaşık 3,8 santimetre uzaklaşmaktadır."
+  },
+  {
+    "id": "q_1794851944021_3_115",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "Güneş'e en yakın yörüngede bulunan ve atmosferi neredeyse hiç olmayan gezegen hangisidir?",
+    "answer": "Merkür",
+    "options": [
+      "Merkür",
+      "Venüs",
+      "Mars",
+      "Neptün"
+    ],
+    "note": "Merkür Güneş'e en yakın gezegen olmasına rağmen, kalın bir atmosferi olmadığı için Güneş Sistemi'nin en sıcak gezegeni değildir."
+  },
+  {
+    "id": "q_1794851944027_4_852",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "İçinde Güneş Sistemi'nin de yer aldığı çubuklu sarmal yapıdaki gökadanın adı nedir?",
+    "answer": "Samanyolu",
+    "options": [
+      "Samanyolu",
+      "Üçgen",
+      "Sombrero",
+      "Girdap"
+    ],
+    "note": "Samanyolu Galaksisi'nin bir ucundan diğer ucuna ışığın ulaşması yaklaşık 100.000 yıl sürer."
+  },
+  {
+    "id": "q_1794851944032_5_725",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "Yoğun karbondioksit atmosferinin yarattığı sera etkisi nedeniyle Güneş Sistemi'nin en sıcak gezegeni olan gök cismi hangisidir?",
+    "answer": "Venüs",
+    "options": [
+      "Venüs",
+      "Merkür",
+      "Mars",
+      "Uranüs"
+    ],
+    "note": "Venüs'ün yüzey sıcaklığı ortalama 465 santigrat derece civarındadır ve kurşunu bile eritebilir."
+  },
+  {
+    "id": "q_1794851944038_6_812",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "Güneş Sistemi'nde Güneş'e en uzak konumda bulunan ve şiddetli rüzgârlarıyla bilinen buz devi gezegen hangisidir?",
+    "answer": "Neptün",
+    "options": [
+      "Neptün",
+      "Uranüs",
+      "Jüpiter",
+      "Plüton"
+    ],
+    "note": "Neptün, matematiksel hesaplamalarla varlığı öngörüldükten sonra teleskopla gözlemlenebilen ilk gezegendir."
+  },
+  {
+    "id": "q_1794851944044_7_859",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "1957 yılında Sovyetler Birliği tarafından Dünya yörüngesine fırlatılan ilk yapay uydunun adı nedir?",
+    "answer": "Sputnik 1",
+    "options": [
+      "Sputnik 1",
+      "Vostok 1",
+      "Apollo 11",
+      "Explorer 1"
+    ],
+    "note": "Sputnik 1'in fırlatılması, Uzay Çağı'nın başlangıcı kabul edilir ve üç hafta boyunca radyo sinyalleri göndermiştir."
+  },
+  {
+    "id": "q_1794851944049_8_787",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "Geceleri çıplak gözle görülebilen, parlaklığı ve kuzey yönünü göstermesiyle bilinen yıldız hangisidir?",
+    "answer": "Kutup Yıldızı",
+    "options": [
+      "Kutup Yıldızı",
+      "Sirius Yıldızı",
+      "Vega Yıldızı",
+      "Betelgeuse"
+    ],
+    "note": "Dünya'nın dönme ekseni doğrultusunda yer aldığı için gece boyunca gökyüzünde neredeyse hiç hareket etmiyor gibi görünür."
+  },
+  {
+    "id": "q_1794851944055_9_151",
+    "category": "Astronomi",
+    "difficulty": 1,
+    "question": "2006 yılında Uluslararası Astronomi Birliği kararıyla gezegen statüsünden çıkarılarak 'cüce gezegen' sınıfına alınan gök cismi hangisidir?",
+    "answer": "Plüton",
+    "options": [
+      "Plüton",
+      "Ceres",
+      "Eris",
+      "Haumea"
+    ],
+    "note": "Plüton'un yüzölçümü, Dünya'daki Rusya topraklarının toplam yüzölçümünden daha küçüktür."
+  },
+  {
+    "id": "q_1794851944061_10_881",
+    "category": "Astronomi",
+    "difficulty": 2,
+    "question": "Dönme ekseni yörünge düzlemine neredeyse tamamen yatık olduğu için adeta yuvarlanarak dönen gezegen hangisidir?",
+    "answer": "Uranüs",
+    "options": [
+      "Uranüs",
+      "Neptün",
+      "Venüs",
+      "Merkür"
+    ],
+    "note": "Uranüs'ün yaklaşık 98 derecelik eksen eğikliği, gezegende her biri 21 Dünya yılı süren aşırı mevsimlere yol açar."
+  },
+  {
+    "id": "q_1794851944067_11_185",
+    "category": "Astronomi",
+    "difficulty": 2,
+    "question": "Dünya'dan yaklaşık 75-76 yılda bir çıplak gözle görülebilen en ünlü kısa periyotlu kuyruklu yıldız hangisidir?",
+    "answer": "Halley",
+    "options": [
+      "Halley",
+      "Hale-Bopp",
+      "Encke",
+      "Shoemaker-Levy"
+    ],
+    "note": "Halley Kuyruklu Yıldızı'nın bir sonraki günberi geçişi 2061 yılında gerçekleşecektir."
+  },
+  {
+    "id": "q_1794851944073_12_988",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Bir kara deliğin kütle çekiminden ışığın dahi kaçamadığı teorik sınır yüzeyine ne ad verilir?",
+    "answer": "Olay Ufku",
+    "options": [
+      "Olay Ufku",
+      "Tekillik Noktası",
+      "Roche Limiti",
+      "Foton Küresi"
+    ],
+    "note": "Olay ufku fiziksel bir yüzey değildir; bu sınırı geçen hiçbir bilgi dış evrene geri dönemez."
+  },
+  {
+    "id": "q_1794851944079_13_987",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Güneş'e en yakın yıldız sistemi olan Alpha Centauri'nin bir parçası olan ve Dünya'ya en yakın ötegezegen adayını barındıran yıldız hangisidir?",
+    "answer": "Proxima Centauri",
+    "options": [
+      "Proxima Centauri",
+      "Barnard Yıldızı",
+      "Wolf 359",
+      "Sirius B"
+    ],
+    "note": "Dünya'dan yaklaşık 4,24 ışık yılı uzaklıkta bulunan Proxima Centauri, çıplak gözle görülemeyecek kadar sönük bir kırmızı cücedir."
+  },
+  {
+    "id": "q_1794851944085_14_486",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Büyük kütleli bir gök cisminin başka bir gök cismine yaklaşırken gelgit kuvvetleri nedeniyle parçalanmadan durabileceği en kısa mesafeye ne ad verilir?",
+    "answer": "Roche Limiti",
+    "options": [
+      "Roche Limiti",
+      "Hubble Sabiti",
+      "Lagrange Noktası",
+      "Schwarzschild Yarıçapı"
+    ],
+    "note": "Bir uydunun gezegeninin Roche limitinin içine girmesi, parçalanarak gezegen çevresinde bir halka sistemi oluşturmasına yol açabilir."
+  },
+  {
+    "id": "q_1794851944091_15_586",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Neptün yörüngesinin ötesinde yer alan ve buzlu küçük gök cisimlerinden oluşan disk şeklindeki bölgeye ne ad verilir?",
+    "answer": "Kuiper Kuşağı",
+    "options": [
+      "Kuiper Kuşağı",
+      "Asteroit Kuşağı",
+      "Oort Bulutu",
+      "Van Allen Kuşağı"
+    ],
+    "note": "Kuiper Kuşağı, Güneş Sistemi'nin oluşumundan arta kalan donmuş kalıntıları barındırır ve kısa periyotlu kuyruklu yıldızların kaynağıdır."
+  },
+  {
+    "id": "q_1794851944096_16_125",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Yıldızların parlaklıkları ile tayf türleri arasındaki ilişkiyi gösteren ve yıldız evrimini anlamada kullanılan temel diyagram hangisidir?",
+    "answer": "Hertzsprung-Russell",
+    "options": [
+      "Hertzsprung-Russell",
+      "Feynman-Dyson",
+      "Jeans-Eddington",
+      "Hubble-Humason"
+    ],
+    "note": "Bu diyagramda yıldızların büyük çoğunluğu sol üstten sağ alta uzanan ve 'Anakol' adı verilen kuşak üzerinde yer alır."
+  },
+  {
+    "id": "q_1794851944102_17_571",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Çok hızlı kendi ekseni etrafında dönen ve kutuplarından düzenli aralıklarla elektromanyetik radyasyon demetleri yayan nötron yıldızlarına ne ad verilir?",
+    "answer": "Pulsar",
+    "options": [
+      "Pulsar",
+      "Kuasar",
+      "Blazar",
+      "Magnetar"
+    ],
+    "note": "İlk pulsar 1967 yılında Jocelyn Bell Burnell ve Antony Hewish tarafından keşfedilmiş, düzenli sinyalleri nedeniyle ilk başta uzaylı sinyali sanılmıştır."
+  },
+  {
+    "id": "q_1794851944108_18_154",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "Büyük Patlama'dan yaklaşık 380.000 yıl sonra evrenin soğuyup saydam hale gelmesiyle yayılan ve tüm gökyüzünü dolduran kalıntı radyasyon hangisidir?",
+    "answer": "Kozmik Mikrodalga Arka Plan",
+    "options": [
+      "Kozmik Mikrodalga Arka Plan",
+      "Cherenkov Işıması",
+      "Sinkrotron Radyasyonu",
+      "Hawking Radyasyonu"
+    ],
+    "note": "1964 yılında Arno Penzias ve Robert Wilson tarafından tesadüfen keşfedilen bu ışıma, Büyük Patlama teorisinin en güçlü kanıtıdır."
+  },
+  {
+    "id": "q_1794851944114_19_730",
+    "category": "Astronomi",
+    "difficulty": 3,
+    "question": "İki büyük gök cisminin kütle çekim kuvvetlerinin, aralarındaki küçük bir cismin göreli konumunu sabit tutacak şekilde dengelendiği uzay noktalarına ne ad verilir?",
+    "answer": "Lagrange Noktaları",
+    "options": [
+      "Lagrange Noktaları",
+      "Kepler Odakları",
+      "Euler Eksenleri",
+      "Poincaré Kesitleri"
+    ],
+    "note": "James Webb Uzay Teleskobu, Dünya ve Güneş'in ikinci Lagrange noktası olan L2 çevresinde yörüngede görev yapmaktadır."
+  },
+  {
+    "id": "q_1794851944120_20_498",
+    "category": "Futbol",
+    "difficulty": 1,
+    "question": "Bir futbol maçında takımlardan biri kurallara uygun olarak sahaya en fazla kaç oyuncu ile çıkabilir?",
+    "answer": "11",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "9"
+    ],
+    "note": "Uluslararası futbol kurallarına göre bir takımın maça başlayabilmesi için sahada en az 7 oyuncusunun bulunması zorunludur."
+  },
+  {
+    "id": "q_1794851944125_21_966",
+    "category": "Futbol",
+    "difficulty": 1,
+    "question": "2022 FIFA Dünya Kupası'nı finalde Fransa'yı penaltı atışları sonucunda mağlup ederek kazanan ülke hangisidir?",
+    "answer": "Arjantin",
+    "options": [
+      "Arjantin",
+      "Almanya",
+      "İspanya",
+      "Portekiz"
+    ],
+    "note": "Katar'da düzenlenen 2022 finali, normal süresi 2-2 ve uzatmaları 3-3 biten unutulmaz bir mücadeleye sahne olmuştur."
+  },
+  {
+    "id": "q_1794851944131_22_892",
+    "category": "Futbol",
+    "difficulty": 1,
+    "question": "Futbol tarihinde en fazla Ballon d'Or (Altın Top) ödülünü kazanan Arjantinli futbolcu kimdir?",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Diego Maradona",
+      "Michel Platini",
+      "Zinedine Zidane"
+    ],
+    "note": "Lionel Messi kariyeri boyunca toplam 8 kez Ballon d'Or ödülüne layık görülerek kırılması güç bir rekora imza atmıştır."
+  },
+  {
+    "id": "q_1794851944136_23_141",
+    "category": "Futbol",
+    "difficulty": 1,
+    "question": "Süper Lig tarihinde oynadığı tüm sezonlarda ligden hiç düşmeyen ve iç saha maçlarını Kadıköy'de oynayan kulüp hangisidir?",
+    "answer": "Fenerbahçe",
+    "options": [
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Bursaspor",
+      "Başakşehir"
+    ],
+    "note": "Fenerbahçe, 1959 yılında başlayan profesyonel lig tarihinin tüm sezonlarında yer alan üç kurucu kulüpten biridir."
+  },
+  {
+    "id": "q_1794851944142_24_349",
+    "category": "Futbol",
+    "difficulty": 1,
+    "question": "UEFA Şampiyonlar Ligi kupasını tarihinde en fazla kazanan İspanyol futbol kulübü hangisidir?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Barcelona",
+      "AC Milan",
+      "Bayern Münih"
+    ],
+    "note": "Real Madrid, 1956 yılında düzenlenen ilk Avrupa Şampiyon Kulüpler Kupası'nı da kazanarak organizasyon tarihine adını yazdırmıştır."
+  },
+  {
+    "id": "q_1794851944148_25_817",
+    "category": "Futbol",
+    "difficulty": 1,
+    "question": "Kaleci dışında bir oyuncunun ceza sahası içinde topa bilerek elle müdahale etmesi durumunda hakemin verdiği karar nedir?",
+    "answer": "Penaltı vuruşu",
+    "options": [
+      "Penaltı vuruşu",
+      "Endirekt vuruş",
+      "Köşe vuruşu",
+      "Hakem atışı"
+    ],
+    "note": "Penaltı noktası, kale çizgisinin tam ortasından sahaya doğru 11 metre uzaklıkta yer alır."
+  },
+  {
+    "id": "q_1794851944154_26_280",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "Süper Lig tarihinde İstanbul dışından şampiyonluk yaşayan ilk Anadolu takımı hangisidir?",
+    "answer": "Trabzonspor",
+    "options": [
+      "Trabzonspor",
+      "Bursaspor",
+      "Eskişehirspor",
+      "Sivasspor"
+    ],
+    "note": "Trabzonspor, 1975-1976 sezonunda elde ettiği ilk şampiyonlukla İstanbul takımlarının 17 yıllık hegemonyasını sonlandırmıştır."
+  },
+  {
+    "id": "q_1794851944160_27_919",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "A Milli Futbol Takımımız tarihinde ilk kez hangi yıl düzenlenen FIFA Dünya Kupası finallerine katılmıştır?",
+    "answer": "1954",
+    "options": [
+      "1954",
+      "1950",
+      "1962",
+      "1974"
+    ],
+    "note": "İsviçre'de düzenlenen 1954 Dünya Kupası'nda Türkiye, elemelerde İspanya'yı kura çekimi sonucunda eleyerek finallere gitmiştir."
+  },
+  {
+    "id": "q_1794851944166_28_789",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "İngiltere Premier Lig'de 2003-2004 sezonunu hiç mağlubiyet almadan 'Namağlup Şampiyon' unvanıyla tamamlayan kulüp hangisidir?",
+    "answer": "Arsenal",
+    "options": [
+      "Arsenal",
+      "Manchester United",
+      "Chelsea",
+      "Liverpool"
+    ],
+    "note": "Arsène Wenger yönetimindeki bu kadro, 38 maçta 26 galibiyet ve 12 beraberlik alarak 'The Invincibles' lakabını almıştır."
+  },
+  {
+    "id": "q_1794851944172_29_240",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "1976 Avrupa Futbol Şampiyonası finalinde topu kalenin ortasına yavaşça aşırtarak attığı penaltıyla kendi adıyla anılan vuruş tekniğini kazandıran Çekoslovak futbolcu kimdir?",
+    "answer": "Antonín Panenka",
+    "options": [
+      "Antonín Panenka",
+      "Josef Masopust",
+      "Pavel Nedvěd",
+      "Petr Čech"
+    ],
+    "note": "Panenka bu penaltıyı Batı Almanya'nın efsane kalecisi Sepp Maier'e karşı atarak ülkesine Avrupa şampiyonluğunu getirmiştir."
+  },
+  {
+    "id": "q_1794851944178_30_942",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "2002 FIFA Dünya Kupası'nda üçüncülük maçında Güney Kore'ye karşı 11. saniyede attığı golle Dünya Kupası tarihinin en erken golünü kaydeden Türk futbolcu kimdir?",
+    "answer": "Hakan Şükür",
+    "options": [
+      "Hakan Şükür",
+      "İlhan Mansız",
+      "Hasan Şaş",
+      "Nihat Kahveci"
+    ],
+    "note": "Santra vuruşunun hemen ardından kazanılan bu gol, aradan geçen yıllara rağmen hâlâ Dünya Kupası rekorunu elinde tutmaktadır."
+  },
+  {
+    "id": "q_1794851944184_31_665",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "İngiltere Premier Lig tarihinde 2015-2016 sezonunda 5000'de 1 ihtimal verilmesine rağmen şampiyon olarak büyük sürpriz yapan kulüp hangisidir?",
+    "answer": "Leicester City",
+    "options": [
+      "Leicester City",
+      "Nottingham Forest",
+      "Blackburn Rovers",
+      "Aston Villa"
+    ],
+    "note": "Claudio Ranieri yönetimindeki Leicester City, bir önceki sezon ligde kalmayı son haftalarda başardıktan sonra tarihinin ilk lig şampiyonluğunu kazanmıştır."
+  },
+  {
+    "id": "q_1794851944190_32_696",
+    "category": "Futbol",
+    "difficulty": 2,
+    "question": "Süper Lig tarihinde bir sezonda yalnızca 1 yenilgi alarak 'Namağlup Şampiyon' unvanına sahip olan tek Türk kulübü hangisidir?",
+    "answer": "Beşiktaş",
+    "options": [
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Bursaspor"
+    ],
+    "note": "Beşiktaş, teknik direktör Gordon Milne yönetiminde 1991-1992 sezonunu 30 maçta 23 galibiyet ve 7 beraberlikle namağlup tamamlamıştır."
+  },
+  {
+    "id": "q_1794851944196_33_774",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Futbol tarihinde tek bir FIFA Dünya Kupası turnuvasında 13 gol atarak bir turnuvada en çok gol atan oyuncu rekorunu kıran Fransız golcü kimdir?",
+    "answer": "Just Fontaine",
+    "options": [
+      "Just Fontaine",
+      "Raymond Kopa",
+      "Thierry Henry",
+      "Kylian Mbappé"
+    ],
+    "note": "Just Fontaine bu olağanüstü rekoru İsveç'te düzenlenen 1958 Dünya Kupası'nda oynadığı sadece 6 maçta kırmıştır."
+  },
+  {
+    "id": "q_1794851944202_34_975",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Futbol tarihinin ilk FIFA Dünya Kupası organizasyonu 1930 yılında hangi Güney Amerika ülkesinde düzenlenmiştir?",
+    "answer": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Arjantin",
+      "Şili",
+      "Paraguay"
+    ],
+    "note": "Ev sahibi Uruguay, finalde komşusu Arjantin'i 4-2 mağlup ederek ilk Dünya Kupası'nın sahibi olmuştur."
+  },
+  {
+    "id": "q_1794851944208_35_539",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "UEFA Şampiyonlar Ligi tarihinde teknik direktör olarak bu kupayı beş kez kazanarak rekor kıran İtalyan çalıştırıcı kimdir?",
+    "answer": "Carlo Ancelotti",
+    "options": [
+      "Carlo Ancelotti",
+      "Arrigo Sacchi",
+      "Marcello Lippi",
+      "Fabio Capello"
+    ],
+    "note": "Ancelotti bu beş şampiyonluğun ikisini AC Milan, üçünü ise Real Madrid'in başında kazanmıştır."
+  },
+  {
+    "id": "q_1794851944214_36_356",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Futbol tarihinde Ballon d'Or (Altın Top) ödülünü kazanan ilk ve tek kaleci olan Sovyet efsanesi kimdir?",
+    "answer": "Lev Yaşin",
+    "options": [
+      "Lev Yaşin",
+      "Dino Zoff",
+      "Gordon Banks",
+      "Rinat Dasayev"
+    ],
+    "note": "'Kara Örümcek' lakabıyla tanınan Lev Yaşin, 1963 yılında bu ödüle layık görülmüş ve kariyeri boyunca 150'den fazla penaltı kurtarmıştır."
+  },
+  {
+    "id": "q_1794851944220_37_223",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "1950 FIFA Dünya Kupası'nda final grubunun son maçında Maracanã Stadyumu'nda ev sahibi ülkeyi 2-1 yenerek dünya şampiyonu olan takım hangisidir?",
+    "answer": "Uruguay",
+    "options": [
+      "Uruguay",
+      "İsveç",
+      "İspanya",
+      "İtalya"
+    ],
+    "note": "Futbol tarihine 'Maracanazo' olarak geçen bu maçı stadyumda yaklaşık 200.000 seyirci izlemiştir."
+  },
+  {
+    "id": "q_1794851944226_38_107",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "Süper Lig tarihinde oynanan maçlarda toplamda en fazla gol atarak lig tarihinin tüm zamanlardaki en golcü futbolcusu unvanını elinde tutan isim kimdir?",
+    "answer": "Hakan Şükür",
+    "options": [
+      "Hakan Şükür",
+      "Hami Mandıralı",
+      "Aykut Kocaman",
+      "Metin Oktay"
+    ],
+    "note": "Hakan Şükür, Süper Lig kariyeri boyunca attığı 249 golle lig tarihinin zirvesinde yer almaktadır."
+  },
+  {
+    "id": "q_1794851944232_39_609",
+    "category": "Futbol",
+    "difficulty": 3,
+    "question": "1992 Avrupa Futbol Şampiyonası'na Yugoslavya'nın turnuvadan ihraç edilmesi üzerine son anda davet edilip şampiyon olarak tarih yazan ülke hangisidir?",
+    "answer": "Danimarka",
+    "options": [
+      "Danimarka",
+      "Hollanda",
+      "İsveç",
+      "Almanya"
+    ],
+    "note": "Elemeleri geçemeyen Danimarka, turnuvaya sadece günler kala kadrosunu toplayarak finalde Almanya'yı 2-0 yenmeyi başarmıştır."
+  },
+  {
+    "id": "q_1794851944239_40_126",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "İstanbul'un fethi sonrasında Fatih Sultan Mehmet tarafından kiliseden camiye dönüştürülen ve günümüzde de ibadete açık olan tarihi yapı hangisidir?",
+    "answer": "Ayasofya Camii",
+    "options": [
+      "Ayasofya Camii",
+      "Süleymaniye Camii",
+      "Sultanahmet Camii",
+      "Ortaköy Camii"
+    ],
+    "note": "537 yılında inşa edilen Ayasofya, yaklaşık bin yıl boyunca dünyanın en büyük katedrali unvanını korumuştur."
+  },
+  {
+    "id": "q_1794851944245_41_904",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "İstanbul Boğazı'nın güney girişinde, Üsküdar açıklarındaki küçük bir adacık üzerinde yer alan ve pek çok efsaneye konu olan tarihi kule hangisidir?",
+    "answer": "Kız Kulesi",
+    "options": [
+      "Kız Kulesi",
+      "Galata Kulesi",
+      "Beyazıt Kulesi",
+      "Dolmabahçe Saat Kulesi"
+    ],
+    "note": "Antik çağda gümrük ve gözetleme noktası olarak kullanılan Kız Kulesi, tarih boyunca deniz feneri ve karantina istasyonu olarak da hizmet vermiştir."
+  },
+  {
+    "id": "q_1794851944251_42_372",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "Osmanlı İmparatorluğu'nun yaklaşık 400 yıl boyunca idare merkezi ve padişahların ikametgâhı olarak kullanılan tarihi saray hangisidir?",
+    "answer": "Topkapı Sarayı",
+    "options": [
+      "Topkapı Sarayı",
+      "Dolmabahçe Sarayı",
+      "Beylerbeyi Sarayı",
+      "Çırağan Sarayı"
+    ],
+    "note": "Sarayburnu'nda kurulan Topkapı Sarayı, 1924 yılında Cumhuriyet döneminin ilk müzesi olarak ziyarete açılmıştır."
+  },
+  {
+    "id": "q_1794851944257_43_565",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "Avrupalılar tarafından iç mekanındaki İznik çinilerinin renginden dolayı 'Mavi Camii' (Blue Mosque) olarak adlandırılan tarihi cami hangisidir?",
+    "answer": "Sultanahmet Camii",
+    "options": [
+      "Sultanahmet Camii",
+      "Yeni Camii",
+      "Fatih Camii",
+      "Eyüp Sultan Camii"
+    ],
+    "note": "Sedefkâr Mehmed Ağa tarafından tasarlanan Sultanahmet Camii, inşa edildiği dönemde altı minaresiyle büyük yankı uyandırmıştır."
+  },
+  {
+    "id": "q_1794851944263_44_315",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "Beyoğlu'nda yer alan, Cenevizliler tarafından 1348 yılında inşa edilen ve Hezârfen Ahmed Çelebi'nin uçuş denemesiyle ünlenen tarihi yapı hangisidir?",
+    "answer": "Galata Kulesi",
+    "options": [
+      "Galata Kulesi",
+      "Adalet Kulesi",
+      "Leander Kulesi",
+      "Marmara Kulesi"
+    ],
+    "note": "Galata Kulesi, Osmanlı döneminde uzun yıllar boyunca şehirdeki yangınları gözetleme kulesi olarak kullanılmıştır."
+  },
+  {
+    "id": "q_1794851944269_45_234",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "İstanbul'un Avrupa yakasını Tarihi Yarımada ve Beyoğlu olarak ikiye ayıran doğal haliç veya su kolunun adı nedir?",
+    "answer": "Haliç",
+    "options": [
+      "Haliç",
+      "Büyükçekmece",
+      "Terkos",
+      "Küçükçekmece"
+    ],
+    "note": "Boynuz biçimindeki coğrafi yapısı nedeniyle Batı dillerinde 'Altın Boynuz' (Golden Horn) olarak adlandırılır."
+  },
+  {
+    "id": "q_1794851944275_46_929",
+    "category": "İstanbul",
+    "difficulty": 1,
+    "question": "Dünyanın en eski ve en büyük kapalı çarşılarından biri olan, yaklaşık 4.000 dükkâna ev sahipliği yapan tarihi ticaret merkezi hangisidir?",
+    "answer": "Kapalıçarşı",
+    "options": [
+      "Kapalıçarşı",
+      "Mısır Çarşısı",
+      "Arasta Çarşısı",
+      "Sahaflar Çarşısı"
+    ],
+    "note": "Temelleri 1461 yılında Fatih Sultan Mehmet döneminde atılan Kapalıçarşı, adeta üzeri örtülü dev bir labirenti andırır."
+  },
+  {
+    "id": "q_1794851944282_47_493",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "Mimar Sinan'ın 'kalfalık eserim' olarak nitelendirdiği ve Kanuni Sultan Süleyman adına inşa edilen görkemli külliye hangisidir?",
+    "answer": "Süleymaniye Camii",
+    "options": [
+      "Süleymaniye Camii",
+      "Mihrimah Sultan Camii",
+      "Rüstem Paşa Camii",
+      "Kılıç Ali Paşa Camii"
+    ],
+    "note": "Süleymaniye Camii'nin akustiği o kadar kusursuz tasarlanmıştır ki imamın sesi mikrofon olmadan yapının her köşesinden duyulabilir."
+  },
+  {
+    "id": "q_1794851944288_48_409",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "1875 yılında hizmete giren ve Londra metrosundan sonra dünyanın en eski ikinci yeraltı toplu taşıma sistemi olan İstanbul hattı hangisidir?",
+    "answer": "Karaköy-Beyoğlu Tüneli",
+    "options": [
+      "Karaköy-Beyoğlu Tüneli",
+      "Yenikapı-Hacıosman Metrosu",
+      "Kadıköy-Moda Tramvayı",
+      "Marmaray Hattı"
+    ],
+    "note": "Fransız mühendis Eugène-Henri Gavand tarafından projelendirilen Tünel, ilk açıldığında buhar gücüyle çalışmaktaydı."
+  },
+  {
+    "id": "q_1794851944294_49_327",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "İstanbul'un fethinin hazırlıkları kapsamında Fatih Sultan Mehmet tarafından Anadolu Hisarı'nın tam karşısına dört ay gibi kısa bir sürede inşa ettirilen kale hangisidir?",
+    "answer": "Boğazkesen Hisarı",
+    "options": [
+      "Boğazkesen Hisarı",
+      "Yedikule Hisarı",
+      "Anadolu Kavağı Kalesi",
+      "Yoros Kalesi"
+    ],
+    "note": "Boğaz'ın en dar noktasına kurulan bu hisar, Karadeniz'den Bizans'a gelebilecek deniz yardımlarını engellemek amacıyla yapılmıştır."
+  },
+  {
+    "id": "q_1794851944300_50_521",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "Mustafa Kemal Atatürk'ün 10 Kasım 1938 tarihinde hayata gözlerini yumduğu Beşiktaş kıyısındaki tarihi saray hangisidir?",
+    "answer": "Dolmabahçe Sarayı",
+    "options": [
+      "Dolmabahçe Sarayı",
+      "Yıldız Sarayı",
+      "Küçüksu Kasrı",
+      "Ihlamur Kasrı"
+    ],
+    "note": "Sultan Abdülmecid tarafından yaptırılan Dolmabahçe Sarayı, geleneksel Osmanlı saray mimarisinden farklı olarak Batı tarzında inşa edilmiştir."
+  },
+  {
+    "id": "q_1794851944306_51_586",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "Bizans döneminde hipodrom olarak kullanılan Sultanahmet Meydanı'nda yer alan ve Mısır'dan getirilen en eski anıt hangisidir?",
+    "answer": "Dikilitaş",
+    "options": [
+      "Dikilitaş",
+      "Yılanlı Sütun",
+      "Örme Dikilitaş",
+      "Alman Çeşmesi"
+    ],
+    "note": "Firavun III. Thutmose tarafından MÖ 15. yüzyılda yaptırılan bu granit anıt, MS 390 yılında İmparator I. Theodosius tarafından İstanbul'a getirtilmiştir."
+  },
+  {
+    "id": "q_1794851944312_52_680",
+    "category": "İstanbul",
+    "difficulty": 2,
+    "question": "Eminönü'nde bulunan ve yapımında kullanılan paraların Mısır'dan alınan vergilerle karşılanması nedeniyle bu adı alan tarihi çarşı hangisidir?",
+    "answer": "Mısır Çarşısı",
+    "options": [
+      "Mısır Çarşısı",
+      "Tahtakale Çarşısı",
+      "Mahmutpaşa Çarşısı",
+      "Bakırcılar Çarşısı"
+    ],
+    "note": "1664 yılında tamamlanan Mısır Çarşısı, yüzyıllardır İstanbul'un en önemli baharat ve aktar merkezi olarak bilinmektedir."
+  },
+  {
+    "id": "q_1794851944319_53_337",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Bizans İmparatorluğu döneminde İstanbul'un su ihtiyacını karşılamak için inşa edilen ve günümüzde sadece Fatih ilçesinde bir bölümü ayakta kalan antik su kemeri hangisidir?",
+    "answer": "Bozdoğan Kemeri",
+    "options": [
+      "Bozdoğan Kemeri",
+      "Mağlova Kemeri",
+      "Uzunkemer",
+      "Eğrikemer"
+    ],
+    "note": "MS 4. yüzyılda İmparator Valens tarafından tamamlatılan kemer, Belgrad Ormanı'ndan gelen suyu şehrin merkezine taşıyordu."
+  },
+  {
+    "id": "q_1794851944325_54_935",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Anadolu Kavağı sırtlarında yer alan ve Boğaz'ın Karadeniz girişini kontrol etmek amacıyla Doğu Roma ve Cenevizliler tarafından kullanılan tarihi kale hangisidir?",
+    "answer": "Yoros Kalesi",
+    "options": [
+      "Yoros Kalesi",
+      "Riva Kalesi",
+      "Şile Kalesi",
+      "Garipçe Kalesi"
+    ],
+    "note": "Cenevizlilerin uzun süre elinde tutması nedeniyle halk arasında 'Ceneviz Kalesi' olarak da anılan yapı, Boğaz'ın en hakim tepelerinden birindedir."
+  },
+  {
+    "id": "q_1794851944331_55_227",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "İkinci Meşrutiyet'in ilanından sonra yaşanan 31 Mart Vakası'nda hayatını kaybeden askerlerin anısına Şişli'de inşa edilen anıt hangisidir?",
+    "answer": "Abide-i Hürriyet",
+    "options": [
+      "Abide-i Hürriyet",
+      "Cumhuriyet Anıtı",
+      "Barbaros Anıtı",
+      "Çemberlitaş Anıtı"
+    ],
+    "note": "Mimar Muzaffer Bey tarafından tasarlanan anıt, top namlusunu andıran mimarisiyle Türk mimarlık tarihinde özel bir yere sahiptir."
+  },
+  {
+    "id": "q_1794851944338_56_948",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Bizans döneminde 'Chora Kilisesi' olarak bilinen ve duvarlarındaki olağanüstü mozaik ve fresklerle dünya sanat tarihinde önemli yer tutan yapı hangisidir?",
+    "answer": "Kariye Camii",
+    "options": [
+      "Kariye Camii",
+      "Fethiye Camii",
+      "Zeyrek Camii",
+      "Kalenderhane Camii"
+    ],
+    "note": "Edirnekapı'da yer alan yapı, 14. yüzyılda Theodoros Metokhites tarafından onartılarak eşsiz mozaiklerle süslenmiştir."
+  },
+  {
+    "id": "q_1794851944344_57_235",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Osmanlı döneminde İstanbul'un fethinden sonra inşa edilen ve hazine ile siyasi mahkumların tutulduğu yer olarak kullanılan tarihi hisar hangisidir?",
+    "answer": "Yedikule Hisarı",
+    "options": [
+      "Yedikule Hisarı",
+      "Kilitbahir Kalesi",
+      "Seddülbahir Kalesi",
+      "Polonezköy Kalesi"
+    ],
+    "note": "Bizans dönemindeki 'Altın Kapı'nın arkasına dört yeni kule eklenmesiyle oluşturulan yapı, Türkiye'nin en eski açık hava müzelerinden biridir."
+  },
+  {
+    "id": "q_1794851944350_58_298",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Beyoğlu'nda İstiklal Caddesi üzerinde yer alan ve 1876 yılında açılan, İstanbul'un en eski ve en ünlü tarihi alışveriş pasajı hangisidir?",
+    "answer": "Çiçek Pasajı",
+    "options": [
+      "Çiçek Pasajı",
+      "Atlas Pasajı",
+      "Aznavur Pasajı",
+      "Avrupa Pasajı"
+    ],
+    "note": "1917 Ekim Devrimi'nden kaçarak İstanbul'a sığınan Rus kadınlarının burada çiçek satmaya başlamasıyla mekan 'Çiçek Pasajı' adını almıştır."
+  },
+  {
+    "id": "q_1794851944357_59_494",
+    "category": "İstanbul",
+    "difficulty": 3,
+    "question": "Bizans İmparatoru I. Konstantin tarafından şehrin yeni başkent ilan edilmesi şerefine MS 330 yılında dikilen ve günümüzde de ayakta duran tarihi sütun hangisidir?",
+    "answer": "Çemberlitaş",
+    "options": [
+      "Çemberlitaş",
+      "Kıztaşı",
+      "Gotlar Sütunu",
+      "Arkadius Sütunu"
+    ],
+    "note": "Yangınlar ve depremler nedeniyle zarar gören porfir sütun, Osmanlı döneminde demir çemberlerle güçlendirildiği için bu adı almıştır."
   }
 ]
