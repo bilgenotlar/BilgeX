@@ -159,6 +159,63 @@
     .tag--warning { background-color: var(--warning-soft); border-color: var(--warning); color: var(--warning-ink); }
     .tag--room { background-color: var(--maviblue-bg); border-color: var(--maviblue-border); color: var(--maviblue-ink); font-weight: 800; letter-spacing: 0.05em; }
 
+    /* MOBİL SÜRE ROZETİ VE KART ÜST ÇUBUĞU (PC'DE GİZLİ) */
+    .mobile-timer-pill {
+      display: none;
+      align-items: center;
+      gap: 5px;
+      border-radius: var(--rounded-full);
+      padding: var(--space-xs) var(--space-md);
+      font-size: var(--label-size);
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.04em;
+      background-color: var(--surface-container);
+      border: 2px solid var(--tertiary);
+      color: var(--on-surface);
+      white-space: nowrap;
+      transition: background-color 200ms ease, border-color 200ms ease, color 200ms ease;
+    }
+    .mobile-timer-pill.is-warning {
+      background-color: var(--warning-soft);
+      border-color: var(--warning);
+      color: var(--warning-ink);
+    }
+    .mobile-timer-pill.is-danger {
+      background-color: var(--error-soft);
+      border-color: var(--error);
+      color: var(--error-ink);
+      animation: pulseBadge 900ms infinite ease-in-out;
+    }
+    .mobile-timer-pill.is-paused {
+      background-color: var(--surface-container);
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+    .mobile-card-progress {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background-color: var(--surface-container-high);
+      z-index: 5;
+    }
+    .mobile-card-progress-fill {
+      height: 100%;
+      width: 100%;
+      background-color: var(--tertiary);
+      transition: width 300ms linear, background-color 200ms ease;
+    }
+    .mobile-card-progress-fill.is-warning { background-color: var(--data-4); }
+    .mobile-card-progress-fill.is-danger { background-color: var(--error); }
+    .mobile-card-progress-fill.is-paused { background-color: var(--secondary); }
+    @keyframes pulseBadge {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+
     .field-group { display: flex; flex-direction: column; gap: var(--space-xs); }
     .field-label { font-size: var(--label-size); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--on-surface-variant); }
     .topic-header-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-bottom: 2px; }
@@ -362,7 +419,12 @@
     @keyframes fadeUpIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes cardShake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-8px); } 45% { transform: translateX(8px); } 70% { transform: translateX(-5px); } 85% { transform: translateX(4px); } }
     @keyframes burstPop { 0% { opacity: 1; transform: translate(0, 0) scale(0.5); } 60% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--tx, 40px), var(--ty, -60px)) scale(1.25); } }
-    @media (max-width: 820px) { .start-grid, .hud-grid, .results-hero { grid-template-columns: 1fr; } }
+    @media (max-width: 820px) {
+      .start-grid, .hud-grid, .results-hero { grid-template-columns: 1fr; }
+      .mobile-timer-pill { display: inline-flex; }
+      .mobile-card-progress { display: block; }
+      .desktop-shortcut-hint { display: none; }
+    }
     @media (max-width: 640px) { .page-grid { padding: var(--space-md); gap: var(--space-md); } .card--hero, .question-card { padding: var(--space-lg); } .options-grid, .feedback-panel, .mini-stats { grid-template-columns: 1fr; } }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
   </style>
@@ -563,6 +625,10 @@
       </div>
 
       <article class="question-card" id="question-card" onclick="handleQuestionCardClick(event)">
+        <div class="mobile-card-progress" aria-hidden="true">
+          <div class="mobile-card-progress-fill" id="mobile-card-timer-bar"></div>
+        </div>
+
         <div class="pause-curtain is-hidden" id="pause-curtain" role="dialog" aria-modal="true" aria-labelledby="pause-curtain-title">
           <div class="pause-curtain-icon" aria-hidden="true">
             <svg class="icon-svg icon-svg--lg" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
@@ -575,12 +641,16 @@
         <div class="fx-layer" id="fx-layer" aria-hidden="true"></div>
         <div class="question-meta">
           <div class="question-meta-left">
+            <span class="mobile-timer-pill" id="mobile-timer-pill" title="Kalan Süre">
+              <svg class="icon-svg icon-svg--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span id="mobile-timer-text">01:30</span>
+            </span>
             <span class="tag" id="q-category-tag">Genel Kültür</span>
             <span class="tag tag--filled" id="q-difficulty-tag">Orta</span>
             <span class="tag tag--filled" id="q-bonus-tag">+100 Puan</span>
             <span class="tag tag--room" id="hud-room-badge" title="Bu oda kodunu arkadaşınla paylaşarak aynı sorularla yarışabilirsin">Oda: MASMAVİ-322</span>
           </div>
-          <span class="label-kicker">Kısayol: 1–4 / A–D • Pas: P • Hızlı Geç: Enter / Tıkla</span>
+          <span class="label-kicker desktop-shortcut-hint">Kısayol: 1–4 / A–D • Pas: P • Hızlı Geç: Enter / Tıkla</span>
         </div>
         <h2 class="question-text" id="q-text">Soru yükleniyor…</h2>
         <div class="options-grid" id="options-grid"></div>
@@ -1680,22 +1750,42 @@
       const timerEl = document.getElementById(`hud-timer`);
       const barEl = document.getElementById(`hud-timer-bar`);
       const labelEl = document.getElementById(`hud-timer-label`);
+      const mobilePillEl = document.getElementById(`mobile-timer-pill`);
+      const mobileTextEl = document.getElementById(`mobile-timer-text`);
+      const mobileBarEl = document.getElementById(`mobile-card-timer-bar`);
+
+      const formattedTime = formatClock(appState.remainingSeconds);
       const pct = Math.max(0, (appState.remainingSeconds / GAME_DURATION_SECONDS) * 100);
       const isPaused = appState.timerPaused || appState.manualPaused;
+
+      let stateClass = ``;
+      if (isPaused) stateClass = `is-paused`;
+      else if (appState.remainingSeconds <= 10) stateClass = `is-danger`;
+      else if (appState.remainingSeconds <= 30) stateClass = `is-warning`;
+
       if (labelEl) labelEl.textContent = appState.manualPaused ? `Oyun Duraklatıldı` : (appState.timerPaused ? `Geçiş Bekleniyor` : `Kalan Süre`);
+
       if (timerEl) {
-        timerEl.textContent = formatClock(appState.remainingSeconds);
+        timerEl.textContent = formattedTime;
         timerEl.classList.remove(`is-warning`, `is-danger`, `is-paused`);
-        if (isPaused) timerEl.classList.add(`is-paused`);
-        else if (appState.remainingSeconds <= 10) timerEl.classList.add(`is-danger`);
-        else if (appState.remainingSeconds <= 30) timerEl.classList.add(`is-warning`);
+        if (stateClass) timerEl.classList.add(stateClass);
       }
       if (barEl) {
         barEl.style.width = `${pct}%`;
         barEl.classList.remove(`is-warning`, `is-danger`, `is-paused`);
-        if (isPaused) barEl.classList.add(`is-paused`);
-        else if (appState.remainingSeconds <= 10) barEl.classList.add(`is-danger`);
-        else if (appState.remainingSeconds <= 30) barEl.classList.add(`is-warning`);
+        if (stateClass) barEl.classList.add(stateClass);
+      }
+
+      // Mobil süre rozeti ve kart üstü ince çubuk güncellemesi
+      if (mobileTextEl) mobileTextEl.textContent = formattedTime;
+      if (mobilePillEl) {
+        mobilePillEl.classList.remove(`is-warning`, `is-danger`, `is-paused`);
+        if (stateClass) mobilePillEl.classList.add(stateClass);
+      }
+      if (mobileBarEl) {
+        mobileBarEl.style.width = `${pct}%`;
+        mobileBarEl.classList.remove(`is-warning`, `is-danger`, `is-paused`);
+        if (stateClass) mobileBarEl.classList.add(stateClass);
       }
     }
 
